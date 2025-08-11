@@ -4,7 +4,7 @@ Forked version for Theme tag site construction.
 
 https://thisthethe.github.io/StylistGuild/
 
-This is a test edit.
+This is a test edit. #2
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
