@@ -7,8 +7,8 @@ copyright: >
 plugins:
   - search
   - meta
-#  - git-revision-date-localized:
-#      enable_creation_date: true
+  - git-revision-date-localized:
+     enable_creation_date: true
   - tags
 extra_css:
   - stylesheets/styles.css
