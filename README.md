@@ -6,7 +6,7 @@ https://thisthethe.github.io/StylistGuild/
 
 This is a test edit. #2
 
-This is a local change.
+This is a local change. #2
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
