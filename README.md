@@ -6,6 +6,8 @@ https://thisthethe.github.io/StylistGuild/
 
 This is a test edit. #2
 
+This is a local change.
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
