@@ -67,27 +67,25 @@ h1 {
 }
 
 .section-header {
-	font-size: 28px;
+	font-size: 40px;
 	font-weight: bold;
 	color: white;
-	text-align: center;
-	padding: 15px;
-	border-radius: 15px;
+	text-align: left;
 	margin-bottom: 20px;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 	letter-spacing: 1px;
 }
 
 .themes-header {
-	background: linear-gradient(135deg, #4CAF50, #45a049);
+	background: linear-gradient(135deg, #4CAF50, #2b8630);
 }
 
 .snippets-header {
-	background: linear-gradient(135deg, #FF9800, #F57C00);
+	background: linear-gradient(135deg, #FF9800, #a05000);
 }
 
 .learn-header {
-	background: linear-gradient(135deg, #2196F3, #1976D2);
+	background: linear-gradient(135deg, #2196F3, #084f96);
 }
 
 .themes-content {
@@ -109,12 +107,13 @@ h1 {
 }
 
 .category-title {
-	font-weight: 600;
-	color: #2E7D32;
-	margin-bottom: 15px;
-	font-size: 14px;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
+    font-weight: bold;
+    color: #2E7D32;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(76, 175, 80, 0.3);
 }
 
 .category-separator {
