@@ -17,7 +17,7 @@ progress {
 
 /* Mainpage */
 
-.md-sidebar[data-md-component="sidebar"][data-md-type="toc"]
+.md-sidebar[data-md-component="sidebar"]
 {
 	display: none;
 }
