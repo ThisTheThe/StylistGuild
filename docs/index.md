@@ -5,6 +5,8 @@ extra_css:
   - stylesheets/mainpage.css
 ---
 
+<div class="disable-sidebars">
+
 <h1>OBSIDIAN STYLIST GUILD</h1>
         
 <div class="main-grid">
@@ -15,28 +17,28 @@ extra_css:
 			<div class="theme-category">
 				<div class="category-title">Genre</div>
 				<ul class="links-list">
-					<li><a href="#">Minimalist</a></li>
-					<li><a href="#">Retro</a></li>
-					<li><a href="#">Exotic</a></li>
+					<a href="#">Minimalist</a>
+					<a href="#">Retro</a>
+					<a href="#">Exotic</a>
 				</ul>
 			</div>
-			
+			<div class="category-separator"></div>
 			<div class="theme-category">
 				<div class="category-title">Features</div>
 				<ul class="links-list">
-					<li><a href="#">Customizable</a></li>
-					<li><a href="#">Vim Support</a></li>
-					<li><a href="#">Mobile Support</a></li>
+					<a href="#">Customizable</a>
+					<a href="#">Vim Support</a>
+					<a href="#">Mobile Support</a>
 				</ul>
 			</div>
-			
+			<div class="category-separator"></div>
 			<div class="theme-category">
 				<div class="category-title">Philosophy</div>
 				<ul class="links-list">
-					<li><a href="#">Platform-theme</a></li>
-					<li><a href="#">Opinionated</a></li>
-					<li><a href="#">Cozy</a></li>
-					<li><a href="#">Playful</a></li>
+					<a href="#">Platform-theme</a>
+					<a href="#">Opinionated</a>
+					<a href="#">Cozy</a>
+					<a href="#">Playful</a>
 				</ul>
 			</div>
 		</div>
