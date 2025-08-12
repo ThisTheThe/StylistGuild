@@ -7,7 +7,7 @@ extra_css:
 
 <div class="disable-sidebars">
 
-<h1>OBSIDIAN STYLIST GUILD</h1>
+<h1>OBSIDIAN STYLIST GUILD (temp)</h1>
         
 <div class="main-grid">
 	<!-- THEMES Section -->
