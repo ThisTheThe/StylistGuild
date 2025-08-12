@@ -3,6 +3,63 @@ title: Home
 icon: material/home
 ---
 
+<h1>OBSIDIAN THEMES HUB</h1>
+        
+<div class="main-grid">
+	<!-- THEMES Section -->
+	<div class="section">
+		<div class="section-header themes-header">THEMES</div>
+		<div class="themes-grid">
+			<div class="theme-category">
+				<div class="category-title">Genre</div>
+				<ul class="links-list">
+					<li><a href="#">Minimalist</a></li>
+					<li><a href="#">Retro</a></li>
+					<li><a href="#">Exotic</a></li>
+				</ul>
+			</div>
+			
+			<div class="theme-category">
+				<div class="category-title">Features</div>
+				<ul class="links-list">
+					<li><a href="#">Customizable</a></li>
+					<li><a href="#">Vim Support</a></li>
+					<li><a href="#">Mobile Support</a></li>
+				</ul>
+			</div>
+			
+			<div class="theme-category">
+				<div class="category-title">Philosophy</div>
+				<ul class="links-list">
+					<li><a href="#">Platform-theme</a></li>
+					<li><a href="#">Opinionated</a></li>
+					<li><a href="#">Cozy</a></li>
+					<li><a href="#">Playful</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- SNIPPETS Section -->
+	<div class="section">
+		<div class="section-header snippets-header">SNIPPETS</div>
+		<div class="tbd-notice">
+			<p>📝 Content coming soon...</p>
+			<p>CSS snippets and customization tools will be available here.</p>
+		</div>
+	</div>
+
+	<!-- LEARN Section -->
+	<div class="section">
+		<div class="section-header learn-header">LEARN</div>
+		<div class="simple-links">
+			<a href="#" target="_blank">📚 Official Docs</a>
+			<a href="#" target="_blank">🌐 publish.obsidian.md docs</a>
+			<a href="#" target="_blank">🛠️ Obsidian Theme Dev Vault</a>
+		</div>
+	</div>
+</div>
+
 # Obsidian Theme Reference
 
 ## Foreword
