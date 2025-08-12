@@ -60,7 +60,6 @@ h1 {
 .section {
 	background: rgba(255, 255, 255, 0.95);
 	border-radius: 20px;
-	padding: 25px;
 	box-shadow: 0 8px 32px rgba(0,0,0,0.2);
 	border: 3px solid rgba(255,255,255,0.3);
 	backdrop-filter: blur(10px);
@@ -72,6 +71,7 @@ h1 {
 	color: white;
 	text-align: left;
 	margin-bottom: 20px;
+	padding-left: 20px;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 	letter-spacing: 1px;
 }
@@ -99,6 +99,8 @@ h1 {
 
 .themes-grid {
 	display: flex;
+	margin-left: 20px;
+	margin-right: 20px;
 	align-items: start;
 }
 
@@ -153,6 +155,8 @@ h1 {
 .simple-links {
 	display: grid;
 	gap: 12px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .simple-links a {

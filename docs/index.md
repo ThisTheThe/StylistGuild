@@ -57,9 +57,9 @@ extra_css:
 	<div class="section">
 		<div class="section-header learn-header">LEARN</div>
 		<div class="simple-links">
-			<a href="#" target="_blank">📚 Official Docs</a>
-			<a href="#" target="_blank">🌐 publish.obsidian.md docs</a>
-			<a href="#" target="_blank">🛠️ Obsidian Theme Dev Vault</a>
+			<a href="https://docs.obsidian.md/Themes/App+themes/Build+a+theme" target="_blank">📚 Official Docs</a>
+			<a href="https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Theme+Designers" target="_blank">🌐 Obsidian Hub</a>
+			<a href="https://github.com/obsidian-community/theme-dev-vault" target="_blank">🛠️ Obsidian Theme Dev Vault</a>
 		</div>
 	</div>
 </div>
