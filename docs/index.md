@@ -5,7 +5,7 @@ extra_css:
   - stylesheets/mainpage.css
 ---
 
-<h1>OBSIDIAN THEMES HUB</h1>
+<h1>OBSIDIAN STYLIST GUILD</h1>
         
 <div class="main-grid">
 	<!-- THEMES Section -->
