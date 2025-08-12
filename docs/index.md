@@ -1,6 +1,8 @@
 ---
 title: Home
 icon: material/home
+extra_css:
+  - stylesheets/mainpage.css
 ---
 
 <h1>OBSIDIAN THEMES HUB</h1>
@@ -59,34 +61,6 @@ icon: material/home
 		</div>
 	</div>
 </div>
-
-# Obsidian Theme Reference
-
-## Foreword
-
-Welcome to Obsidian Theme Reference (or OTR for short). This reference document will (hopefully) contain information about all current [Obsidian](https://obsidian.md) themes in the community store. It hopes to be useful for those looking to try out new Obsidian themes, but will not go into too much detail for each theme (like `tldr pages`). The themes are listed in alphabetical order.
-
-## FAQ
-
-Here are some frequently asked questions.
-
-### About the old scoring system
-
-Henceforth, the scoring system will be delegated as second class. It shall be changed merely to serve as a reference, which is what this site should be. This will be replaced by a reference criteria.
-
-For reference, take a look at [the criteria example](./reference-criteria/index.md#criteria-example) provided.
-
-### Theme x has outdated or inaccurate information, how do I suggest changes?
-
-Open a GitHub Discussion directly at the theme's page from this site.
-
-### Project Status
-
-This site is currently still very WIP.
-
-I have to manually extract, summarise, fill in information, try out each theme and provide an appropriate score for them. There is no longer any download count because I find that that tends to skew the opinion of a theme too much.
-
-There is a [progress tracker](./themes/index.md#progress-tracker) for theme entries added.
 
 ### Viewing this website in your Obsidian vault locally
 
