@@ -83,15 +83,14 @@ h1 {
 .themes-content {
 	height: 80%;
 	padding: 40px 20px;
+	padding-top: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
 .themes-grid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 30px;
+	display: flex;
 	align-items: start;
 }
 
