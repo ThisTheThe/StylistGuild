@@ -12,6 +12,16 @@ progress {
   width: 354px;
 }
 
+
+
+
+/* Mainpage */
+
+.md-sidebar[data-md-component="sidebar"][data-md-type="toc"]
+{
+	display: none;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -21,8 +31,8 @@ progress {
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	background-attachment: fixed;
 	min-height: 100vh;
-	padding: 20px;
 }
 
 .container {
