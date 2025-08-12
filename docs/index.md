@@ -13,7 +13,7 @@ extra_css:
 	<!-- THEMES Section -->
 	<div class="section">
 		<div class="section-header themes-header">THEMES</div>
-		<div class="themes-grid">
+		<div class="themes-grid container-body">
 			<div class="theme-category">
 				<div class="category-title">Genre</div>
 				<ul class="links-list">
@@ -35,19 +35,22 @@ extra_css:
 			<div class="theme-category">
 				<div class="category-title">Philosophy</div>
 				<ul class="links-list">
-					<a href="#">Platform-theme</a>
+					<a href="#">Configurability</a>
 					<a href="#">Opinionated</a>
 					<a href="#">Cozy</a>
-					<a href="#">Playful</a>
+					<a href="#">Inspired by...</a>
 				</ul>
 			</div>
+		</div>
+		<div class="themes-more container-footer">
+			<a href="#">MORE</a>
 		</div>
 	</div>
 
 	<!-- SNIPPETS Section -->
 	<div class="section">
 		<div class="section-header snippets-header">SNIPPETS</div>
-		<div class="tbd-notice">
+		<div class="tbd-notice container-body">
 			<p>📝 Content coming soon...</p>
 			<p>CSS snippets and customization tools will be available here.</p>
 		</div>
@@ -56,7 +59,7 @@ extra_css:
 	<!-- LEARN Section -->
 	<div class="section">
 		<div class="section-header learn-header">LEARN</div>
-		<div class="simple-links">
+		<div class="simple-links container-body">
 			<a href="https://docs.obsidian.md/Themes/App+themes/Build+a+theme" target="_blank">📚 Official Docs</a>
 			<a href="https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Theme+Designers" target="_blank">🌐 Obsidian Hub</a>
 			<a href="https://github.com/obsidian-community/theme-dev-vault" target="_blank">🛠️ Obsidian Theme Dev Vault</a>
