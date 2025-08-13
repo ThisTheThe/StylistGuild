@@ -319,6 +319,7 @@ title: {title}
 tags:
 {tags_list_yaml}
 ---
+<div style="theme_page_template_version_1"> </div>
 
 {images_block_markdown}
 
