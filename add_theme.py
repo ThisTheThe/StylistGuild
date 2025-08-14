@@ -8,6 +8,35 @@ import json
 from datetime import datetime
 from urllib.parse import quote
 
+markdown_template = """---
+title: {title}
+tags:
+{tags_list_yaml}
+---
+<div style="theme_page_template_version_1"> </div>
+
+<h1>
+    <a href="{repository_link}">{title}</a>
+    <sub>By <a href="https://github.com/{author_github_username}">{author_github_username}</a></sub>
+</h1>
+
+[{main_screenshot_markdown}]({repository_link})
+{images_block_markdown}
+
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/{github_user_repo}?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/{github_user_repo}?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/{github_user_repo}?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-{age_of_theme}-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/{github_user_repo}?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+"""
 
 # Define the path to the themes index file for the counter
 THEMES_INDEX_FILE = "docs/themes/index.md"
@@ -383,227 +412,255 @@ def get_repo_creation_date(repo_url, token=None):
 
 
 
-def create_markdown_theme_entry():
+def collect_theme_data():
     """
-    Continuously creates new Markdown theme entries based on user input and a predefined template
+    Collects all theme data from user input prompts.
+    Returns a dictionary containing all the necessary data for theme generation,
+    or None if user exits.
+    """
+    print("\n--- New Theme Entry ---")
+    
+    # --- 1. Get the title first to check for exit condition ---
+    title = get_user_input("Enter the Theme Title: ")
+    # No need for manual 'exit' check here, get_user_input handles sys.exit()
+
+    # --- 2. Prompts for YAML Front Matter and Main Screenshot ---
+    # Tags input for YAML list format
+    raw_tags_input = get_user_input("Enter Tags (comma-separated, e.g., dark_theme, custom_fonts): ")
+    tags_list = [tag.strip() for tag in raw_tags_input.split(',') if tag.strip()]
+    
+    main_screenshot_url = get_user_input("Enter URL for Main Theme Screenshot: ")
+
+    # --- 3. Prompts for Additional Image Lines and construct combined image block ---
+    additional_image_urls = []
+    add_more_images = get_user_input("Add more image links (e.g., ![]()) after the main screenshot? (yes/no): ").lower()
+    if add_more_images == 'yes':
+        print("Enter details for additional images (type 'done' when finished):")
+        while True:
+            src_url = get_user_input("  Enter image URL: ")
+            if src_url.lower() == 'done':
+                break
+            if src_url:  # Only add if URL is provided
+                additional_image_urls.append(f"{src_url}")
+            else:
+                print("  Image URL cannot be empty. Skipping this image.")
+                break  # Exit the loop if no URL is provided
+
+    # --- 4. Prompts for 'Info' Table ---
+    repository_link = get_user_input("Enter GitHub Repository Link (e.g., https://github.com/user/repo): ")
+    
+    # Return all collected data as a dictionary
+    return {
+        'title': title,
+        'tags_list': tags_list,
+        'main_screenshot_url': main_screenshot_url,
+        'additional_image_urls': additional_image_urls,
+        'repository_link': repository_link,
+    }
+
+
+def render_and_save_theme_markdown(theme_data):
+    """
+    Takes theme data dictionary and renders the markdown template,
+    then saves it to the specified file path.
+    
+    Args:
+        theme_data (dict): Dictionary containing all theme data from collect_theme_data()
+    
+    Returns:
+        bool: True if successful, False if failed
+    """
+    
+    # Extract data from the dictionary
+    title = theme_data['title']
+    tags_list = theme_data['tags_list']
+    main_screenshot_url = theme_data['main_screenshot_url']
+    additional_image_urls = theme_data['additional_image_urls']
+    repository_link = theme_data['repository_link']
+    
+    # Process and format the data
+    # Format tags for YAML: each tag on a new line with '- ' prefix and 2-space indent
+    tags_list_yaml = "\n".join([f"  - {tag}" for tag in tags_list]) if tags_list else ""
+    
+    main_screenshot_markdown = f"![{title} Theme Screenshot]({main_screenshot_url})"
+    
+    # Process additional images
+    images_block_markdown = ""
+    if additional_image_urls:
+        table_cells = ""
+        for url in additional_image_urls:
+            table_cells += f'    <td><img src="{url}" alt="Additional Screenshot" style="max-width: 200px; height: auto;"></td>\n'
+        
+        html_table = f'<table style="width: 100%; border-collapse: collapse; margin-top: 10px;">\n  <tr>\n{table_cells}  </tr>\n</table>'
+        images_block_markdown = html_table
+    
+    # Process GitHub repository info
+    github_user_repo = extract_github_user_repo(repository_link) if repository_link else ""
+    
+    date_info = get_repo_creation_date(github_user_repo)
+    age_of_theme = f"{date_info['readable']}"
+    
+    # Extract author_github_username from github_user_repo
+    author_github_username = github_user_repo.split('/')[0] if github_user_repo else "N/A"
+    
+    # --- 5. Determine default save directory based on first letter of title ---
+    first_letter_info = get_first_letter_info(title)
+    first_letter_dir = first_letter_info['dir_name']  # e.g., 'a' or '_a'
+    
+    default_letter_subdir_path = os.path.join(DEFAULT_BASE_SAVE_DIR, first_letter_dir)
+    
+    current_full_save_dir = default_letter_subdir_path
+    
+    # --- 6. Generate filename in kebab-case based solely on title ---
+    sanitized_title_kebab_case = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
+    suggested_filename = f"{sanitized_title_kebab_case}.md"
+    
+    output_filename_base = suggested_filename
+    
+    full_output_filepath = os.path.join(current_full_save_dir, output_filename_base)
+
+    # Ensure the entire directory path exists before saving
+    os.makedirs(current_full_save_dir, exist_ok=True)
+    print(f"Saving to: '{current_full_save_dir}'")
+
+    # --- Fill the template with all collected and derived data ---
+    try:
+        final_markdown_content = markdown_template.format(
+            title=title,
+            tags_list_yaml=tags_list_yaml,
+            images_block_markdown=images_block_markdown,
+            github_user_repo=github_user_repo,
+            repository_link=repository_link,
+            author_github_username=author_github_username,
+            main_screenshot_markdown=main_screenshot_markdown,
+            age_of_theme=age_of_theme
+        )
+    except KeyError as e:
+        print(f"ERROR: Missing data for template placeholder: {e}. Please ensure all prompts are answered.")
+        return False
+    except Exception as e:
+        print(f"ERROR: An unexpected error occurred while formatting the template: {e}")
+        return False
+
+    # --- Save the combined content to the specified Markdown file ---
+    try:
+        with open(full_output_filepath, 'w', encoding='utf-8') as f:
+            f.write(final_markdown_content)
+        print(f"\nSuccessfully created '{full_output_filepath}'!")
+        print("--- Content Preview (first 20 lines) ---")
+        print("\n".join(final_markdown_content.split('\n')[:20]))
+        print("...")
+        print("-----------------------")
+        
+        # --- IMPORTANT: Update the categories file ONLY if theme file generation was successful ---
+        # Pass the original tags list to check which categories it belongs to
+        update_categories_file(title, suggested_filename, tags_list)
+        
+        # --- Update the global themes counter ONLY if all operations (theme file + categories) were successful ---
+        get_next_counter_value()
+        
+        return True
+
+    except IOError as e:
+        print(f"ERROR: Could not save file to '{full_output_filepath}': {e}")
+        return False
+    except Exception as e:
+        print(f"An unexpected error occurred during file save or counter update: {e}")
+        return False
+
+
+def get_test_theme_data():
+    """
+    Returns predefined test data for testing mode.
+    This bypasses all user input prompts.
+    
+    Returns:
+        dict: Test theme data dictionary
+    """
+    # Determine test file paths based on first letter
+    
+    return {
+        'title': 'Test',
+        'tags_list': ['tag1', 'tag2'],
+        'main_screenshot_url': 'https://camo.githubusercontent.com/ea7d35caa775edffbc49421cb7ff85ac85f07ca2a1b82d3ccd7047542d747442/68747470733a2f2f692e696d6775722e636f6d2f6a53546c7052492e706e67',
+        'additional_image_urls': [
+            'https://camo.githubusercontent.com/633df2f755e2102e43606782a6e2212a4cb553bcc857a552f24857f7681a5f81/68747470733a2f2f692e696d6775722e636f6d2f495775544942662e706e67',
+            'https://camo.githubusercontent.com/633df2f755e2102e43606782a6e2212a4cb553bcc857a552f24857f7681a5f81/68747470733a2f2f692e696d6775722e636f6d2f495775544942662e706e67'
+        ],
+        'repository_link': 'https://github.com/ThisTheThe/MicroMike',
+    }
+
+
+def create_markdown_theme_entry(testing_mode=None):
+    """
+    Main function that continuously creates new Markdown theme entries based on user input
     until the user types 'exit' for the title.
-    Includes prompts for all fields in the provided theme template.
-    Automatically extracts GitHub username from repository link.
-    Updates a counter in a separate file (docs/themes/index.md) *after* successful file generation.
+    Uses collect_theme_data() to gather input and render_and_save_theme_markdown() to process and save.
+    
+    Args:
+        testing_mode (bool, optional): If True, uses predefined test data instead of prompting user.
+                                     If None, prompts user to choose.
     """
     print("--- Markdown Theme Generator (Stylist Guild) ---")
-    print("You can type 'exit' at any prompt to quit the application.")
-
-    # --- Define the full Markdown template ---
-    markdown_template = """---
-title: {title}
-tags:
-{tags_list_yaml}
----
-<div style="theme_page_template_version_1"> </div>
-
-<h1>[{title}]({repository_link}<sub>By [{author_github_username}](https://github.com/{author_github_username})</h1>
-
-[![Image Preview]({images_block_markdown})]({repository_link})
-
-<table>
-  <tr>
-    <td>https://img.shields.io/github/stars/{github_user_repo}?color=573E7A&amp;logo=github&amp;style=for-the-badge)</td>
-    <td>https://img.shields.io/github/issues/{github_user_repo}/?color=573E7A&amp;logo=github&amp;style=for-the-badge)</td>
-    <td>https://img.shields.io/github/issues-pr/{github_user_repo}?color=573E7A&amp;logo=github&amp;style=for-the-badge)</td>
-    <td>https://img.shields.io/badge/Created%20on-{age_of_theme}?color=573E7A&amp;logo=github&amp;style=for-the-badge)</td>
-    <td>https://img.shields.io/github/last-commit/{github_user_repo}?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge)</td>
-  </tr>
-</table>
-
-"""
+    
+    # If testing_mode is not specified, prompt the user
+    if testing_mode is None:
+        while True:
+            mode_choice = input("Do you want to activate testing mode? (yes/no): ").lower().strip()
+            if mode_choice in ['yes', 'y']:
+                testing_mode = True
+                break
+            elif mode_choice in ['no', 'n']:
+                testing_mode = False
+                break
+            else:
+                print("Please enter 'yes' or 'no'.")
+    
+    if testing_mode:
+        print("*** TESTING MODE ACTIVATED ***")
+        print("Using predefined test data instead of user input.")
+    else:
+        print("You can type 'exit' at any prompt to quit the application.")
     
     # Ensure the default base directory exists once at the start
     os.makedirs(DEFAULT_BASE_SAVE_DIR, exist_ok=True)
     print(f"All theme files will be saved within the base directory: '{DEFAULT_BASE_SAVE_DIR}'")
 
     while True:
-        print("\n--- New Theme Entry ---")
-        
-        # --- 1. Get the title first to check for exit condition ---
-        title = get_user_input("Enter the Theme Title: ")
-        # No need for manual 'exit' check here, get_user_input handles sys.exit()
-
-        # --- 2. Prompts for YAML Front Matter and Main Screenshot ---
-        # Tags input for YAML list format
-        raw_tags_input = get_user_input("Enter Tags (comma-separated, e.g., dark_theme, custom_fonts): ")
-        tags_list = [tag.strip() for tag in raw_tags_input.split(',') if tag.strip()]
-        # Format tags for YAML: each tag on a new line with '- ' prefix and 2-space indent
-        tags_list_yaml = "\n".join([f"  - {tag}" for tag in tags_list]) if tags_list else ""
-
-        main_screenshot_url = get_user_input("Enter URL for Main Theme Screenshot: ")
-
-        # --- 3. Prompts for Additional Image Lines and construct combined image block ---
-        main_screenshot_markdown = f"![{title} Theme Screenshot]({main_screenshot_url})"
-
-        additional_image_md_lines = []
-        add_more_images = get_user_input("Add more image links (e.g., ![]()) after the main screenshot? (yes/no): ").lower()
-        if add_more_images == 'yes':
-            print("Enter details for additional images (type 'done' when finished):")
-            while True:
-                    # alt_text = get_user_input("  Enter alt text (or 'done' to finish images): ")
-                    # if alt_text.lower() == 'done':
-                    #    break
-                    src_url = get_user_input("  Enter image URL: ")
-                    if src_url.lower() == 'done':
-                        break
-                    if src_url: # Only add if URL is provided
-                        additional_image_md_lines.append(f"![]({src_url})")
-
-                    else:
-                        print("  Image URL cannot be empty. Skipping this image.")
-                        break  # Exit the loop if no URL is provided
-
-        # Combine main screenshot and additional images, ensuring proper spacing
-        if additional_image_md_lines:
-            # Create a single-row markdown table for additional images
-            table_cells = " | ".join(additional_image_md_lines)
-            table_header = " | ".join(["---"] * len(additional_image_md_lines))
-            markdown_table = f"| {table_cells} |\n| {table_header} |"
-            
-            # Combine main screenshot with the table below it
-            images_block_markdown = main_screenshot_markdown + "\n\n" + markdown_table
-        else:
-            images_block_markdown = main_screenshot_markdown  # Only the main screenshot
-
-        # --- 4. Prompts for 'Info' Table ---
-        repository_link = get_user_input("Enter GitHub Repository Link (e.g., https://github.com/user/repo): ")
-        github_user_repo = extract_github_user_repo(repository_link) if repository_link else ""
-        
-        date_info = get_repo_creation_date(github_user_repo)
-        age_of_theme = f"{date_info['readable']}"
-        # print(f"  Readable: {date_info['readable']}")
-
-        # Extract author_github_username from github_user_repo
-        author_github_username = github_user_repo.split('/')[0] if github_user_repo else "N/A"
-
-        # REMOVED: Downloads Count prompt and formatting
-        # downloads_count_raw = get_user_input("Enter Downloads Count (e.g., 5587): ")
-        # downloads_count_formatted = ""
-        # try:
-        #     downloads_count_formatted = f"{int(downloads_count_raw):_}".replace('_', ' ')
-        # except ValueError:
-        #     print("WARNING: Invalid number entered for Downloads Count. It will be saved as entered.")
-        #     downloads_count_formatted = downloads_count_raw
-
-        # obsidian_hub_slug_input = get_user_input("Enter Obsidian Hub Slug (e.g., Charcoal - last part of URL, or type 'DNE' if page does not exist): ")
-        # if obsidian_hub_slug_input.lower() == 'dne':
-        #     obsidian_hub_link_or_text = "Page does not exist"
-        # else:
-        #     obsidian_hub_link_or_text = f"[{title} \\- Obsidian Hub \\- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/{obsidian_hub_slug_input})"
-
-        # moritz_jung_stats_slug_input = get_user_input("Enter Moritz Jung's Obsidian Stats Slug (e.g., charcoal - last part of URL, or type 'DNE' if page does not exist): ")
-        # if moritz_jung_stats_slug_input.lower() == 'dne':
-        #     moritz_jung_link_or_text = "Page does not exist"
-        # else:
-        #    moritz_jung_link_or_text = f"[{title} \\| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/{moritz_jung_stats_slug_input}/)"
-
-
-        # --- 5. Prompts for sections (multi-line) ---
-        # excerpt_from_readme = get_multiline_input("Enter Excerpt from README")
-        # features_content = get_multiline_input("Enter Features")
-
-        # --- 6. Prompts for 'Criteria' Table ---
-        # dark_light_mode_support = get_user_input("Enter Dark/Light mode support status (e.g., Dark mode only): ")
-        # one_or_multiple_color_schemes = get_user_input("Enter One or multiple colour schemes (e.g., One colour scheme for dark mode): ")
-        # value_propositions = get_user_input("Enter Value Propositions: ")
-        # accessibility_status = get_user_input("Enter Accessibility status (e.g., NIL): ")
-        # style_settings_support = get_user_input("Enter Style Settings support (e.g., No): ")
-        # age_of_theme = get_user_input("Enter Age of Theme (e.g. 24 November 2020): ")
-
-        # --- 7. Determine default save directory based on first letter of title ---
-        first_letter_info = get_first_letter_info(title)
-        first_letter_dir = first_letter_info['dir_name'] # e.g., 'a' or '_a'
-        
-        default_letter_subdir_path = os.path.join(DEFAULT_BASE_SAVE_DIR, first_letter_dir)
-
-        sub_directory_input = False
-        # sub_directory_input = get_user_input(
-        #     f"Enter sub-directory (default: '{os.path.basename(default_letter_subdir_path)}' based on title's first letter, "
-        #     f"or specify a full relative path like 'my-custom-folder'): " # Adjusted prompt for clarity
-        # ).strip()
-        
-        if sub_directory_input:
-            # If user provides input, assume it's relative to DEFAULT_BASE_SAVE_DIR
-            current_full_save_dir = os.path.join(DEFAULT_BASE_SAVE_DIR, sub_directory_input)
-        else:
-            # If user leaves blank, use the first-letter default
-            current_full_save_dir = default_letter_subdir_path
-        
-        # Ensure the entire directory path exists before saving
-        os.makedirs(current_full_save_dir, exist_ok=True)
-        print(f"Saving to: '{current_full_save_dir}'")
-
-        # --- 8. Generate filename in kebab-case based solely on title ---
-        sanitized_title_kebab_case = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')
-        suggested_filename = f"{sanitized_title_kebab_case}.md" 
-        
-        output_filename_base = False
-        # output_filename_base = get_user_input(f"Enter the filename (default: '{suggested_filename}'): ")
-
-        if not output_filename_base:
-            output_filename_base = suggested_filename
-        
-        if not output_filename_base.lower().endswith(".md"):
-            output_filename_base += ".md"
-            
-        full_output_filepath = os.path.join(current_full_save_dir, output_filename_base)
-
-
-        # --- 9. Fill the template with all collected and derived data ---
         try:
-            final_markdown_content = markdown_template.format(
-                title=title,
-                tags_list_yaml=tags_list_yaml, # Use the YAML formatted tags
-                images_block_markdown=images_block_markdown, # Use the combined images block
-                github_user_repo=github_user_repo,
-                repository_link=repository_link,
-                author_github_username=author_github_username,
-                # REMOVED: downloads_count_formatted=downloads_count_formatted,
-                # obsidian_hub_link_or_text=obsidian_hub_link_or_text,
-                # moritz_jung_link_or_text=moritz_jung_link_or_text,
-                # excerpt_from_readme=excerpt_from_readme,
-                # features_content=features_content,
-                # dark_light_mode_support=dark_light_mode_support,
-                # one_or_multiple_color_schemes=one_or_multiple_color_schemes,
-                # value_propositions=value_propositions,
-                # accessibility_status=accessibility_status,
-                # style_settings_support=style_settings_support,
-                age_of_theme=age_of_theme
-            )
-        except KeyError as e:
-            print(f"ERROR: Missing data for template placeholder: {e}. Please ensure all prompts are answered.")
-            continue # Go to next iteration of the loop
+            if testing_mode:
+                # Use predefined test data
+                theme_data = get_test_theme_data()
+                print(f"Using test data for theme: '{theme_data['title']}'")
+            else:
+                # Collect all theme data from user
+                theme_data = collect_theme_data()
+                
+                if theme_data is None:
+                    # User chose to exit
+                    break
+            
+            # Render and save the theme markdown
+            success = render_and_save_theme_markdown(theme_data)
+            
+            if not success:
+                print("Failed to create theme entry. Please try again.")
+                if testing_mode:
+                    break  # Exit testing mode on failure
+                continue
+            
+            if testing_mode:
+                print("Testing mode completed successfully!")
+                break  # Exit after one successful test run
+                
+        except KeyboardInterrupt:
+            print("\n\nOperation cancelled by user.")
+            break
         except Exception as e:
-            print(f"ERROR: An unexpected error occurred while formatting the template: {e}")
+            print(f"An unexpected error occurred: {e}")
+            if testing_mode:
+                break  # Exit testing mode on error
             continue
-
-        # --- 10. Save the combined content to the specified Markdown file ---
-        try:
-            with open(full_output_filepath, 'w', encoding='utf-8') as f:
-                f.write(final_markdown_content)
-            print(f"\nSuccessfully created '{full_output_filepath}'!")
-            print("--- Content Preview (first 20 lines) ---")
-            print("\n".join(final_markdown_content.split('\n')[:20]))
-            print("...")
-            print("-----------------------")
-            
-            # --- IMPORTANT: Update the categories file ONLY if theme file generation was successful ---
-            # Pass the original tags list to check which categories it belongs to
-            update_categories_file(title, suggested_filename, tags_list) 
-            
-            # --- Update the global themes counter ONLY if all operations (theme file + categories) were successful ---
-            get_next_counter_value() 
-
-        except IOError as e:
-            print(f"ERROR: Could not save file to '{full_output_filepath}': {e}")
-        except Exception as e:
-            print(f"An unexpected error occurred during file save or counter update: {e}")
 
 if __name__ == "__main__":
     # Ensure the directories for the counter file and categories file exist.
