@@ -440,36 +440,29 @@ tags:
 
         # --- 3. Prompts for Additional Image Lines and construct combined image block ---
         main_screenshot_markdown = f"![{title} Theme Screenshot]({main_screenshot_url})"
-
+        
         additional_image_md_lines = []
         add_more_images = get_user_input("Add more image links (e.g., ![]()) after the main screenshot? (yes/no): ").lower()
         if add_more_images == 'yes':
-            print("Enter details for additional images (type 'done' when finished):")
-            while True:
-                    # alt_text = get_user_input("  Enter alt text (or 'done' to finish images): ")
-                    # if alt_text.lower() == 'done':
-                    #    break
-                    src_url = get_user_input("  Enter image URL: ")
-                    if src_url.lower() == 'done':
-                        break
-                    if src_url: # Only add if URL is provided
-                        additional_image_md_lines.append(f"![]({src_url})")
-
-                    else:
-                        print("  Image URL cannot be empty. Skipping this image.")
-                        break  # Exit the loop if no URL is provided
-
-        # Combine main screenshot and additional images, ensuring proper spacing
+           print("Enter details for additional images (type 'done' for alt text when finished):")
+           while True:
+                # alt_text = get_user_input("  Enter alt text (or 'done' to finish images): ")
+                # if alt_text.lower() == 'done':
+                #    break
+                src_url = get_user_input("  Enter image URL: ")
+                if src_url: # Only add if URL is provided
+                    additional_image_md_lines.append(f"![]({src_url})")
+                else:
+                    print("  Image URL cannot be empty. Skipping this image.")
+        
+        Combine main screenshot and additional images, ensuring proper spacing
         if additional_image_md_lines:
-            # Create a single-row markdown table for additional images
-            table_cells = " | ".join(additional_image_md_lines)
-            table_header = " | ".join(["---"] * len(additional_image_md_lines))
-            markdown_table = f"| {table_cells} |\n| {table_header} |"
-            
-            # Combine main screenshot with the table below it
-            images_block_markdown = main_screenshot_markdown + "\n\n" + markdown_table
+            # Add a single newline between main screenshot and additional images
+            images_block_markdown = main_screenshot_markdown + "\n" + "\n".join(additional_image_md_lines)
         else:
-            images_block_markdown = main_screenshot_markdown  # Only the main screenshot
+            images_block_markdown = main_screenshot_markdown # Only the main screenshot
+
+
 
         # --- 4. Prompts for 'Info' Table ---
         repository_link = get_user_input("Enter GitHub Repository Link (e.g., https://github.com/user/repo): ")
