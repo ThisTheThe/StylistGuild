@@ -1,4 +1,4 @@
 :A
-python add_theme.py
+python batch_processor_modified_rewritten.py
 goto A
 pause

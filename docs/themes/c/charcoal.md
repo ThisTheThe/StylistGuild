@@ -1,42 +1,33 @@
 ---
 title: Charcoal
 tags:
-  - dark_theme
-  - custom_fonts
+  - broken_functionality
+  - charcoal
+  - dark
+  - minimalistic
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Charcoal Theme Screenshot](https://raw.githubusercontent.com/bcdavasconcelos/Obsidian-Charcoal/refs/heads/master/charcoal.png)
+<h1>
+    <a href="bcdavasconcelos/Obsidian-Charcoal">Charcoal</a>
+    <sub>By <a href="https://github.com/N/A">N/A</a></sub>
+</h1>
 
-## Info
+[![Charcoal Theme Screenshot](charcoal.png)](bcdavasconcelos/Obsidian-Charcoal)
 
-| Info                                 | Status                                                                                                                                                              |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [bcdavasconcelos/Obsidian-Charcoal](https://github.com/bcdavasconcelos/Obsidian-Charcoal)                                                                           |
-| Author                               | [bcdavasconcelos](https://github.com/bcdavasconcelos)                                                                                                               |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/bcdavasconcelos/Obsidian-Charcoal?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/bcdavasconcelos/Obsidian-Charcoal/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/bcdavasconcelos/Obsidian-Charcoal?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/bcdavasconcelos/Obsidian-Charcoal?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/bcdavasconcelos/Obsidian-Charcoal?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Charcoal \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Charcoal)            |
-| View in Moritz Jung’s Obsidian Stats | [Charcoal \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/charcoal/)                                                                            |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-This is a mixture of some themes available for Obsidian using the palette from Bear's Charcoal theme.
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                              |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Dark mode only                                                                                                                                                      |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                                     |
-| Value Propositions             | This is a mixture of some themes available for Obsidian using the palette from Bear's Charcoal theme.                                                               |
-| Accessibility                  | NIL                                                                                                                                                                 |
-| Style Settings support         | No                                                                                                                                                                  |
-| Age of Theme                   | Released 24 November 2020                                                                                                                                           |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/bcdavasconcelos/Obsidian-Charcoal?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on August 22, 2025 at 02:10 AM

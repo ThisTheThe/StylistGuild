@@ -1,42 +1,30 @@
 ---
 title: Base2Tone
 tags:
-  - dark_theme
-  - base2
+  - dark
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Base2Tone Theme Screenshot](https://raw.githubusercontent.com/deathau/Base2Tone-For-Obsidian.md/refs/heads/master/screenshot.jpg)
+<h1>
+    <a href="deathau/Base2Tone-For-Obsidian.md">Base2Tone</a>
+    <sub>By <a href="https://github.com/N/A">N/A</a></sub>
+</h1>
 
-## Info
+[![Base2Tone Theme Screenshot](multiple_palettes, manual_configuration, minimalist,)](deathau/Base2Tone-For-Obsidian.md)
 
-| Info                                 | Status                                                                                                                                                              |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [deathau/Base2Tone-For-Obsidian.md](https://github.com/deathau/Base2Tone-For-Obsidian.md)                                                                           |
-| Author                               | [deathau](https://github.com/deathau)                                                                                                                               |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/deathau/Base2Tone-For-Obsidian.md?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/deathau/Base2Tone-For-Obsidian.md/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/deathau/Base2Tone-For-Obsidian.md?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/deathau/Base2Tone-For-Obsidian.md?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/deathau/Base2Tone-For-Obsidian.md?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Base2Tone \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Base2Tone)          |
-| View in Moritz Jung’s Obsidian Stats | [Base2Tone \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/base2tone/)                                                                          |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-A theme for Obsidian based on <http://base2t.one/> with default hues from <http://simurai.com/duotone-dark-sky-syntax/>
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                              |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Dark mode only                                                                                                                                                      |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                                     |
-| Value Propositions             | A theme for Obsidian based on <http://base2t.one/> with default hues from <http://simurai.com/duotone-dark-sky-syntax/>                                             |
-| Accessibility                  | NIL                                                                                                                                                                 |
-| Style Settings support         | No                                                                                                                                                                  |
-| Age of Theme                   | Released 24 November 2020                                                                                                                                           |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/deathau/Base2Tone-For-Obsidian.md?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on August 22, 2025 at 02:10 AM
