@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+"""
+THEME GENERATOR HEADER FILE - AI Reference
+Minimal documentation of core methods and data structures
+"""
+
+# === THEME DATA COLLECTION ===
+# theme_data_collector.py
+def get_user_input(prompt_text) -> str:
+    """Prompts user, exits on 'exit'"""
+    
+def collect_theme_data() -> dict:
+    """Returns theme data dict with keys:
+    - title, tags_list, main_screenshot_url, 
+    - additional_image_urls, repository_link"""
+
+# === THEME CONFIGURATIONS ===
+# theme_configurations.py
+class ThemeConfigurations:
+    @staticmethod
+    def get_test_theme() -> dict:
+    def get_minimal_theme() -> dict:
+    def get_complex_theme() -> dict:
+    def get_batch_themes() -> list:
+    def get_special_character_theme() -> dict:
+    def get_configuration_by_name(config_name) -> dict:
+    def list_available_configurations() -> list:
+    def testing_mode() -> dict:
+
+# === THEME RENDERER (CORE ENGINE) ===
+# theme_renderer.py
+class ThemeRenderer:
+    def __init__(self, base_dir="docs/themes"):
+        self.base_dir = base_dir
+        
+    def render_and_save_theme_markdown(self, theme_data: dict) -> bool:
+        """Main method: renders theme to markdown file, updates categories & counter"""
+        
+    def batch_render_themes(self, themes_list: list) -> dict:
+        """Renders multiple themes, returns success/failure summary"""
+        
+    @staticmethod
+    def extract_github_user_repo(repo_url) -> str:
+        """Returns 'user/repo' from GitHub URL"""
+        
+    @staticmethod
+    def get_first_letter_info(theme_title) -> dict:
+        """Returns {'link_char': '$a$', 'dir_name': 'a'}"""
+        
+    @staticmethod
+    def get_repo_creation_date(repo_url, token=None) -> dict:
+        """Fetches GitHub repo creation date via API"""
+
+# === KEY DATA STRUCTURES ===
+# Theme data dictionary format:
+THEME_DATA_FORMAT = {
+    'title': str,
+    'tags_list': list,  # ['tag1', 'tag2']
+    'main_screenshot_url': str,
+    'additional_image_urls': list,  # [url1, url2]
+    'repository_link': str
+}

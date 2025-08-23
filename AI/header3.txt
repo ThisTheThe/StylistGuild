@@ -1,0 +1,249 @@
+#!/usr/bin/env python3
+"""
+THEME GENERATOR HEADER FILE - AI Reference
+Minimal documentation of core methods and data structures
+"""
+
+-- These files are all in the pythonThemeTools subdir --
+
+# === THEME DATA COLLECTION ===
+# theme_data_collector.py
+def get_user_input(prompt_text) -> str:
+    """Prompts user, exits on 'exit'"""
+    
+def collect_theme_data() -> dict:
+    """Returns theme data dict with keys:
+    - title, tags_list, main_screenshot_url, 
+    - additional_image_urls, repository_link"""
+
+# === THEME CONFIGURATIONS ===
+# theme_configurations.py
+class ThemeConfigurations:
+    @staticmethod
+    def get_test_theme() -> dict:
+    def get_minimal_theme() -> dict:
+    def get_complex_theme() -> dict:
+    def get_batch_themes() -> list:
+    def get_special_character_theme() -> dict:
+    def get_configuration_by_name(config_name) -> dict:
+    def list_available_configurations() -> list:
+    def testing_mode() -> dict:
+
+# === THEME RENDERER (CORE ENGINE) ===
+# theme_renderer.py
+class ThemeRenderer:
+    def __init__(self, base_dir="docs/themes"):
+        self.base_dir = base_dir
+        
+    def render_and_save_theme_markdown(self, theme_data: dict) -> bool:
+        """Main method: renders theme to markdown file, updates categories & counter"""
+        
+    def batch_render_themes(self, themes_list: list) -> dict:
+        """Renders multiple themes, returns success/failure summary"""
+        
+    @staticmethod
+    def extract_github_user_repo(repo_url) -> str:
+        """Returns 'user/repo' from GitHub URL"""
+        
+    @staticmethod
+    def get_first_letter_info(theme_title) -> dict:
+        """Returns {'link_char': '$a$', 'dir_name': 'a'}"""
+        
+    @staticmethod
+    def get_repo_creation_date(repo_url, token=None) -> dict:
+        """Fetches GitHub repo creation date via API"""
+
+# === BATCH PROCESSING MODULES (pythonThemeTools/) ===
+
+# data_synchronizer.py
+class DataSynchronizer:
+    def __init__(self, official_json_path, addon_json_path):
+        self.official_path, self.addon_path = paths
+        
+    def load_json_files(self) -> bool:
+        """Load both JSON files into memory"""
+        
+    def find_missing_addon_entries(self) -> list:
+        """Find repos in official JSON but not in addon JSON"""
+        
+    def find_orphaned_addon_entries(self) -> list:
+        """Find repos in addon JSON but not in official JSON"""
+        
+    def compare_json_files(self) -> dict:
+        """Comprehensive comparison: counts, missing, orphaned, sync %"""
+        
+    def suggest_cleanup_actions(self) -> dict:
+        """Returns categorized suggestions: add_to_addon, remove_from_addon, review_required"""
+        
+    def get_theme_by_repo(self, repo: str, source="official") -> dict:
+        """Get theme data by repo identifier from official or addon JSON"""
+        
+    def print_sync_report(self):
+        """Print formatted synchronization status report"""
+
+# json_validator.py  
+class JsonValidator:
+    def __init__(self):
+        self.official_schema, self.addon_schema = schemas
+        
+    def validate_official_schema(self, data) -> dict:
+        """Validate official JSON: {is_valid, total_entries, valid_entries, entry_results}"""
+        
+    def validate_addon_schema(self, data) -> dict:
+        """Validate addon JSON: {is_valid, total_entries, valid_entries, entry_results}"""
+        
+    def check_required_fields(self, entry: dict, schema_type: str) -> list:
+        """Return list of missing required fields"""
+        
+    def validate_url_fields(self, entry: dict, schema_type: str) -> dict:
+        """Validate URL fields: {valid_urls, invalid_urls}"""
+        
+    def print_validation_report(self, results: dict, schema_type: str):
+        """Print formatted validation report"""
+
+# file_manager.py
+class FileManager:
+    def __init__(self, backup_dir="backups"):
+        self.backup_dir = Path(backup_dir)
+        
+    def backup_json_files(self, file_paths: list, backup_suffix=None) -> dict:
+        """Create timestamped backups: {filepath: success_bool}"""
+        
+    def restore_from_backup(self, original_path: str, backup_filename=None) -> bool:
+        """Restore from backup (latest if filename not specified)"""
+        
+    def list_backups(self, file_pattern="*") -> list:
+        """List backup files with metadata: [{filename, path, size, created}]"""
+        
+    def merge_official_updates(self, new_official_path, current_official_path, addon_path) -> dict:
+        """Handle official JSON updates while preserving addon data"""
+        
+    def export_reports(self, data: dict, output_path: str, report_format="txt") -> bool:
+        """Export reports in txt/json/csv formats"""
+        
+    def cleanup_old_backups(self, days_to_keep=30) -> dict:
+        """Remove old backup files: {removed, kept, errors}"""
+        
+    def get_file_stats(self, file_paths: list) -> dict:
+        """Get file statistics: size, entry count, validity, etc."""
+        
+    def load_json_data(self, file_path: str, description: str = "JSON file") -> list:
+        """Centralized JSON loading with consistent error handling"""
+        
+    def save_json_data(self, file_path: str, data: list, description: str = "JSON file", create_backup: bool = True) -> bool:
+        """Centralized JSON saving with optional backup"""
+        
+    def load_both_json_files(self, official_path: str, addon_path: str) -> tuple:
+        """Load both official and addon JSON files"""
+        
+    def validate_json_structure(self, file_path: str, expected_keys: list, description: str = "JSON file") -> dict:
+        """Validate JSON file structure and required keys"""
+        
+    def print_file_status_report(self, official_path: str, addon_path: str):
+        """Print comprehensive file status report"""
+        
+    def validate_json_syntax(self, file_path: str) -> tuple:
+        """Validate JSON file syntax: (is_valid, error_message)"""
+        
+    def print_backup_report(self):
+        """Print a formatted report of available backups"""
+
+# screenshot_manager.py
+class ScreenshotManager:
+    def __init__(self, cache_dir="screenshot_cache", timeout=10):
+        self.cache_dir, self.session = setup
+        
+    def validate_screenshot_urls(self, urls_list: list, check_accessibility=True) -> dict:
+        """Validate URLs: {valid_urls, invalid_urls, accessible_urls, inaccessible_urls}"""
+        
+    def suggest_alternative_screenshots(self, repo_url: str) -> list:
+        """Scrape repo for screenshot alternatives: [{url, type, confidence}]"""
+        
+    def download_and_cache_screenshots(self, theme_data: dict) -> dict:
+        """Cache screenshots locally: {success, cached_files, errors, total_size}"""
+        
+    def get_cached_screenshots(self, repo: str) -> list:
+        """Get cached screenshots for repo: [{filename, path, size}]"""
+        
+    def cleanup_cache(self, max_size_mb=None, max_age_days=None) -> dict:
+        """Clean cache by size/age: {removed, kept, freed_mb}"""
+        
+    def generate_screenshot_report(self, theme_data_list: list) -> dict:
+        """Analyze screenshots across themes: {total_themes, accessible_screenshots, etc.}"""
+
+# github_utils.py
+def open_github_repo(repo: str) -> bool:
+    """Open the GitHub repository page in the default web browser"""
+    
+def extract_repo_from_url(github_url: str) -> str:
+    """Extract owner/repo from various GitHub URL formats"""
+    
+def validate_repo_format(repo: str) -> bool:
+    """Validate repository format (owner/repo)"""
+    
+def get_repo_info(repo: str, github_token: str = None) -> dict:
+    """Fetch repository information from GitHub API"""
+    
+def parse_github_url(url: str) -> dict:
+    """Parse a GitHub URL and extract components"""
+    
+def format_repo_url(repo: str, path: str = None, branch: str = None) -> str:
+    """Format a GitHub URL from repository and optional path/branch"""
+    
+def prompt_for_repo_confirmation(repo: str) -> bool:
+    """Ask user to confirm they want to work with a repository"""
+
+# main_batch_tool.py  
+class ThemeBatchTool:
+    """Main orchestrator combining all modules"""
+    def __init__(self, official_json, addon_json):
+        # Initializes all managers: synchronizer, validator, processor, file_manager, screenshot_manager
+        
+    def run_comprehensive_analysis(self):
+        """Run full analysis: file status, sync, validation, screenshots, recommendations"""
+        
+    def interactive_maintenance_session(self):
+        """Interactive menu system for all operations"""
+        
+    def quick_sync_check(self) -> bool:
+        """Quick sync status check for command-line usage"""
+
+def main():
+    """Command-line entry point with argparse: --mode, --backup, --non-interactive"""
+
+# === KEY DATA STRUCTURES ===
+
+# Theme data dictionary format (original):
+THEME_DATA_FORMAT = {
+    'title': str,
+    'tags_list': list,  # ['tag1', 'tag2']
+    'main_screenshot_url': str,
+    'additional_image_urls': list,  # [url1, url2]
+    'repository_link': str
+}
+
+# Official JSON format (community-css-themes.json):
+OFFICIAL_JSON_ENTRY = {
+    "name": str,           # Theme name
+    "author": str,         # Author name  
+    "repo": str,           # "user/repository"
+    "screenshot": str,     # Screenshot filename/URL
+    "modes": list          # ["dark", "light"]
+}
+
+# Addon JSON format (community-css-themes-tag-browser.json):
+ADDON_JSON_ENTRY = {
+    "repo": str,                    # "user/repository" (bridge to official)
+    "screenshot-main": str,         # Main screenshot URL/filename
+    "screenshots-side": list,       # [url1, url2, ...] additional screenshots
+    "tags": list                    # ["tag1", "tag2", ...] theme tags
+}
+
+# Batch processing results format:
+BATCH_RESULTS = {
+    "processed": int,           # Successfully processed entries
+    "skipped": int,             # User-skipped entries  
+    "errors": int,              # Failed entries
+    "created_entries": list,    # List of newly created addon entries
+    "error_details": list       # List of error messages
+}

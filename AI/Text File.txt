@@ -1,0 +1,27 @@
+Summary of Changes
+1. Remove Duplicate File Operations
+Replace these methods in batch_processor.py:
+
+_load_official_data() → Use file_manager.load_json_data()
+_load_addon_data() → Use file_manager.load_json_data()
+_save_addon_data() → Use file_manager.save_json_data()
+
+2. Enhance FileManager (add the methods from the first artifact)
+
+load_json_data() - Centralized JSON loading with consistent error handling
+save_json_data() - Centralized JSON saving with optional backup
+validate_json_structure() - Schema validation
+print_file_status_report() - Comprehensive file status
+
+---
+
+
+What This Module Provides
+The github_utils.py module gives you:
+
+open_github_repo() - Opens repo in browser (replaces your inline function)
+validate_repo_format() - Validates "owner/repo" format
+extract_repo_from_url() - Extract repo from various GitHub URL formats
+get_repo_info() - Fetch repo data from GitHub API (bonus feature)
+parse_github_url() - Parse GitHub URLs into components (bonus feature)
+

@@ -1,0 +1,9 @@
+[
+  {
+    "name": "test",
+    "author": "kognise",
+    "repo": "kognise/obsidian-atom",
+    "screenshot": "screenshot-hybrid.png",
+    "modes": ["dark", "light"]
+  }
+}

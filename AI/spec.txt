@@ -1,0 +1,14 @@
+I'm creating a tool that serves partially as a batch processor (referring to another util script), and a data entry tool (refers to another util script, see header). Half of our data, in "community-css-themes.json", [[[ {
+    "name": "test",
+    "author": "kognise",
+    "repo": "kognise/obsidian-atom",
+    "screenshot": "screenshot-hybrid.png",
+    "modes": ["dark", "light"]
+  }, ]]] is publically available and shouldn't be modified. This file might be replaced with more updated versions from Obsidian's github. In order to have our pages use more than just that, I have an additional "community-css-themes-tag-browser.json" file, [[[   {
+    "repo": "kognise/obsidian-atom",
+    "screenshot-main": "screenshot-hybrid.png",
+    "screenshots-side": ["https://i1.sndcdn.com/artworks-f2PVf7IlIm0w8Abu-s5wMfw-t500x500.jpg", "https://i1.sndcdn.com/artworks-f2PVf7IlIm0w8Abu-s5wMfw-t500x500.jpg",
+    "https://i1.sndcdn.com/artworks-f2PVf7IlIm0w8Abu-s5wMfw-t500x500.jpg"],
+    "tags": ["tag1", "tag2"]
+  }, ]]] (You'll notice there's a screenshot-main and a screenshot json key; this is intentional in case I don't like what picture the author of the theme used.) which is intended to be an addon to the former. The batch process tool is really intended to be a combination of a builder for this addon json file, and to streamline the process of generating pages from these two json files. The tool should be able to detect what entries in the addon json aren't present in the official json, the intention using "repo" as the bridging point here, letting us direct ourselves to filling out the information. All modular scripts are in the folder "pythonThemeTools". Feel free to suggest modules you think would belong in the module folder.
+
