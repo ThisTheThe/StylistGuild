@@ -2,3 +2,4 @@
 /.venv
 .obsidian
 node_modules/
+/backups
