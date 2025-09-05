@@ -95,16 +95,18 @@ class BatchProcessor:
             return default_macros
             
         try:
-            macros_data = self.file_manager.load_json_data(macros_path, "Tag macros")
-            if isinstance(macros_data, dict):
+            # Use the new dictionary-specific method
+            macros_data = self.file_manager.load_json_dict(macros_path, "Tag macros")
+            if macros_data:  # Non-empty dict
                 print(f"✅ Loaded {len(macros_data)} tag macros")
                 return macros_data
             else:
-                print("⚠️ Invalid macros format, using defaults")
+                print("⚠️ Empty or invalid macros format, using defaults")
                 return default_macros
         except Exception as e:
             print(f"⚠️ Error loading macros: {e}, using defaults")
             return default_macros
+
 
     # ============================================================================
     # CORE DATA OPERATIONS
@@ -669,9 +671,8 @@ class BatchProcessor:
     # ============================================================================
     # CORE PROCESSING LOGIC - ENHANCED WITH RANGE SUPPORT
     # ============================================================================
-
     def process_missing_entries_interactive(self) -> Dict[str, Any]:
-        """Process missing addon entries with interactive mode (original method)"""
+        """Process missing addon entries with interactive mode - FIXED with incremental saves to main file"""
         print("🔥 Starting interactive processing of missing addon entries...")
         
         # Get missing entries using synchronizer
@@ -695,40 +696,78 @@ class BatchProcessor:
             "error_details": []
         }
         
-        # Load existing addon data
+        # Load existing addon data ONCE at the start
         addon_data = self.load_addon_data()
+        existing_repos = {entry.get("repo") for entry in addon_data if entry.get("repo")}
+        
+        print(f"📝 Loaded {len(addon_data)} existing entries from main addon file")
         
         for i, official_entry in enumerate(missing_entries, 1):
             repo = official_entry.get("repo", "unknown")
             name = official_entry.get("name", "Unknown")
+            
+            # Skip if already exists (safety check)
+            if repo in existing_repos:
+                print(f"[{i}/{len(missing_entries)}] ⭕ Skipping {name} (already exists)")
+                results["skipped"] += 1
+                continue
             
             print(f"\n[{i}/{len(missing_entries)}] Processing: {name} ({repo})")
             
             try:
                 addon_entry = self.interactive_entry_builder(official_entry)
                 if addon_entry:
+                    # Add to our in-memory data
                     addon_data.append(addon_entry)
+                    existing_repos.add(repo)
                     results["created_entries"].append(addon_entry)
                     results["processed"] += 1
-                    print(f"✅ Created addon entry for {repo}")
+                    
+                    # SAVE IMMEDIATELY after each entry (like Mode 2)
+                    print(f"💾 Saving to main file...")
+                    if self.save_addon_data(addon_data):
+                        print(f"✅ Successfully saved {repo} to main addon file")
+                    else:
+                        print(f"❌ FAILED to save {repo} to main addon file")
+                        # Remove from our in-memory data since save failed
+                        addon_data.pop()
+                        existing_repos.remove(repo)
+                        results["created_entries"].pop()
+                        results["processed"] -= 1
+                        results["errors"] += 1
+                        results["error_details"].append(f"Failed to save {repo} to main file")
+                    
                 else:
                     results["skipped"] += 1
                     print(f"⭕ Skipped {repo}")
                     
+            except KeyboardInterrupt:
+                print(f"\n\n⚠️ Processing interrupted by user after {results['processed']} entries.")
+                print(f"💾 All progress has been saved to main addon file")
+                break
             except Exception as e:
                 results["errors"] += 1
                 error_msg = f"Error processing {repo}: {str(e)}"
                 results["error_details"].append(error_msg)
                 print(f"❌ {error_msg}")
         
-        # Save all changes at once using FileManager
+        # Final verification (no need to save again since we saved after each entry)
         if results["processed"] > 0:
-            print(f"\n💾 Saving {results['processed']} new entries...")
-            if self.save_addon_data(addon_data):
-                print(f"✅ Successfully saved {len(addon_data)} total addon entries")
-            else:
-                print(f"❌ Failed to save addon data")
+            print(f"\n🔍 Verifying final state...")
+            verification_data = self.load_addon_data()
+            print(f"✅ Verification complete: {len(verification_data)} total entries in main addon file")
+            
+            # Double-check that our new entries are actually there
+            verification_repos = {entry.get("repo") for entry in verification_data if entry.get("repo")}
+            created_repos = {entry.get("repo") for entry in results["created_entries"]}
+            missing_from_file = created_repos - verification_repos
+            
+            if missing_from_file:
+                print(f"❌ WARNING: {len(missing_from_file)} entries missing from file: {missing_from_file}")
                 results["errors"] += 1
+                results["error_details"].append(f"Verification failed: {len(missing_from_file)} entries not found in saved file")
+            else:
+                print(f"✅ All {results['processed']} new entries verified in main addon file")
         
         return results
 

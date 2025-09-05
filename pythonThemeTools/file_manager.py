@@ -23,6 +23,41 @@ class FileManager:
         self.backup_dir = Path(backup_dir)
         self.backup_dir.mkdir(exist_ok=True)
     
+    def load_json_dict(self, file_path: str, description: str = "JSON file") -> Dict[str, Any]:
+        """
+        Load JSON data that should be a dictionary (like tag macros)
+        
+        Args:
+            file_path: Path to JSON file
+            description: Description for error messages
+            
+        Returns:
+            Dictionary from JSON file, empty dict if error
+        """
+        path = Path(file_path)
+        
+        try:
+            if not path.exists():
+                print(f"Info: {description} file not found at {path} (this is normal for first run)")
+                return {}
+                
+            with open(path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                
+            if not isinstance(data, dict):
+                print(f"Warning: {description} should contain a dict, found {type(data).__name__}")
+                return {}
+                
+            print(f"✅ Loaded {len(data)} entries from {description.lower()}")
+            return data
+            
+        except json.JSONDecodeError as e:
+            print(f"❌ Invalid JSON in {description.lower()}: {str(e)}")
+            return {}
+        except Exception as e:
+            print(f"❌ Error loading {description.lower()}: {str(e)}")
+            return {}
+            
     def load_json_data(self, file_path: str, description: str = "JSON file") -> List[Dict[str, Any]]:
         """
         Centralized JSON loading with consistent error handling

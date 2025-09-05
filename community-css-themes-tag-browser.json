@@ -2367,5 +2367,104 @@
       "rainbow_headers",
       "style_settings_medium"
     ]
+  },
+  {
+    "repo": "SakuraIsayeki/vanilla-amoled-theme",
+    "screenshot-main": "sample-screenshot-sm.png",
+    "screenshots-side": [],
+    "tags": [
+      "black",
+      "dark",
+      "darker",
+      "minimalistic"
+    ],
+    "_author": "Kapirklaa",
+    "_created_at": "2025-08-28T23:58:34.820447"
+  },
+  {
+    "repo": "Fro-Q/Qlean",
+    "screenshot-main": "assets/Qlean.png",
+    "screenshots-side": [],
+    "tags": [
+      "Auto_hiding",
+      "Broken_functionality",
+      "Clean",
+      "Community checkboxes",
+      "Focus_mode",
+      "Glass",
+      "Highlight active line",
+      "Line_layout_separation",
+      "Style Settings Medium",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic"
+    ],
+    "_author": "Kapirklaa",
+    "_created_at": "2025-08-29T00:14:58.260905"
+  },
+  {
+    "repo": "Possibly-Matt/obsidian-aura-theme",
+    "screenshot-main": "img/aura_dark_diagonal.png",
+    "screenshots-side": [],
+    "tags": [
+      "Bitonal",
+      "Line_layout_separation",
+      "Style Settings Lite",
+      "dark",
+      "minimalistic"
+    ],
+    "_author": "Kapirklaa",
+    "_created_at": "2025-08-29T00:19:17.620781"
+  },
+  {
+    "repo": "Warrobot10/Serika-for-obsidian",
+    "screenshot-main": "Serika.png",
+    "screenshots-side": [],
+    "tags": [
+      "Monkeytype",
+      "Squared",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic"
+    ],
+    "_author": "Kapirklaa",
+    "_created_at": "2025-08-29T00:22:13.053092"
+  },
+  {
+    "repo": "rmvdesign/autotape-theme",
+    "screenshot-main": "Screen.png",
+    "screenshots-side": [],
+    "tags": [
+      "Accent_based",
+      "Colorful_frame",
+      "Line_layout_separation",
+      "Neon",
+      "Retro",
+      "Squared",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic"
+    ],
+    "_author": "Kapirklaa",
+    "_created_at": "2025-08-29T00:26:30.380700"
+  },
+  {
+    "repo": "benf2004/Obsidian-LaTeX-Theme",
+    "screenshot-main": "screenshots/preview.png",
+    "screenshots-side": [],
+    "tags": [
+      "Latex",
+      "Squared",
+      "Typographic Focus",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic"
+    ],
+    "_author": "Kapirklaa",
+    "_created_at": "2025-08-29T00:29:37.972742"
   }
 ]
