@@ -10,7 +10,7 @@
   "bl": "borderless",
   "tc": "typographic_customization", 
   "tf": "typographic_focus",
-  "s_cal": "supports_calendar"
+  "s_cal": "supports_calendar",
   "s_kan": "supports_kanban",
   "rfi": "requests_font_installation"
 }
