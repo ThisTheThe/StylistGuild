@@ -78,6 +78,17 @@ class GitAutoUpdater:
             self.logger.error(f"Failed to pull updates: {e}")
             return False
     
+    def remove_readonly_and_delete(self, path):
+        """Remove read-only attributes and delete files/folders (Windows-safe)"""
+        def handle_remove_readonly(func, path, exc):
+            """Error handler to remove read-only attribute"""
+            if os.path.exists(path):
+                os.chmod(path, 0o777)  # Make writable
+                func(path)
+        
+        if path.exists():
+            shutil.rmtree(path, onerror=handle_remove_readonly)
+    
     def clone_repository(self):
         """Clone the repository if it doesn't exist"""
         if not self.repo_url:
@@ -89,17 +100,17 @@ class GitAutoUpdater:
             # Clone to a temporary directory first
             temp_dir = self.script_dir / "temp_clone"
             
-            # Remove temp directory if it exists (cross-platform)
-            if temp_dir.exists():
-                shutil.rmtree(temp_dir)
+            # Remove temp directory if it exists (Windows-safe)
+            self.remove_readonly_and_delete(temp_dir)
             
             self.run_command(f"git clone {self.repo_url} {temp_dir}")
             
             # Move .git directory (cross-platform)
             git_source = temp_dir / ".git"
             git_dest = self.script_dir / ".git"
-            if git_dest.exists():
-                shutil.rmtree(git_dest)
+            
+            # Remove existing .git if present
+            self.remove_readonly_and_delete(git_dest)
             shutil.copytree(git_source, git_dest)
             
             # Copy all files except .git (cross-platform)
@@ -109,22 +120,35 @@ class GitAutoUpdater:
                     
                 dest_path = self.script_dir / item.name
                 
-                if item.is_file():
-                    if dest_path.exists():
-                        dest_path.unlink()  # Remove existing file
-                    shutil.copy2(item, dest_path)
-                elif item.is_dir():
-                    if dest_path.exists():
-                        shutil.rmtree(dest_path)  # Remove existing directory
-                    shutil.copytree(item, dest_path)
+                try:
+                    if item.is_file():
+                        if dest_path.exists():
+                            # Remove read-only and delete
+                            os.chmod(dest_path, 0o777)
+                            dest_path.unlink()
+                        shutil.copy2(item, dest_path)
+                    elif item.is_dir():
+                        if dest_path.exists():
+                            self.remove_readonly_and_delete(dest_path)
+                        shutil.copytree(item, dest_path)
+                except PermissionError as e:
+                    self.logger.warning(f"Permission error copying {item.name}: {e}")
+                    continue
             
-            # Clean up temp directory (cross-platform)
-            shutil.rmtree(temp_dir)
+            # Clean up temp directory (Windows-safe)
+            self.remove_readonly_and_delete(temp_dir)
             
             self.logger.info("Repository cloned successfully")
             return True
             
         except Exception as e:
+            # Try to clean up temp directory even on failure
+            try:
+                temp_dir = self.script_dir / "temp_clone"
+                self.remove_readonly_and_delete(temp_dir)
+            except:
+                pass
+            
             self.logger.error(f"Failed to clone repository: {e}")
             return False
     

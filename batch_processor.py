@@ -1028,7 +1028,7 @@ class BatchProcessor:
 
 def main():
     """Main entry point for standalone execution"""
-    print("🎨 Theme Batch Processor (Multi-Peer Edition)")
+    print("🎨 Theme Batch Processor")
     print("=" * 50)
     
     # Check for updates at startup (safe approach)
