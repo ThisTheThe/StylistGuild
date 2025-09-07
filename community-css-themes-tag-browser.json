@@ -2717,5 +2717,448 @@
       "minimalistic",
       "mobile_support"
     ]
+  },
+  {
+    "repo": "dubefab/obsidian-TerraFlow",
+    "screenshot-main": "Terraflow-cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "cozy",
+      "dark",
+      "dark_and_light",
+      "gradients",
+      "inspired-by",
+      "anthropic",
+      "light",
+      "pastel",
+      "playful",
+      "rounded",
+      "shadows"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:16:01.305294"
+  },
+  {
+    "repo": "ThePharaohArt/Obsidian-RetroOS98",
+    "screenshot-main": "screen.png",
+    "screenshots-side": [],
+    "tags": [
+      "accent_based",
+      "dark",
+      "dark_and_light",
+      "dense_layout",
+      "high_contrast",
+      "inspired-by",
+      "windows_98",
+      "light",
+      "opinionated",
+      "retro",
+      "squared"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:17:58.859914"
+  },
+  {
+    "repo": "theaayushpatel/quillcode",
+    "screenshot-main": "assets/dark-screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "always_monospace",
+      "bitonal",
+      "cool",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "paper",
+      "readability",
+      "typography_focus"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:22:16.109888"
+  },
+  {
+    "repo": "mulder3062/Myst",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "animated",
+      "colorful",
+      "cozy",
+      "dark",
+      "dark_and_light",
+      "gradients",
+      "light",
+      "minimalistic",
+      "rainbow_headers",
+      "typographic_customization"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:27:38.908308"
+  },
+  {
+    "repo": "GodlyMan-bit/SoliDeoGloria",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "coffee",
+      "dark",
+      "dark_and_light",
+      "fantasy",
+      "light",
+      "meditative",
+      "opinionated",
+      "paper",
+      "typographic_customization"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:29:44.427842"
+  },
+  {
+    "repo": "pr0methevs/Hojicha",
+    "screenshot-main": "assets/thumbnail.png",
+    "screenshots-side": [],
+    "tags": [
+      "colorful",
+      "dark",
+      "line_layout_separation",
+      "low_contrast",
+      "minimalistic",
+      "rainbow_headers",
+      "warm"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:33:26.757827"
+  },
+  {
+    "repo": "Spekulucius/obsidian-marathon",
+    "screenshot-main": "preview.png",
+    "screenshots-side": [],
+    "tags": [
+      "accent_based",
+      "borderless",
+      "colorful",
+      "dark",
+      "dark_and_light",
+      "high_contrast",
+      "inspired-by",
+      "marathon",
+      "light",
+      "monotonal",
+      "opinionated"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:35:31.557661"
+  },
+  {
+    "repo": "kmranrg/obsidian-handwriting-theme",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "broken_functionality",
+      "colorful",
+      "light",
+      "playful",
+      "typography_focus"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:37:13.983491"
+  },
+  {
+    "repo": "omarrashad/obsidian-vesper",
+    "screenshot-main": "assets/cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "high_contrast",
+      "inspired-by",
+      "vesper",
+      "light",
+      "minimalistic",
+      "monotonal",
+      "requests_font_installation"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:39:03.845693"
+  },
+  {
+    "repo": "SourTarte/Powered-By-Lancer",
+    "screenshot-main": "PoweredByLancer-Icon.png",
+    "screenshots-side": [],
+    "tags": [
+      "TTRPG",
+      "colorful",
+      "dark",
+      "dark_and_light",
+      "futuristic",
+      "high_contrast",
+      "inspired-by",
+      "lancer-rpg",
+      "light",
+      "opinionated",
+      "squared",
+      "tritonal"
+    ],
+    "_author": "floodlight",
+    "_created_at": "2025-09-06T19:40:43.438943"
+  },
+  {
+    "repo": "abrahambahez/Brutalism",
+    "screenshot-main": "brutalism_dark.png",
+    "screenshots-side": [],
+    "tags": [
+      "cool",
+      "dark",
+      "dark_and_light",
+      "light",
+      "line_layout_separation",
+      "minimalistic",
+      "monospace_editor",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "arozx/obsidian_tokyo-night-storm",
+    "screenshot-main": "tokyo-night-storm.png",
+    "screenshots-side": [],
+    "tags": [
+      "cool",
+      "dark",
+      "minimalistic",
+      "rainbow_headers",
+      "tokyo_night"
+    ]
+  },
+  {
+    "repo": "Nikolai2038/strict-obsidian-theme",
+    "screenshot-main": "screenshot_edit_mode.png",
+    "screenshots-side": [],
+    "tags": [
+      "compatibility_issues",
+      "dark",
+      "line_layout_separation",
+      "minimalistic",
+      "modified_layout",
+      "squared"
+    ]
+  },
+  {
+    "repo": "sq1000000/NeuBorder",
+    "screenshot-main": "img/cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "clean",
+      "light",
+      "minimalistic",
+      "modified_layout",
+      "neumorphism",
+      "padded_layout_separation",
+      "rounded",
+      "shadows",
+      "typographic_focus"
+    ]
+  },
+  {
+    "repo": "Bluemoondragon07/Obsidian-Bolt",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "bitonal",
+      "blue",
+      "broken_functionality",
+      "cool",
+      "dark",
+      "dark_and_light",
+      "light",
+      "material",
+      "minimalistic",
+      "multiple_palettes",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "Bluemoondragon07/Obsidian-Origin",
+    "screenshot-main": "origin.png",
+    "screenshots-side": [],
+    "tags": [
+      "broken_functionality",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "modified_layout",
+      "monochrome",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "schrunchee/obsidian-covert-theme",
+    "screenshot-main": "obsidian_covert_theme_sm3.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "low_contrast",
+      "minimalistic",
+      "monochrome"
+    ]
+  },
+  {
+    "repo": "saket61195/Dracula_obsidian_theme",
+    "screenshot-main": "demo1.png",
+    "screenshots-side": [],
+    "tags": [
+      "alternate_checkboxes",
+      "colorful",
+      "cool",
+      "dark",
+      "dracula",
+      "file_explorer_icons",
+      "line_layout_separation",
+      "minimalistic",
+      "rainbow_headers",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "SalemElatar/salem-obsidian-theme",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "callouts",
+      "dark",
+      "dark_and_light",
+      "file_explorer_icons",
+      "larger_text",
+      "light",
+      "minimalistic",
+      "readability",
+      "supports_calendar",
+      "typographic_customization",
+      "yellow"
+    ]
+  },
+  {
+    "repo": "zfmohammed/obsidian-feather",
+    "screenshot-main": "assets/Screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "alternate_checkboxes",
+      "cool",
+      "dark",
+      "larger_text",
+      "minimalistic",
+      "style_settings_lite",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "Ooopz/obsidianmd-theme-comfort-dark",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "low_contrast",
+      "minimalistic",
+      "rainbow_headers",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "jonsnow231/Minimal-Resources",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "minimalistic",
+      "unavailable"
+    ]
+  },
+  {
+    "repo": "diegoeis/simple-obsidian",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "alternate_checkboxes",
+      "clean",
+      "dark",
+      "dark_and_light",
+      "hybrid_brightness",
+      "light",
+      "minimalistic",
+      "smaller_text",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "Carrie999/comfort",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "clean",
+      "green",
+      "light",
+      "minimalistic",
+      "paper",
+      "squared",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "davidjroos/obsidian-notswift",
+    "screenshot-main": "screenie.png",
+    "screenshots-side": [],
+    "tags": [
+      "broken_functionality",
+      "dark",
+      "dark_and_light",
+      "file_explorer_icons",
+      "light",
+      "minimalistic",
+      "native",
+      "preferred_font",
+      "requests_font_installation",
+      "smaller_text",
+      "supports_folder_notes",
+      "supports_quiet_outline"
+    ]
+  },
+  {
+    "repo": "x0aa7i/obsidian-neo",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "alternate_checkboxes",
+      "banner",
+      "cards",
+      "cool",
+      "cssclasses",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "light",
+      "minimalistic",
+      "preferred_font",
+      "requests_font_installation",
+      "supports_calendar",
+      "supports_dataview",
+      "supports_hover_editor",
+      "supports_kanban",
+      "supports_tasks"
+    ]
+  },
+  {
+    "repo": "dbarenholz/halcyon-obsidian",
+    "screenshot-main": "img/halcyon-banner-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "colorful",
+      "cool",
+      "dark",
+      "halcyon",
+      "minimalistic",
+      "supports_highlightr",
+      "typographic_customization"
+    ]
   }
 ]

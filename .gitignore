@@ -3,3 +3,4 @@
 .obsidian
 node_modules/
 /backups
+/__pycache__
