@@ -171,13 +171,15 @@ class GitAutoUpdater:
                 self.logger.error("No repository URL provided for cloning")
                 return False
         
-        # Check if we're up to date
+        # Git repo exists, check for updates
+        self.logger.info("Git repository found, checking for updates...")
+        
         try:
             if self.is_up_to_date():
                 self.logger.info("Repository is up to date")
                 return True
             else:
-                self.logger.info("Updates available")
+                self.logger.info("Updates available, pulling changes...")
                 if self.pull_updates():
                     self.logger.info("Update completed successfully")
                     return True
@@ -187,7 +189,20 @@ class GitAutoUpdater:
                     
         except Exception as e:
             self.logger.error(f"Error during update check: {e}")
-            return False
+            self.logger.info("Attempting to force pull...")
+            
+            # Try a force pull as last resort
+            try:
+                self.run_command("git reset --hard HEAD")
+                if self.pull_updates():
+                    self.logger.info("Force pull completed successfully")
+                    return True
+                else:
+                    self.logger.error("Force pull failed")
+                    return False
+            except Exception as e2:
+                self.logger.error(f"Force pull also failed: {e2}")
+                return False
 
 
 def auto_update_check(repo_url=None, branch="main", restart_on_update=False, safe_restart=True):

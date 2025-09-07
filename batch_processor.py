@@ -1038,11 +1038,9 @@ def main():
         safe_restart=False
     )
     
-    if result['needs_restart']:
-        print("⚠️  Updates were downloaded. Please restart the script to use the latest version.")
-        user_input = input("Continue with current version? (y/n): ")
-        if user_input.lower() != 'y':
-            return
+    print("Starting batch processor...")
+    # Your main batch processing code here
+
     
     # Your batch processing logic here
     print("Starting batch processing...")
