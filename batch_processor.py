@@ -12,40 +12,17 @@ import re
 from datetime import datetime
 
 # Import our modular components
-try:
-    from pythonThemeTools.file_manager import FileManager
-    from pythonThemeTools.data_synchronizer import DataSynchronizer
-    from pythonThemeTools.json_validator import JsonValidator
-    from pythonThemeTools.github_utils import (
-        open_github_repo, 
-        validate_repo_format, 
-        extract_repo_from_url
-    )
-    from pythonThemeTools.theme_renderer import ThemeRenderer
-except ImportError as e:
-    print(f"⚠️ Import error: {e}")
-    print("Some features may not work properly.")
-    # Create minimal fallbacks
-    class FileManager:
-        def __init__(self): pass
-        def load_json_data(self, path, desc): return []
-        def save_json_data(self, path, data, desc, **kwargs): return True
-        def get_file_stats(self, files): return {}
-    class DataSynchronizer:
-        def __init__(self, *args): pass
-        def find_missing_addon_entries(self): return []
-    class JsonValidator:
-        def __init__(self): pass
-    class ThemeRenderer:
-        def __init__(self): pass
-        def batch_render_themes(self, themes): return {}
-    def open_github_repo(repo): print(f"Would open: https://github.com/{repo}")
-    def validate_repo_format(repo): return "/" in repo
-    def extract_repo_from_url(url): 
-        if "github.com" in url and "/" in url:
-            parts = url.split("/")
-            if len(parts) >= 5: return f"{parts[-2]}/{parts[-1]}"
-        return None
+
+from pythonThemeTools.file_manager import FileManager
+from pythonThemeTools.data_synchronizer import DataSynchronizer
+from pythonThemeTools.json_validator import JsonValidator
+from pythonThemeTools.github_utils import (
+    open_github_repo, 
+    validate_repo_format, 
+    extract_repo_from_url
+)
+from pythonThemeTools.theme_renderer import ThemeRenderer
+from pythonThemeTools.git_autoupdate import auto_update_check
 
 
 class BatchProcessor:
@@ -1053,6 +1030,22 @@ def main():
     """Main entry point for standalone execution"""
     print("🎨 Theme Batch Processor (Multi-Peer Edition)")
     print("=" * 50)
+    
+    # Check for updates at startup (safe approach)
+    result = auto_update_check(
+        repo_url="https://github.com/ThisTheThe/StylistGuild.git",
+        restart_on_update=True, 
+        safe_restart=False
+    )
+    
+    if result['needs_restart']:
+        print("⚠️  Updates were downloaded. Please restart the script to use the latest version.")
+        user_input = input("Continue with current version? (y/n): ")
+        if user_input.lower() != 'y':
+            return
+    
+    # Your batch processing logic here
+    print("Starting batch processing...")
     
     # Initialize processor
     processor = BatchProcessor()
