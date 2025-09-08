@@ -283,10 +283,12 @@ def check_and_update():
         print("Please check your repository configuration.")
         return False
     
-    # Check for local changes
-    if has_local_changes():
-        strategy = prompt_user_for_conflicts()
-        if not handle_local_changes(strategy):
+    # Check for local changes to tracked files only
+    if has_tracked_changes():
+        if not prompt_user_for_conflicts():
+            return False
+        
+        if not handle_local_changes():
             return False
     
     # Check for updates
