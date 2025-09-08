@@ -292,7 +292,7 @@ def check_and_update():
             return False
     
     # Check for updates
-    updates_available, current_hash, remote_hash = fetch_and_check_updates()
+    updates_available, current_hash, remote_hash, current_branch = fetch_and_check_updates()
     if updates_available is False:  # Error occurred
         return False
     
@@ -301,12 +301,22 @@ def check_and_update():
         return False
     
     print(f"🆕 Updates available!")
-    print(f"Current: {current_hash[:8]}...")
+    print(f"Current ({current_branch}): {current_hash[:8]}...")
     print(f"Remote:  {remote_hash[:8]}...")
     
     # Pull updates
     if not pull_updates():
         return False
+    
+    # Verify the update actually worked
+    print("🔍 Verifying update...")
+    success, new_hash, error = run_git_command(['git', 'rev-parse', 'HEAD'])
+    if success:
+        if new_hash.strip() == remote_hash:
+            print(f"✅ Update verified! Now at {new_hash[:8]}...")
+        else:
+            print(f"⚠️  Warning: Expected {remote_hash[:8]} but got {new_hash[:8]}")
+            print("Update may not have completed fully.")
     
     print("✅ Update completed! Script will restart.")
     return True
