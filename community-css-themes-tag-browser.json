@@ -3160,5 +3160,1094 @@
       "supports_highlightr",
       "typographic_customization"
     ]
+  },
+  {
+    "repo": "GuiMar10/monochroYOU",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "red",
+      "warm"
+    ]
+  },
+  {
+    "repo": "kepano/flexoki-obsidian",
+    "screenshot-main": "cover-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "flexoki",
+      "inspired_by",
+      "light",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "prradox/green-nightmare",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "green",
+      "high_contrast",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "GeorgeAzma/Transient",
+    "screenshot-main": "theme.png",
+    "screenshots-side": [],
+    "tags": [
+      "broken_functionality",
+      "dark",
+      "minimalistic",
+      "transparent"
+    ]
+  },
+  {
+    "repo": "isaacfreeman/kakano-obsidian-theme",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "accent_based",
+      "alternate_checkboxes",
+      "blue",
+      "compatibility_issues",
+      "cool",
+      "dark",
+      "dark_and_light",
+      "gradients",
+      "highlight_active_line",
+      "larger_text",
+      "light",
+      "minimalistic",
+      "mobile_support",
+      "modified_layout",
+      "monospace_editor",
+      "multiple_palettes"
+    ]
+  },
+  {
+    "repo": "tu2-atmanand/EvilRed-ObsidianTheme",
+    "screenshot-main": "Thumbnail.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "minimalistic",
+      "red",
+      "warm"
+    ]
+  },
+  {
+    "repo": "EddieTheEd/Prussian-Blue",
+    "screenshot-main": "assets/thumbnail.png",
+    "screenshots-side": [],
+    "tags": [
+      "blue",
+      "dark",
+      "darker",
+      "larger_text",
+      "low_contrast",
+      "minimalistic",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "nazarioricardo/zario-obsidian",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "darker",
+      "github",
+      "high_contrast",
+      "inspired_by",
+      "light",
+      "minimalistic",
+      "things"
+    ]
+  },
+  {
+    "repo": "behrouze/obsidian-theme",
+    "screenshot-main": "screenshots/theme-perso-obsidian.png",
+    "screenshots-side": [],
+    "tags": [
+      "light",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "nhrrs/heboric-obsidian",
+    "screenshot-main": "screenshots/Heboric-screenshot-sm2.png",
+    "screenshots-side": [],
+    "tags": [
+      "clean",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "mobile_support",
+      "reading_focus"
+    ]
+  },
+  {
+    "repo": "zaheralmajed/vicious-theme-obsidian",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "alternate_checkboxes",
+      "callouts",
+      "dark",
+      "dark_and_light",
+      "file_explorer_icons",
+      "high_contrast",
+      "light",
+      "minimalistic",
+      "padded_layout_separation",
+      "rainbow_folders",
+      "rainbow_headers",
+      "readability",
+      "style_settings_lite",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "MateusHenriquegringo/spring-theme-obsidian",
+    "screenshot-main": "SPRING.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "rainbow_headers",
+      "readability",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "Bluemoondragon07/Obsidian-Celestial-Night-Theme",
+    "screenshot-main": "assets/low-res.png",
+    "screenshots-side": [],
+    "tags": [
+      "cool",
+      "dark",
+      "glow",
+      "low_contrast",
+      "minimalistic",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "sspaeti/obsidian_rose_pine",
+    "screenshot-main": "dark.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "cool",
+      "dark",
+      "dark_and_light",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "rainbow_headers",
+      "rose_pine",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "vhbelvadi/obsidian-carbon",
+    "screenshot-main": "obsidian-screenshot-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "IBM_Carbon",
+      "dark",
+      "dark_and_light",
+      "inspired_by",
+      "larger_text",
+      "light",
+      "minimalistic",
+      "modified_layout",
+      "monotonal",
+      "squared"
+    ]
+  },
+  {
+    "repo": "ryzenfromfire/obsidian-phoenix",
+    "screenshot-main": "thumbnail.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "light",
+      "line_layout_separation",
+      "minimalistic",
+      "rainbow_headers"
+    ]
+  },
+  {
+    "repo": "oqipoDev/garden-gnome-obsidian",
+    "screenshot-main": "img/thumb.png",
+    "screenshots-side": [],
+    "tags": [
+      "GNOME",
+      "dark",
+      "dark_and_light",
+      "file_explorer_icons",
+      "inspired_by",
+      "light",
+      "minimalistic",
+      "native"
+    ]
+  },
+  {
+    "repo": "bitSchleuder/obsidian-monokai-theme",
+    "screenshot-main": "assets/monokai-obsidian-theme-thumbnail.png",
+    "screenshots-side": [],
+    "tags": [
+      "compatibility_issues",
+      "cool",
+      "dark",
+      "dark_and_light",
+      "dataview_support",
+      "db_folder_support",
+      "inspired_by",
+      "light",
+      "minimalistic",
+      "monokai_pro"
+    ]
+  },
+  {
+    "repo": "ethereontheme/obsidian",
+    "screenshot-main": "screenshots/dark.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "deudz/obsidian-tomorrow-theme",
+    "screenshot-main": "res/thumb.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "inspired_by",
+      "minimalistic",
+      "tomorrow"
+    ]
+  },
+  {
+    "repo": "mbromell/obsidian-nightfox",
+    "screenshot-main": "thumbnail.png",
+    "screenshots-side": [],
+    "tags": [
+      "cool",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "nightfox"
+    ]
+  },
+  {
+    "repo": "mmartamg/novadust-obsidian",
+    "screenshot-main": "novadust-img.png",
+    "screenshots-side": [],
+    "tags": [
+      "calendar_support",
+      "cool",
+      "cozy",
+      "dark",
+      "high_contrast",
+      "minimalistic",
+      "novadust",
+      "padded_layout_separation",
+      "rainbow_headers"
+    ]
+  },
+  {
+    "repo": "lychileng/Obsidian-Theme-Pure",
+    "screenshot-main": "screenshots/cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "auto_hiding",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "mobile_support",
+      "modified_layout"
+    ]
+  },
+  {
+    "repo": "rivea0/obsidian-prime",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "alternate_checkboxes",
+      "community_checkboxes",
+      "cool",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "file_folder_icons",
+      "light",
+      "minimalistic",
+      "rainbow_folders",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "xRyul/obsidian-arcane-theme",
+    "screenshot-main": "Arcane_sample_01.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "base16",
+      "colorful",
+      "dark",
+      "minimalistic",
+      "mobile_support",
+      "rainbow_headers",
+      "requests_font_installation",
+      "tomorrow",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "RaveSplash/obsidian-misty-mauve",
+    "screenshot-main": "dark.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "warm"
+    ]
+  },
+  {
+    "repo": "KStew1017/obsidian-sea-glass-theme",
+    "screenshot-main": "sea-glass-preview.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "low_contrast",
+      "minimalistic",
+      "tritonal"
+    ]
+  },
+  {
+    "repo": "DMeurer/improved-potato",
+    "screenshot-main": "images/image2.png",
+    "screenshots-side": [],
+    "tags": [
+      "callouts",
+      "cool",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "rainbow_headers",
+      "style_settings_lite",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "slavamak/obsidian-neovim",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "darker",
+      "high_contrast",
+      "light",
+      "minimalistic",
+      "neovim_default"
+    ]
+  },
+  {
+    "repo": "isax785/obsidian-sparkling-day",
+    "screenshot-main": "img/sparkling_day_small.png",
+    "screenshots-side": [],
+    "tags": [
+      "file_explorer_icons",
+      "gradients",
+      "light",
+      "minimalistic",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "ZeChArtiahSaher/obsidian-mono-black",
+    "screenshot-main": "img/screen-1.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "darker",
+      "low_contrast",
+      "minimalistic",
+      "monochrome"
+    ]
+  },
+  {
+    "repo": "tomkaygames/Tom-s-Theme",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "compatibility_issues",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "green",
+      "high_contrast",
+      "light",
+      "line_layout_separation",
+      "minimalistic",
+      "monochrome"
+    ]
+  },
+  {
+    "repo": "isax785/obsidian-soloing",
+    "screenshot-main": "y",
+    "screenshots-side": [],
+    "tags": [
+      "cool",
+      "dark",
+      "dark_and_light",
+      "file_explorer_icons",
+      "light",
+      "minimalistic",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "contrapasso3/Reshi",
+    "screenshot-main": "Reshi Preview.png",
+    "screenshots-side": [],
+    "tags": [
+      "alternate_checkboxes",
+      "bitonal",
+      "callouts",
+      "custom_html",
+      "dark",
+      "dark_and_light",
+      "dataview_support",
+      "light",
+      "line_layout_separation",
+      "minimalistic",
+      "multi_column_markdown_support",
+      "obsidian_columns_support",
+      "smaller_text",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "mProjectsCode/obsidian-focus-theme",
+    "screenshot-main": "FocusThemeImage.png",
+    "screenshots-side": [],
+    "tags": [
+      "always_monospace",
+      "dark",
+      "darker",
+      "minimalistic",
+      "requests_font_installation",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "natowb/obsidian-nordic",
+    "screenshot-main": "obsidian-nordic.png",
+    "screenshots-side": [],
+    "tags": [
+      "accent_based",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "fantasy_statblocks_support",
+      "light",
+      "minimalistic",
+      "nord",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "vladstudio/tiniri-obsidian",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "darker",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "tiniri"
+    ]
+  },
+  {
+    "repo": "Indyandie/kurokula-obsidian-theme",
+    "screenshot-main": "dark.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "line_layout_separation",
+      "minimalistic",
+      "rainbow_headers",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "clearlysid/apex",
+    "screenshot-main": "preview.png",
+    "screenshots-side": [],
+    "tags": [
+      "broken_functionality",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "monospace_editor",
+      "vim_support"
+    ]
+  },
+  {
+    "repo": "yoGhastly/poimandres-obsidian",
+    "screenshot-main": "dark.png",
+    "screenshots-side": [],
+    "tags": [
+      "compatibility_issues",
+      "cool",
+      "dark",
+      "minimalistic",
+      "poimandres",
+      "rainbow_headers",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "eldritch-theme/eldritch-obsidian",
+    "screenshot-main": "eldritch.png",
+    "screenshots-side": [],
+    "tags": [
+      "colorful",
+      "compatibility_issues",
+      "cool",
+      "dark",
+      "minimalistic",
+      "rainbow_headers",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "AwesomeDog/obsidian-soothe",
+    "screenshot-main": "preview.png",
+    "screenshots-side": [],
+    "tags": [
+      "cozy",
+      "dark",
+      "dark_and_light",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "mobile_support",
+      "rainbow_header"
+    ]
+  },
+  {
+    "repo": "eliz-abeth/sandover",
+    "screenshot-main": "/images/sandover-plain.png",
+    "screenshots-side": [],
+    "tags": [
+      "always_monospace",
+      "compatibility_issues",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "requests_better_footnote",
+      "requests_better_word_count",
+      "requests_longform",
+      "requests_pandoc_plugin",
+      "requests_pandoc_reference_list",
+      "requests_smart_typography",
+      "requests_typewriter",
+      "typographic_focus"
+    ]
+  },
+  {
+    "repo": "Ch0live/dunite",
+    "screenshot-main": "dunite-icon.png",
+    "screenshots-side": [],
+    "tags": [
+      "brown",
+      "coffee",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "loveminimal/obsidian-theme-virgo",
+    "screenshot-main": "assets/screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "auto_hiding",
+      "broken_functionality",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "focus_mode",
+      "light",
+      "minimalistic",
+      "smaller_text"
+    ]
+  },
+  {
+    "repo": "jbisits/penumbra-obsidian-theme",
+    "screenshot-main": "screenshot_light.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "incomplete_dark_mode",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "penumbra"
+    ]
+  },
+  {
+    "repo": "humandecoded/Trace-Labs-Obsidian-Theme",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "larger_text",
+      "low_contrast",
+      "minimalistic",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "phchang/W95",
+    "screenshot-main": "w95.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "light",
+      "multiple_palettes",
+      "retro",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "antoKeinanen/obsidian-sanctum-reborn",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "advanced_tables_support",
+      "alternate_checkboxes",
+      "block_reference_counter_support",
+      "breadcrumbs_support",
+      "calendar_support",
+      "changelogs_support",
+      "charts_support",
+      "checklist_support",
+      "copy_code_button_support",
+      "custom_html",
+      "dark",
+      "dark_and_light",
+      "dataview_support",
+      "excalidraw_support",
+      "file_explorer_icons",
+      "gallery_suypport",
+      "highlight_active_line",
+      "kanban_support",
+      "light",
+      "meditative",
+      "minimalistic",
+      "quick_explorer_support",
+      "requests_contextual_typography",
+      "requests_smart_typography",
+      "shadows",
+      "sliding_panes_support",
+      "style_settings_medium",
+      "templater_support"
+    ]
+  },
+  {
+    "repo": "ryanjrman/Spectrum-Blue",
+    "screenshot-main": "SpectrumBluePreview.png",
+    "screenshots-side": [
+      "y"
+    ],
+    "tags": [
+      "dark",
+      "file_explorer_icons",
+      "line_layout_separation",
+      "minimalistic",
+      "rainbow_headers",
+      "style_settings_lite",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "dpavaoman/cobalt-peacock-obmd",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "blue",
+      "broken_functionality",
+      "cool",
+      "dark",
+      "minimalistic",
+      "rainbow_headers"
+    ]
+  },
+  {
+    "repo": "lorens-osman-dev/Lorens-Obsidian-Theme",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "accent_based",
+      "alternate_checkboxes",
+      "dark",
+      "file_explorer_icons",
+      "minimalistic",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "NoahBoos/Obsidian-Theme-Rift",
+    "screenshot-main": "showcase-temporaire.png",
+    "screenshots-side": [],
+    "tags": [
+      "brighter",
+      "cool",
+      "dark",
+      "low_contrast",
+      "minimalistic",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "BlossomTheme/Obsidian",
+    "screenshot-main": "screenshot01.png",
+    "screenshots-side": [],
+    "tags": [
+      "bitonal",
+      "dark",
+      "hot",
+      "line_layout_separation",
+      "minimalistic",
+      "pink"
+    ]
+  },
+  {
+    "repo": "bhappen/obsidian-space",
+    "screenshot-main": "obsidian-space.png",
+    "screenshots-side": [],
+    "tags": [
+      "background_image",
+      "custom_font",
+      "dark",
+      "futuristic",
+      "minimalistic",
+      "rainbow_headers",
+      "readability",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "grjsmith/Neon-Synthwave",
+    "screenshot-main": "screenshot.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "contrast_issues",
+      "cool",
+      "dark",
+      "glow",
+      "line_layout_separation",
+      "minimalistic",
+      "neon"
+    ]
+  },
+  {
+    "repo": "CyanVoxel/vauxhall-obsidian",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "cool",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "gradients",
+      "light",
+      "minimalistic",
+      "multiple_palettes",
+      "rainbow_headers",
+      "requests_font_installation",
+      "requests_iconize"
+    ]
+  },
+  {
+    "repo": "nulglyph/Allium",
+    "screenshot-main": "AlliumScreenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "alternate_checkboxes",
+      "cool",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "light",
+      "minimalistic",
+      "purple",
+      "style_settings_lite",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "Elhary/obsidian-Pale",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "compatibility_issues",
+      "dark",
+      "dark_and_light",
+      "glass",
+      "light",
+      "minimalistic",
+      "modified_layout",
+      "padded_layout_separation",
+      "paper"
+    ]
+  },
+  {
+    "repo": "anareaty/creme-brulee-obsidian-theme",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "coffee",
+      "cssclasses",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "rodydavis/obsidian-dynamic-color",
+    "screenshot-main": "screenshots/light-purple.png",
+    "screenshots-side": [],
+    "tags": [
+      "brightness_layout_separation",
+      "dark",
+      "dark_and_light",
+      "high_contrast",
+      "light",
+      "line_layout_separation",
+      "low_contrast",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "scottgriv/Dark-Castle-Obsidian",
+    "screenshot-main": "screenshot-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "clean",
+      "colorful",
+      "dark",
+      "darker",
+      "high_contrast",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "sr-campelo/retronotes",
+    "screenshot-main": "cover.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "always_monospace",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "multiple_palettes",
+      "red",
+      "requests_typewriter_scroll",
+      "style_settings_lite",
+      "supports_calendar",
+      "supports_dataview",
+      "supports_day_planner",
+      "supports_editing_toolbar",
+      "supports_kanban",
+      "typographic_customization",
+      "warm"
+    ]
+  },
+  {
+    "repo": "BossElijah/bossidian",
+    "screenshot-main": "images/image-1-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "blue",
+      "cool",
+      "dark",
+      "gradient",
+      "minimalistic",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "Quinta0/Aurora-Twilight",
+    "screenshot-main": "image-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "blue",
+      "cool",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "light",
+      "minimalistic",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "Quinta0/Evergreen-Shadow",
+    "screenshot-main": "Evergreen-Shadow-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "brightness_layout_separation",
+      "cool",
+      "custom_font",
+      "dark",
+      "darker",
+      "minimalistic",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "Quinta0/Velvet-Moon",
+    "screenshot-main": "Velvet-Moon-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "brightness_layout_separation",
+      "cool",
+      "custom_font",
+      "dark",
+      "darker",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "Quinta0/Midnight-Fjord",
+    "screenshot-main": "Midnight-Fjord-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "brightnes_layout_separation",
+      "cool",
+      "custom_font",
+      "dark",
+      "darker",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "Quinta0/Mint-Breeze",
+    "screenshot-main": "Mint-Breeze-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "custom_font",
+      "light",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "Quinta0/Lavender-Mist",
+    "screenshot-main": "Lavender-Mist-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "custom_font",
+      "light",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "Quinta0/Northern-Sky",
+    "screenshot-main": "Northern-Sky-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "custom_font",
+      "light",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "GustavoSZ124/Obsidian-Theme-Seamless-View",
+    "screenshot-main": "assets/Seamless View.png",
+    "screenshots-side": [],
+    "tags": [
+      "admonition_support",
+      "dark",
+      "dark_and_light",
+      "dataview_support",
+      "light",
+      "list_callouts_support",
+      "minimalistic",
+      "modified_canvas",
+      "quickadd_support",
+      "rainbow_headers",
+      "wood"
+    ]
+  },
+  {
+    "repo": "WinnerWind/gummy-revived",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "accent_based",
+      "alternate_checkboxes",
+      "animations",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "gradients",
+      "light",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "solm0/Agate",
+    "screenshot-main": "agate_screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "broken_functionality",
+      "glass",
+      "light",
+      "minimalistic",
+      "typographic_focus"
+    ]
   }
 ]

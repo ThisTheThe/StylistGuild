@@ -22,7 +22,7 @@ from pythonThemeTools.github_utils import (
     extract_repo_from_url
 )
 from pythonThemeTools.theme_renderer import ThemeRenderer
-from pythonThemeTools.git_autoupdate import auto_update_check
+import pythonThemeTools.git_updater as updater
 
 
 class BatchProcessor:
@@ -987,12 +987,9 @@ class BatchProcessor:
         print("="*50)
         
         # Quick confirmation
-        confirm = input("💾 Save this entry? (y/n): ").strip().lower()
-        if confirm == 'y':
-            return addon_entry
-        else:
-            print("❌ Entry discarded")
-            return None
+
+        return addon_entry
+
 
     def _print_processing_summary(self, results: Dict[str, Any]):
         """Print a summary of processing results"""
@@ -1031,19 +1028,8 @@ def main():
     print("🎨 Theme Batch Processor")
     print("=" * 50)
     
-    # Check for updates at startup (safe approach)
-    result = auto_update_check(
-        repo_url="https://github.com/ThisTheThe/StylistGuild.git",
-        restart_on_update=True, 
-        safe_restart=False
-    )
-    
-    print("Starting batch processor...")
-    # Your main batch processing code here
-
-    
-    # Your batch processing logic here
-    print("Starting batch processing...")
+    # Your normal application logic here
+    print("Running main application...")
     
     # Initialize processor
     processor = BatchProcessor()
