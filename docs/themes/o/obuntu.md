@@ -11,25 +11,25 @@ tags:
 <div style="theme_page_template_version_1"> </div>
 
 <h1>
-    <a href="DubininDmitry/Obuntu-theme-for-Obsidian">Obuntu</a>
-    <sub>By <a href="https://github.com/N/A">N/A</a></sub>
+    <a href="https://github.com/DubininDmitry/Obuntu-theme-for-Obsidian">Obuntu</a>
+    <sub>By <a href="https://github.com/DubininDmitry">DubininDmitry</a></sub>
 </h1>
 
-[![Obuntu Theme Screenshot](screenshot.jpg)](DubininDmitry/Obuntu-theme-for-Obsidian)
+[![Obuntu Theme Screenshot](https://raw.githubusercontent.com/DubininDmitry/Obuntu-theme-for-Obsidian/HEAD/screenshot.jpg)](https://github.com/DubininDmitry/Obuntu-theme-for-Obsidian)
 
 
 <div class="inforow">
     <table>
         <tbody>
             <tr>
-                <td><img src="https://img.shields.io/github/stars/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues-pr/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/stars/DubininDmitry/Obuntu-theme-for-Obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/DubininDmitry/Obuntu-theme-for-Obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/DubininDmitry/Obuntu-theme-for-Obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/last-commit/?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/DubininDmitry/Obuntu-theme-for-Obsidian?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on August 22, 2025 at 02:10 AM
+Generated on September 22, 2025 at 10:52 PM

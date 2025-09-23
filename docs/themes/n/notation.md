@@ -3,7 +3,6 @@ title: Notation
 tags:
   - dark
   - dark_and_light
-  - grey
   - inspired_by
   - light
   - low_contrast
@@ -12,25 +11,25 @@ tags:
 <div style="theme_page_template_version_1"> </div>
 
 <h1>
-    <a href="deathau/Notation-for-Obsidian">Notation</a>
-    <sub>By <a href="https://github.com/N/A">N/A</a></sub>
+    <a href="https://github.com/deathau/Notation-for-Obsidian">Notation</a>
+    <sub>By <a href="https://github.com/deathau">deathau</a></sub>
 </h1>
 
-[![Notation Theme Screenshot](screenshot.jpg)](deathau/Notation-for-Obsidian)
+[![Notation Theme Screenshot](https://raw.githubusercontent.com/deathau/Notation-for-Obsidian/HEAD/screenshot.jpg)](https://github.com/deathau/Notation-for-Obsidian)
 
 
 <div class="inforow">
     <table>
         <tbody>
             <tr>
-                <td><img src="https://img.shields.io/github/stars/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues-pr/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/stars/deathau/Notation-for-Obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/deathau/Notation-for-Obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/deathau/Notation-for-Obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/last-commit/?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/deathau/Notation-for-Obsidian?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on August 22, 2025 at 02:10 AM
+Generated on September 22, 2025 at 10:52 PM

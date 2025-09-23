@@ -1,41 +1,35 @@
 ---
 title: Bossidian
 tags:
-  - dark_theme
+  - blue
+  - cool
+  - dark
+  - gradient
+  - minimalistic
+  - typographic_customization
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Bossidian Theme Screenshot](https://raw.githubusercontent.com/BossElijah/bossidian/refs/heads/master/images/image-1-large.png)
+<h1>
+    <a href="https://github.com/BossElijah/bossidian">Bossidian</a>
+    <sub>By <a href="https://github.com/BossElijah">BossElijah</a></sub>
+</h1>
 
-## Info
+[![Bossidian Theme Screenshot](https://raw.githubusercontent.com/BossElijah/bossidian/HEAD/images/image-1-small.png)](https://github.com/BossElijah/bossidian)
 
-| Info                                 | Status                                                                                                                                                     |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [BossElijah/bossidian](https://github.com/BossElijah/bossidian)                                                                                            |
-| Author                               | [BossElijah](https://github.com/BossElijah)                                                                                                                |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/BossElijah/bossidian?color=573E7A&label=last%20update&logo=github&style=for-the-badge)     |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/BossElijah/bossidian/help%20wanted?color=573E7A&logo=github&style=for-the-badge)            |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/BossElijah/bossidian?color=573E7A&logo=github&style=for-the-badge)                                |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/BossElijah/bossidian?color=573E7A&logo=github&style=for-the-badge&=semver)                  |
-| License                              | ![GitHub License](https://img.shields.io/github/license/BossElijah/bossidian?style=for-the-badge)                                                          |
-| View in Obsidian Hub                 | [Bossidian \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Bossidian) |
-| View in Moritz Jung’s Obsidian Stats | [Bossidian \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/bossidian/)                                                                 |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/BossElijah/bossidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/BossElijah/bossidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/BossElijah/bossidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/BossElijah/bossidian?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-Modern dark theme for Obsidian.md!
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                 |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Dark/Light mode support        | Dark mode only                                                                                                                                         |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                        |
-| Value Propositions             | Modern dark theme for Obsidian.md!                                                                                                                     |
-| Accessibility                  | NIL                                                                                                                                                    |
-| Style Settings support         | No                                                                                                                                                     |
-| Age of Theme                   | Released 24 June 2024                                                                                                                                  |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/BossElijah/bossidian?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:53 PM

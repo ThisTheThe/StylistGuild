@@ -1,47 +1,32 @@
 ---
 title: Al Dente
 tags:
-  - light_theme
-  - minimalist
-  - old_but_gold
+  - light
+  - minimalistic
+  - unavailable
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Al Dente Light Theme Screenshot](https://raw.githubusercontent.com/chad-bennett/al-dente-obsidian-theme/refs/heads/master/aldente-screenshot.png)
+<h1>
+    <a href="https://github.com/chad-bennett/al-dente-obsidian-theme">Al Dente</a>
+    <sub>By <a href="https://github.com/chad-bennett">chad-bennett</a></sub>
+</h1>
 
-![Al Dente Dark Theme Screenshot](https://raw.githubusercontent.com/chad-bennett/al-dente-obsidian-theme/refs/heads/master/alDente-dark.png)
+[![Al Dente Theme Screenshot](https://raw.githubusercontent.com/chad-bennett/al-dente-obsidian-theme/HEAD/aldente-screenshot.png)](https://github.com/chad-bennett/al-dente-obsidian-theme)
 
-## Info
 
-| Info                                 | Status                                                                                                                                                                 |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [chad-bennett/al-dente-obsidian-theme](https://github.com/chad-bennett/al-dente-obsidian-theme)                                                                        |
-| Author                               | [chad-bennett](https://github.com/chad-bennett)                                                                                                                        |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/chad-bennett/al-dente-obsidian-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/chad-bennett/al-dente-obsidian-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/chad-bennett/al-dente-obsidian-theme?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/chad-bennett/al-dente-obsidian-theme?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/chad-bennett/al-dente-obsidian-theme?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Al Dente \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Al+Dente)               |
-| View in Moritz Jung’s Obsidian Stats | [Al Dente \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/al-dente/)                                                                               |
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/chad-bennett/al-dente-obsidian-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/chad-bennett/al-dente-obsidian-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/chad-bennett/al-dente-obsidian-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/chad-bennett/al-dente-obsidian-theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-## Excerpt from README
-
-A simple minimal theme for the obsidian notes app that is tender, but firm. It is built to be just right for me. Hopefully it is just right for others as well.
-
-**No longer maintained**
-
-## Features
-
-N/A
-
-## Scoring
-
-| Criteria                       | Status                                                                                                                                                                                        |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Light mode only                                                                                                                                                                               |
-| One or multiple colour schemes | One colour scheme for light mode                                                                                                                                                              |
-| Value Propositions             | A simple minimal theme for the obsidian notes app that is tender, but firm. It is built to be just right for me. Hopefully it is just right for others as well.                               |
-| Accessibility                  | NIL                                                                                                                                                                                           |
-| Style Settings support         | No                                                                                                                                                                                            |
-| Age of Theme                   | Released 3 January 2021                                                                                                                                                                       |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/chad-bennett/al-dente-obsidian-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) (No longer maintained) |
+Generated on September 22, 2025 at 10:52 PM

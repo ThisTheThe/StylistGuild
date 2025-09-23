@@ -1,48 +1,40 @@
 ---
 title: Catppuccin
 tags:
-  - light_theme
-  - dark_theme
-  - style_settings
-  - multiple_colour_schemes
-  - custom_fonts
-  - old_but_gold
+  - another_quick_switcher_support
+  - better_command_palette_support
+  - catppuccin
+  - dark
+  - dark_and_light
+  - light
+  - make.md_support
+  - minimalistic
+  - obsidian_git_support
+  - omnisearch_support
+  - style_settings_lite
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![](https://raw.githubusercontent.com/catppuccin/obsidian/refs/heads/main/assets/screenshot-hq.png)
+<h1>
+    <a href="https://github.com/catppuccin/obsidian">Catppuccin</a>
+    <sub>By <a href="https://github.com/catppuccin">catppuccin</a></sub>
+</h1>
 
-## Info
+[![Catppuccin Theme Screenshot](https://raw.githubusercontent.com/catppuccin/obsidian/HEAD/assets/screenshot.png)](https://github.com/catppuccin/obsidian)
 
-| Info                                 | Status                                                                                                                                                       |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Repository Link                      | [catppuccin/obsidian](https://github.com/catppuccin/obsidian)                                                                                                |
-| Author                               | [catppuccin](https://github.com/catppuccin)                                                                                                                  |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/catppuccin/obsidian?color=573E7A&label=last%20update&logo=github&style=for-the-badge)        |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/catppuccin/obsidian/help%20wanted?color=573E7A&logo=github&style=for-the-badge)               |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/catppuccin/obsidian?color=573E7A&logo=github&style=for-the-badge)                                   |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/catppuccin/obsidian?color=573E7A&logo=github&style=for-the-badge&=semver)                     |
-| License                              | ![GitHub License](https://img.shields.io/github/license/catppuccin/obsidian?style=for-the-badge)                                                             |
-| View in Obsidian Hub                 | [Catppuccin \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Catppuccin) |
-| View in Moritz Jung’s Obsidian Stats | [Catppuccin \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/catppuccin/)                                                                 |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/catppuccin/obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/catppuccin/obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/catppuccin/obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-January 2022-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/catppuccin/obsidian?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-Soothing pastel theme for Obsidian.
-
-## Features
-
-This theme provides the full range of Catppuccin palettes when used with the Style Settings plugin.
-
-This plugin will allow users to pick from several variations on Catppuccin, including accents for each colour in the palette and one that features the full host of Catppuccin colours (the default).
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Both light and dark mode supported                                                                                                                    |
-| One or multiple colour schemes | Multiple colour schemes for light and dark mode                                                                                                       |
-| Value Propositions             | Soothing pastel theme for Obsidian.                                                                                                                   |
-| Accessibility                  | NIL                                                                                                                                                   |
-| Style Settings support         | Yes                                                                                                                                                   |
-| Age of Theme                   | Released 5 February 2022                                                                                                                              |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/catppuccin/obsidian?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:52 PM

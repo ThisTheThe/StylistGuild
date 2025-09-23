@@ -1,50 +1,39 @@
 ---
 title: Consolas
 tags:
-  - dark_theme
-  - alternate_checkboxes
+  - calendar_support
+  - color_layout_separation
+  - community_checkboxes
+  - dark
+  - git_support
+  - hybrid_brightness
+  - kanban_support
+  - minimalistic
+  - monospace_editor
+  - quiet_outline_support
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Consolas Theme Screenshot](https://raw.githubusercontent.com/pinei/obsidian-consolas-theme/refs/heads/master/screenshot-original.png)
+<h1>
+    <a href="https://github.com/pinei/obsidian-consolas-theme">Consolas</a>
+    <sub>By <a href="https://github.com/pinei">pinei</a></sub>
+</h1>
 
-## Info
+[![Consolas Theme Screenshot](https://raw.githubusercontent.com/pinei/obsidian-consolas-theme/HEAD/screenshot.png)](https://github.com/pinei/obsidian-consolas-theme)
 
-| Info                                 | Status                                                                                                                                                          |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [pinei/obsidian-consolas-theme](https://github.com/pinei/obsidian-consolas-theme)                                                                               |
-| Author                               | [pinei](https://github.com/pinei)                                                                                                                               |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/pinei/obsidian-consolas-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/pinei/obsidian-consolas-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/pinei/obsidian-consolas-theme?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/pinei/obsidian-consolas-theme?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/pinei/obsidian-consolas-theme?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Consolas \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Consolas)        |
-| View in Moritz Jung’s Obsidian Stats | [Consolas \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/consolas/)                                                                        |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/pinei/obsidian-consolas-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/pinei/obsidian-consolas-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/pinei/obsidian-consolas-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/pinei/obsidian-consolas-theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-A dark theme for sober individuals.
-
-## Features
-
-- Popular monospaced font
-- Ligatures
-- Yellow and purple color scheme
-- Gradual header shading
-- Minimal-inspired checkboxes (by kepano)
-- Compatibility with some plugins:
-  - Git
-  - Calendar
-  - Quiet Outline
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                          |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Dark mode only                                                                                                                                                  |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                                 |
-| Value Propositions             | A dark theme for sober individuals.                                                                                                                             |
-| Accessibility                  | NIL                                                                                                                                                             |
-| Style Settings support         | No                                                                                                                                                              |
-| Age of Theme                   | Released 18 November 2024                                                                                                                                       |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/pinei/obsidian-consolas-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:53 PM

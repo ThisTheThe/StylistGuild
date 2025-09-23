@@ -1,0 +1,37 @@
+---
+title: Shadeflow
+tags:
+  - clean
+  - dark
+  - dark_and_light
+  - darker
+  - high_contrast
+  - light
+  - minimalistic
+  - monochrome
+---
+<div style="theme_page_template_version_1"> </div>
+
+<h1>
+    <a href="https://github.com/artorias305/obsidian-shadeflow">Shadeflow</a>
+    <sub>By <a href="https://github.com/artorias305">artorias305</a></sub>
+</h1>
+
+[![Shadeflow Theme Screenshot](https://raw.githubusercontent.com/artorias305/obsidian-shadeflow/HEAD/dark.png)](https://github.com/artorias305/obsidian-shadeflow)
+
+
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/artorias305/obsidian-shadeflow?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/artorias305/obsidian-shadeflow?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/artorias305/obsidian-shadeflow?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/artorias305/obsidian-shadeflow?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+Generated on September 22, 2025 at 10:53 PM

@@ -1,0 +1,35 @@
+---
+title: Pine Forest Berry
+tags:
+  - alternate_checkboxes
+  - cool
+  - dark
+  - dark_and_light
+  - light
+  - minimalistic
+---
+<div style="theme_page_template_version_1"> </div>
+
+<h1>
+    <a href="https://github.com/Nilahn/pine_forest_berry">Pine Forest Berry</a>
+    <sub>By <a href="https://github.com/Nilahn">Nilahn</a></sub>
+</h1>
+
+[![Pine Forest Berry Theme Screenshot](https://raw.githubusercontent.com/Nilahn/pine_forest_berry/HEAD/Screenshot PFB 1.png)](https://github.com/Nilahn/pine_forest_berry)
+
+
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/Nilahn/pine_forest_berry?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/Nilahn/pine_forest_berry?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/Nilahn/pine_forest_berry?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-October 2021-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/Nilahn/pine_forest_berry?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+Generated on September 22, 2025 at 10:52 PM

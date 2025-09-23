@@ -1,45 +1,36 @@
 ---
-title: Card Stock
+title: Cardstock
 tags:
-  - light_theme
-  - dark_theme
-  - style_settings
+  - calendar_support
+  - dark
+  - dark_and_light
+  - font_installation_requested
+  - light
+  - minimalistic
+  - paper
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Card Stock Theme Logo](https://raw.githubusercontent.com/cassidoo/cardstock/a5b8d0d78c8feaef34c6b35ea40afc2319943249/logo.svg)
+<h1>
+    <a href="https://github.com/cassidoo/cardstock">Cardstock</a>
+    <sub>By <a href="https://github.com/cassidoo">cassidoo</a></sub>
+</h1>
 
-![Card Stock Theme Screenshot](https://raw.githubusercontent.com/cassidoo/cardstock/refs/heads/main/screenshot.png)
+[![Cardstock Theme Screenshot](https://raw.githubusercontent.com/cassidoo/cardstock/HEAD/miniscreenshot.png)](https://github.com/cassidoo/cardstock)
 
-## Info
 
-| Info                                 | Status                                                                                                                                                     |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [cassidoo/cardstock](https://github.com/cassidoo/cardstock)                                                                                                |
-| Author                               | [cassidoo](https://github.com/cassidoo)                                                                                                                    |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/cassidoo/cardstock?color=573E7A&label=last%20update&logo=github&style=for-the-badge)       |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/cassidoo/cardstock/help%20wanted?color=573E7A&logo=github&style=for-the-badge)              |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/incantatem2/cassidoo/cardstock?color=573E7A&logo=github&style=for-the-badge)                      |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/cassidoo/cardstock?color=573E7A&logo=github&style=for-the-badge&=semver)                    |
-| License                              | ![GitHub License](https://img.shields.io/github/license/cassidoo/cardstock?style=for-the-badge)                                                            |
-| View in Obsidian Hub                 | [Cardstock \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Cardstock) |
-| View in Moritz Jung’s Obsidian Stats | [Cardstock \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/cardstock/)                                                                 |
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/cassidoo/cardstock?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/cassidoo/cardstock?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/cassidoo/cardstock?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-October 2021-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/cassidoo/cardstock?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-## Excerpt from README
-
-A clean Obsidian theme.
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                               |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Both light and dark mode supported                                                                                                                   |
-| One or multiple colour schemes | One colour scheme for light and dark mode                                                                                                            |
-| Value Propositions             | A clean Obsidian theme.                                                                                                                              |
-| Accessibility                  | NIL                                                                                                                                                  |
-| Style Settings support         | No                                                                                                                                                   |
-| Age of Theme                   | Released 25 October 2021                                                                                                                             |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/cassidoo/cardstock?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:52 PM

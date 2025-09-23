@@ -1,41 +1,32 @@
 ---
 title: Dark Moss
 tags:
-  - dark_theme
+  - dark
+  - minimalistic
+  - unavailable
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Dark Moss Theme Screenshot](https://raw.githubusercontent.com/sergey900553/obsidian_githublike_theme/refs/heads/main/screenshot.png)
+<h1>
+    <a href="https://github.com/sergey900553/obsidian_githublike_theme">Dark Moss</a>
+    <sub>By <a href="https://github.com/sergey900553">sergey900553</a></sub>
+</h1>
 
-## Info
+[![Dark Moss Theme Screenshot](https://raw.githubusercontent.com/sergey900553/obsidian_githublike_theme/HEAD/screenshot.png)](https://github.com/sergey900553/obsidian_githublike_theme)
 
-| Info                                 | Status                                                                                                                                                                   |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Repository Link                      | [sergey900553/obsidian_githublike_theme](https://github.com/sergey900553/obsidian_githublike_theme)                                                                      |
-| Author                               | [sergey900553](https://github.com/sergey900553)                                                                                                                          |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/sergey900553/obsidian_githublike_theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/sergey900553/obsidian_githublike_theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/sergey900553/obsidian_githublike_theme?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/sergey900553/obsidian_githublike_theme?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/sergey900553/obsidian_githublike_theme?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Dark Moss \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Dark+Moss)               |
-| View in Moritz Jung’s Obsidian Stats | [Dark Moss \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/dark-moss/)                                                                               |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/sergey900553/obsidian_githublike_theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/sergey900553/obsidian_githublike_theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/sergey900553/obsidian_githublike_theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-May 2021-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/sergey900553/obsidian_githublike_theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-"Dark Moss aka GitHub Like" is a clean and comfort for eyes dark theme.
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                                   |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Dark/Light mode support        | Dark mode only                                                                                                                                                           |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                                          |
-| Value Propositions             | "Dark Moss aka GitHub Like" is a clean and comfort for eyes dark theme.                                                                                                  |
-| Accessibility                  | NIL                                                                                                                                                                      |
-| Style Settings support         | No                                                                                                                                                                       |
-| Age of Theme                   | Released 11 June 2021                                                                                                                                                    |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/sergey900553/obsidian_githublike_theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:52 PM

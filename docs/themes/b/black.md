@@ -1,41 +1,33 @@
 ---
 title: Black
 tags:
-  - dark_theme
+  - dark
+  - darker
+  - high_contrast
+  - minimalistic
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Black Theme Screenshot](https://raw.githubusercontent.com/b3h3m0th/black-obsidian-theme/master/screenshot_1920x1032.png)
+<h1>
+    <a href="https://github.com/b3h3m0th/black-obsidian-theme">Black</a>
+    <sub>By <a href="https://github.com/b3h3m0th">b3h3m0th</a></sub>
+</h1>
 
-## Info
+[![Black Theme Screenshot](https://raw.githubusercontent.com/b3h3m0th/black-obsidian-theme/HEAD/screenshot_512x275.png)](https://github.com/b3h3m0th/black-obsidian-theme)
 
-| Info                                 | Status                                                                                                                                                          |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [b3h3m0th/black-obsidian-theme](https://github.com/b3h3m0th/black-obsidian-theme)                                                                               |
-| Author                               | [b3h3m0th](https://github.com/b3h3m0th)                                                                                                                         |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/b3h3m0th/black-obsidian-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/b3h3m0th/black-obsidian-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/b3h3m0th/black-obsidian-theme?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/b3h3m0th/black-obsidian-theme?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/b3h3m0th/black-obsidian-theme?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Black \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Black)              |
-| View in Moritz Jung’s Obsidian Stats | [Black \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/black/)                                                                              |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/b3h3m0th/black-obsidian-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/b3h3m0th/black-obsidian-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/b3h3m0th/black-obsidian-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/b3h3m0th/black-obsidian-theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-A simple black theme for Obsidian.
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                          |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Dark mode only                                                                                                                                                  |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                                 |
-| Value Propositions             | A simple black theme for Obsidian.                                                                                                                              |
-| Accessibility                  | NIL                                                                                                                                                             |
-| Style Settings support         | No                                                                                                                                                              |
-| Age of Theme                   | Released 9 September 2024                                                                                                                                       |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/b3h3m0th/black-obsidian-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:53 PM

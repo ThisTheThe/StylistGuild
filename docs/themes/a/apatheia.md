@@ -1,42 +1,36 @@
 ---
 title: Apatheia
 tags:
-  - dark_theme
-  - style_settings
+  - cool
+  - dark
+  - darker
+  - minimalistic
+  - padded_layout_separation
+  - rainbow_headers
+  - typographic_customization
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Apatheia Theme Screenshot](https://raw.githubusercontent.com/AmadeusWM/Obsidian-Apatheia/refs/heads/main/assets/promo_screenshot1920x1200.png)
+<h1>
+    <a href="https://github.com/AmadeusWM/Obsidian-Apatheia">Apatheia</a>
+    <sub>By <a href="https://github.com/AmadeusWM">AmadeusWM</a></sub>
+</h1>
 
-## Info
+[![Apatheia Theme Screenshot](https://raw.githubusercontent.com/AmadeusWM/Obsidian-Apatheia/HEAD/promo_screenshot.png)](https://github.com/AmadeusWM/Obsidian-Apatheia)
 
-| Info                                 | Status                                                                                                                                                        |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [AmadeusWM/Obsidian-Apatheia](https://github.com/AmadeusWM/Obsidian-Apatheia)                                                                                 |
-| Author                               | [AmadeusWM](https://github.com/AmadeusWM)                                                                                                                     |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/AmadeusWM/Obsidian-Apatheia?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/AmadeusWM/Obsidian-Apatheia/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/AmadeusWM/Obsidian-Apatheia?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/AmadeusWM/Obsidian-Apatheia?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/AmadeusWM/Obsidian-Apatheia?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Apatheia \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Apatheia)      |
-| View in Moritz Jung’s Obsidian Stats | [Apatheia \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/apatheia/)                                                                      |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/AmadeusWM/Obsidian-Apatheia?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/AmadeusWM/Obsidian-Apatheia?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/AmadeusWM/Obsidian-Apatheia?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/AmadeusWM/Obsidian-Apatheia?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-This theme is inspired by the Things Theme
-
-## Features
-
-Uses Fonts that were also used in the fonts Ultra Lobster Theme
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                        |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Dark mode only                                                                                                                                                |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                               |
-| Value Propositions             | This theme is inspired by the Things Theme                                                                                                                    |
-| Accessibility                  | NIL                                                                                                                                                           |
-| Style Settings support         | Yes                                                                                                                                                           |
-| Age of Theme                   | Released 8 December 2022                                                                                                                                      |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/AmadeusWM/Obsidian-Apatheia?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:52 PM

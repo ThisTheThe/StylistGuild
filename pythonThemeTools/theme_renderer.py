@@ -508,7 +508,17 @@ class ThemeRenderer:
                 f.write(final_markdown_content)
             print(f"\nSuccessfully created '{full_output_filepath}'!")
             print("--- Content Generated ---")
-            print("\n".join(final_markdown_content))
+            
+            # FIXED: Print the content properly (not character by character)
+            # Split by lines and show first few lines as preview
+            content_lines = final_markdown_content.split('\n')
+            preview_lines = content_lines[:15]  # Show first 15 lines
+            for line in preview_lines:
+                print(line)
+            
+            if len(content_lines) > 15:
+                print(f"... ({len(content_lines) - 15} more lines)")
+            
             print("-----------------------")
             
             # --- IMPORTANT: Update the categories file ONLY if theme file generation was successful ---
@@ -526,6 +536,7 @@ class ThemeRenderer:
         except Exception as e:
             print(f"An unexpected error occurred during file save or counter update: {e}")
             return False
+
     
     def batch_render_themes(self, themes_list):
         """

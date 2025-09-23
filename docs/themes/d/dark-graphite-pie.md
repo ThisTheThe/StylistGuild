@@ -1,42 +1,37 @@
 ---
 title: Dark Graphite Pie
 tags:
-  - dark_theme
-  - light_theme
+  - pre_1.0
+  - cool
+  - dark
+  - dark_and_light
+  - inspired_by
+  - light
+  - minimalistic
+  - typora
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Dark Graphite Pie Theme Screenshot](https://raw.githubusercontent.com/ryjjin/Obsidian-Dark-Graphite-Pie-theme/refs/heads/master/Dark%20Graphite%20Pie%20theme%200.9.4.png)
+<h1>
+    <a href="https://github.com/ryjjin/Obsidian-Dark-Graphite-Pie-theme">Dark Graphite Pie</a>
+    <sub>By <a href="https://github.com/ryjjin">ryjjin</a></sub>
+</h1>
 
-## Info
+[![Dark Graphite Pie Theme Screenshot](https://raw.githubusercontent.com/ryjjin/Obsidian-Dark-Graphite-Pie-theme/HEAD/Dark Graphite Pie theme 0.9.4.png)](https://github.com/ryjjin/Obsidian-Dark-Graphite-Pie-theme)
 
-| Info                                 | Status                                                                                                                                                                    |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [ryjjin/Obsidian-Dark-Graphite-Pie-theme](https://github.com/ryjjin/Obsidian-Dark-Graphite-Pie-theme)                                                                     |
-| Author                               | [ryjjin](https://github.com/ryjjin)                                                                                                                                       |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/ryjjin/Obsidian-Dark-Graphite-Pie-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/ryjjin/Obsidian-Dark-Graphite-Pie-theme?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Dark Graphite Pie - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Dark+Graphite+Pie)  |
-| View in Moritz Jung’s Obsidian Stats | [Dark Graphite Pie \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/dark-graphite-pie/)                                                                |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-Theme for wonderful Obsidian app. I would be glad if someone will like and use it.
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                                    |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Light and dark mode supported                                                                                                                                             |
-| One or multiple colour schemes | One colour scheme for light and dark mode                                                                                                                                 |
-| Value Propositions             | Theme for wonderful Obsidian app. I would be glad if someone will like and use it.                                                                                        |
-| Accessibility                  | NIL                                                                                                                                                                       |
-| Style Settings support         | No                                                                                                                                                                        |
-| Age of Theme                   | Released 24 November 2020                                                                                                                                                 |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/ryjjin/Obsidian-Dark-Graphite-Pie-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:52 PM

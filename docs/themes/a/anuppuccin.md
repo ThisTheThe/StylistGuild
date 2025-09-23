@@ -1,55 +1,64 @@
 ---
 title: AnuPpuccin
 tags:
-  - light_theme
-  - dark_theme
-  - style_settings
-  - cards_layout
-  - rainbow_folders
-  - callouts
+  - active_line_highlight
   - alternate_checkboxes
-  - multiple_colour_schemes
-  - catppuccin
-  - gruvbox
   - atom
+  - biscuit
+  - borderless
+  - callouts
+  - cards
+  - catppuccin
+  - colorful_frame
+  - cssclasses
+  - dark
+  - dark_and_light
+  - dracula
   - everforest
-  - old_but_gold
+  - excalidraw_support
+  - extra_snippet
+  - gruvbox
+  - kanagawa
+  - kanban_support
+  - light
+  - line_layout_separation
+  - make_md_support
+  - minimalistic
+  - multiple_palettes
+  - mutliple_layouts
+  - nord
+  - notion_palette
+  - rainbow_folders
+  - rose_pine
+  - rosebox
+  - royal_velvet
+  - solarized
+  - style_settings_large
+  - thorns
+  - typographic_customization
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![AnuPpuccin Theme Screenshot](https://raw.githubusercontent.com/AnubisNekhet/AnuPpuccin/refs/heads/main/assets/gh-preview.webp)
+<h1>
+    <a href="https://github.com/AnubisNekhet/AnuPpuccin">AnuPpuccin</a>
+    <sub>By <a href="https://github.com/AnubisNekhet">AnubisNekhet</a></sub>
+</h1>
 
-## Info
+[![AnuPpuccin Theme Screenshot](https://raw.githubusercontent.com/AnubisNekhet/AnuPpuccin/HEAD/preview.png)](https://github.com/AnubisNekhet/AnuPpuccin)
 
-| Info                                 | Status                                                                                                                                                       |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Repository Link                      | [AnubisNekhet/AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin)                                                                                        |
-| Author                               | [AnubisNekhet (Anubis)](https://github.com/AnubisNekhet)                                                                                                     |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/AnubisNekhet/AnuPpuccin?color=573E7A&label=last%20update&logo=github&style=for-the-badge)    |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/AnubisNekhet/AnuPpuccin/help%20wanted?color=573E7A&logo=github&style=for-the-badge)           |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/AnubisNekhet/AnuPpuccin?color=573E7A&logo=github&style=for-the-badge)                               |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/AnubisNekhet/AnuPpuccin?color=573E7A&logo=github&style=for-the-badge&=semver)                 |
-| License                              | ![GitHub License](https://img.shields.io/github/license/AnubisNekhet/AnuPpuccin?style=for-the-badge)                                                         |
-| View in Obsidian Hub                 | [AnuPpuccin \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/AnuPpuccin) |
-| View in Moritz Jung’s Obsidian Stats | [AnuPpuccin \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/anuppuccin/)                                                                 |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/AnubisNekhet/AnuPpuccin?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/AnubisNekhet/AnuPpuccin?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/AnubisNekhet/AnuPpuccin?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/AnubisNekhet/AnuPpuccin?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-Personal theme for Obsidian :3
-
-Voted Best Theme in Gems of the Year 2022 awards 🎉
-
-## Features
-
-Too many to list. Which can be a flaw in of itself as some users report the theme being slow.
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                                                            |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Both light and dark mode supported                                                                                                                                                                |
-| One or multiple colour schemes | Multiple colour schemes for light and dark mode                                                                                                                                                   |
-| Value Propositions             | Personal Theme for Obsidian                                                                                                                                                                       |
-| Accessibility                  | NIL                                                                                                                                                                                               |
-| Style Settings support         | Yes                                                                                                                                                                                               |
-| Age of Theme                   | Released 19 October 2022                                                                                                                                                                          |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/AnubisNekhet/AnuPpuccin?color=573E7A&label=last%20update&logo=github&style=for-the-badge) (**under hiatus but still maintained**) |
+Generated on September 22, 2025 at 10:53 PM

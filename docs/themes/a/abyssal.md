@@ -1,58 +1,40 @@
 ---
 title: Abyssal
 tags:
-  - light_theme
-  - dark_theme
-  - accessibility
-  - underrated_gems
+  - cool
+  - dark
+  - dark_and_light
+  - light
+  - low_contrast
+  - minimalistic
+  - opinionated
+  - rainbow_headers
+  - style_settings_lite
+  - typographic_focus
+  - typography_customization
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Abyssal Theme Screenshot](https://raw.githubusercontent.com/tazpellegrini/abyssalobsidian/refs/heads/main/assets/abyssal-opening.png)
+<h1>
+    <a href="https://github.com/tazpellegrini/abyssalobsidian">Abyssal</a>
+    <sub>By <a href="https://github.com/tazpellegrini">tazpellegrini</a></sub>
+</h1>
 
-## Info
+[![Abyssal Theme Screenshot](https://raw.githubusercontent.com/tazpellegrini/abyssalobsidian/HEAD/abyssal-thumbnail.png)](https://github.com/tazpellegrini/abyssalobsidian)
 
-| Info                                 | Status                                                                                                                                                          |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [tazpellegrini/abyssalobsidian](https://github.com/tazpellegrini/abyssalobsidian)                                                                               |
-| Author                               | [tazpellegrini (Tassia)](https://github.com/tazpellegrini)                                                                                                      |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/tazpellegrini/abyssalobsidian?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/tazpellegrini/abyssalobsidian/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/tazpellegrini/abyssalobsidian?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/tazpellegrini/abyssalobsidian?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/tazpellegrini/abyssalobsidian?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Abyssal \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Abyssal)          |
-| View in Moritz Jung’s Obsidian Stats | [Abyssal \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/abyssal/)                                                                          |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/tazpellegrini/abyssalobsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/tazpellegrini/abyssalobsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/tazpellegrini/abyssalobsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/tazpellegrini/abyssalobsidian?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-Abyssal is a simple theme from a typing enthusiast who was looking for modifications that would improve the reading and writing experience without dramatically changing Obsidian’s interface.
-
-Inspired by the depths of the ocean, it’s a theme that focuses on white space and mute colours (respecting accessibility standards). Your accent colour will influence the theme but not in an expressive way (it’s too dark where the abyssal fish live 🐟).
-
-## Features
-
-There are many small details handled in Abyssal, but the most notable are:
-
-- Asymmetrical spacing for more breathing room of the vertical rhythm (based on an 8px grid)
-- Bespoke line-height treatment for each heading type
-- Higher contrast through type size, weight, and spacing
-- Contextual spacing based on the display or omission of some items (e.g., Inline title)
-
-Special attention was given to the styling of:
-
-- Highlights
-- List spacing
-- Tables
-- Front-matter display \+ inline title
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                                                                                                                                                       |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Both dark and light mode supported                                                                                                                                                                                                                                                           |
-| One or multiple colour schemes | One colour scheme for light and dark mode                                                                                                                                                                                                                                                    |
-| Value Propositions             | Asymmetrical spacing for more breathing room of the vertical rhythm (based on an 8px grid) Bespoke line-height treatment for each heading type Higher contrast through type size, weight, and spacing Contextual spacing based on the display or omission of some items (e.g., Inline title) |
-| Accessibility                  | No available accessibility options. However, the theme was designed to accommodate accessibility standards.                                                                                                                                                                                  |
-| Style Settings support         | Yes                                                                                                                                                                                                                                                                                          |
-| Age of Theme                   | Released 16 January 2023                                                                                                                                                                                                                                                                     |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/tazpellegrini/abyssalobsidian?color=573E7A&label=last%20update&logo=github&style=for-the-badge)                                                                                                                              |
+Generated on September 22, 2025 at 10:53 PM

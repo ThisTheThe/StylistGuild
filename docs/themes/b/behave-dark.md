@@ -1,41 +1,35 @@
 ---
 title: Behave dark
 tags:
-  - dark_theme
+  - behave
+  - dark
+  - low_contrast
+  - minimalistic
+  - rainbow_headers
+  - typographic_customization
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Behave Dark Theme Screenshot](https://raw.githubusercontent.com/Chrismettal/Obsidian-Behave-dark/refs/heads/main/Screenshot_1080p.png)
+<h1>
+    <a href="https://github.com/Chrismettal/Obsidian-Behave-dark">Behave dark</a>
+    <sub>By <a href="https://github.com/Chrismettal">Chrismettal</a></sub>
+</h1>
 
-## Info
+[![Behave dark Theme Screenshot](https://raw.githubusercontent.com/Chrismettal/Obsidian-Behave-dark/HEAD/Screenshot.png)](https://github.com/Chrismettal/Obsidian-Behave-dark)
 
-| Info                                 | Status                                                                                                                                                             |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Repository Link                      | [Chrismettal/Obsidian-Behave-dark](https://github.com/Chrismettal/Obsidian-Behave-dark)                                                                            |
-| Author                               | [Chrismettal](https://github.com/Chrismettal)                                                                                                                      |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/Chrismettal/Obsidian-Behave-dark?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/Chrismettal/Obsidian-Behave-dark/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/Chrismettal/Obsidian-Behave-dark?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/Chrismettal/Obsidian-Behave-dark?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/Chrismettal/Obsidian-Behave-dark?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Behave Dark \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Behave+dark)     |
-| View in Moritz Jung’s Obsidian Stats | [Behave dark \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/behave-dark/)                                                                     |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/Chrismettal/Obsidian-Behave-dark?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/Chrismettal/Obsidian-Behave-dark?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/Chrismettal/Obsidian-Behave-dark?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-August 2021-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/Chrismettal/Obsidian-Behave-dark?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-Port of the awesome, eye friendly Behave theme by Christian Petersen. Only dark mode is supported as the name suggests. To be used with Obsidian.md.
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                             |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Dark/Light mode support        | Dark mode only                                                                                                                                                     |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                                    |
-| Value Propositions             | Port of the awesome, eye friendly Behave theme by Christian Petersen. Only dark mode is supported as the name suggests. To be used with Obsidian.md.               |
-| Accessibility                  | NIL                                                                                                                                                                |
-| Style Settings support         | No                                                                                                                                                                 |
-| Age of Theme                   | Released 12 August 2021                                                                                                                                            |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/Chrismettal/Obsidian-Behave-dark?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:52 PM

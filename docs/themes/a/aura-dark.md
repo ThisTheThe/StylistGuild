@@ -1,54 +1,34 @@
 ---
 title: Aura Dark
 tags:
-  - dark_theme
-  - style_settings
+  - Bitonal
+  - Line_layout_separation
+  - Style Settings Lite
+  - dark
+  - minimalistic
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Aura Dark Theme Screenshot](https://raw.githubusercontent.com/possibly-not/obsidian-aura-theme/refs/heads/main/img/aura_dark_diagonal_full.png)
+<h1>
+    <a href="https://github.com/Possibly-Matt/obsidian-aura-theme">Aura Dark</a>
+    <sub>By <a href="https://github.com/Possibly-Matt">Possibly-Matt</a></sub>
+</h1>
 
-## Info
+[![Aura Dark Theme Screenshot](https://raw.githubusercontent.com/Possibly-Matt/obsidian-aura-theme/HEAD/img/aura_dark_diagonal.png)](https://github.com/Possibly-Matt/obsidian-aura-theme)
 
-| Info                                 | Status                                                                                                                                                             |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Repository Link                      | [possibly-not/obsidian-aura-theme](https://github.com/possibly-not/obsidian-aura-theme/)                                                                           |
-| Author                               | [possibly-not](https://github.com/possibly-not)                                                                                                                    |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/possibly-not/obsidian-aura-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/possibly-not/obsidian-aura-theme/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/possibly-not/obsidian-aura-theme?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/possibly-not/obsidian-aura-theme?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/possibly-not/obsidian-aura-theme?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Aura Dark \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Aura+Dark)         |
-| View in Moritz Jung’s Obsidian Stats | [Aura Dark \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/aura-dark/)                                                                         |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/Possibly-Matt/obsidian-aura-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/Possibly-Matt/obsidian-aura-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/Possibly-Matt/obsidian-aura-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/Possibly-Matt/obsidian-aura-theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-This is an Obsidian theme based on the Aura Theme! Made via the Aura API. Find the repo here : <https://github.com/daltonmenezes/aura-theme>
-
-## Features
-
-- Aura Dark and Aura Dark Soft
-
-- Other tweaks via plugins!
-
-### Known issues
-
-- Search Bar themeing
-
-- Turn On/Turn Off buttons aren't themed correctly.
-
-- Top 3 icons (files, search, bookmarks) aren't correctly coloured when highlighted
-
-- Cyan line highlights doesn't change to be soft when in Aura Dark Soft (more css knowledge needed)
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                             |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Dark/Light mode support        | Dark mode only.                                                                                                                                                    |
-| One or multiple colour schemes | Multiple colour schemes for dark mode                                                                                                                              |
-| Value Propositions             | This is an Obsidian theme based on the Aura Theme!                                                                                                                 |
-| Accessibility                  | NIL                                                                                                                                                                |
-| Style Settings support         | Yes                                                                                                                                                                |
-| Age of Theme                   | Released 15 August 2023                                                                                                                                            |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/possibly-not/obsidian-aura-theme?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:53 PM

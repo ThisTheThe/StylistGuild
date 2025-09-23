@@ -1,0 +1,34 @@
+---
+title: Zenburn
+tags:
+  - dark
+  - font_installation_requested
+  - line_layout_separation
+  - minimalistic
+  - zenburn
+---
+<div style="theme_page_template_version_1"> </div>
+
+<h1>
+    <a href="https://github.com/danyim/obsidian-zenburn">Zenburn</a>
+    <sub>By <a href="https://github.com/danyim">danyim</a></sub>
+</h1>
+
+[![Zenburn Theme Screenshot](https://raw.githubusercontent.com/danyim/obsidian-zenburn/HEAD/screen.png)](https://github.com/danyim/obsidian-zenburn)
+
+
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/danyim/obsidian-zenburn?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/danyim/obsidian-zenburn?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/danyim/obsidian-zenburn?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-May 2022-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/danyim/obsidian-zenburn?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+Generated on September 22, 2025 at 10:52 PM

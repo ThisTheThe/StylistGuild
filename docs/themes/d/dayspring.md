@@ -1,44 +1,35 @@
 ---
 title: Dayspring
 tags:
-  - light_theme
-  - custom_fonts
+  - callouts
+  - cssclasses
+  - green
+  - light
+  - minimalistic
+  - unavailable
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Dayspring Theme Screenshot](https://raw.githubusercontent.com/erykwalder/dayspring-theme/refs/heads/master/screenshots/fullsize.png)
+<h1>
+    <a href="https://github.com/erykwalder/dayspring-theme">Dayspring</a>
+    <sub>By <a href="https://github.com/erykwalder">erykwalder</a></sub>
+</h1>
 
-## Info
+[![Dayspring Theme Screenshot](https://raw.githubusercontent.com/erykwalder/dayspring-theme/HEAD/screenshots/thumbnail.png)](https://github.com/erykwalder/dayspring-theme)
 
-|Info|Status|
-|---|---|
-|Repository Link|[erykwalder/dayspring-theme](https://github.com/erykwalder/dayspring-theme)|
-|Author|[erykwalder](https://github.com/erykwalder)|
-|Last Updated|![GitHub last commit](https://img.shields.io/github/last-commit/erykwalder/dayspring-theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge)|
-|“Help wanted” issues|![GitHub issues by-label](https://img.shields.io/github/issues/erykwalder/dayspring-theme/help%20wanted?color=573E7A&amp;logo=github&amp;style=for-the-badge)|
-|Stars|![GitHub Repo stars](https://img.shields.io/github/stars/erykwalder/dayspring-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge)|
-|Version|![GitHub Repo version](https://img.shields.io/github/v/release/erykwalder/dayspring-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge&sort=semver)|
-|License|![GitHub License](https://img.shields.io/github/license/erykwalder/dayspring-theme?style=for-the-badge)|
-|View in Obsidian Hub|[Dayspring \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Dayspring)|
-|View in Moritz Jung’s Obsidian Stats|[Dayspring \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/dayspring/)|
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/erykwalder/dayspring-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/erykwalder/dayspring-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/erykwalder/dayspring-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-October 2022-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/erykwalder/dayspring-theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-This theme is inspired by the unmaintained [al dente](../a/al-dente.md) theme. It adds as little custom CSS as possible.
-
-## Features
-
-- h6 beside paragraphs
-- hidden frontmatter in preview
-- alternate note styling
-
-## Criteria
-
-|Criteria|Status|
-|---|---|
-|Dark/Light mode support|Light mode only|
-|One or multiple colour schemes|One colour scheme for light mode|
-|Value Propositions| This theme is inspired by the unmaintained [al dente](../a/al-dente.md) theme. It adds as little custom CSS as possible.|
-|Accessibility|NIL|
-|Style Settings support|NIL|
-|Age of Theme|Released 17 October 2022|
-|Last Updated|![GitHub last commit](https://img.shields.io/github/last-commit/erykwalder/dayspring-theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge)|
+Generated on September 22, 2025 at 10:52 PM

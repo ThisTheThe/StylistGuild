@@ -1,45 +1,54 @@
 ---
 title: Blue Topaz
 tags:
-  - light_theme
-  - dark_theme
-  - style_settings
-  - multiple_colour_schemes
-  - old_but_gold
+  - ISNOT_rounded
+  - background_images
+  - calendar_support
+  - callouts
+  - cards
+  - colorful_frame
+  - cssclasses
+  - dark
+  - dark_and_light
+  - dataview_support
+  - gallery
+  - glass
+  - kanban
+  - kanban_support
+  - light
+  - minimalistic
+  - monochrome
+  - multiple_palettes
+  - quiet_outline_support
+  - rainbow_folders
+  - rainbow_headers
+  - rounded
+  - style_settings_large
+  - thino_support
+  - topaz-nord
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Blue Topaz Theme Screenshot](https://raw.githubusercontent.com/PKM-er/Blue-Topaz_Obsidian-css/refs/heads/master/preview_Blue%20Topaz.png)
+<h1>
+    <a href="https://github.com/whyt-byte/Blue-Topaz_Obsidian-css">Blue Topaz</a>
+    <sub>By <a href="https://github.com/whyt-byte">whyt-byte</a></sub>
+</h1>
 
-## Info
+[![Blue Topaz Theme Screenshot](https://raw.githubusercontent.com/whyt-byte/Blue-Topaz_Obsidian-css/HEAD/preview_Blue Topaz.png)](https://github.com/whyt-byte/Blue-Topaz_Obsidian-css)
 
-| Info                                 | Status                                                                                                                                                           |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [PKM-er/Blue-Topaz_Obsidian-css](https://github.com/PKM-er/Blue-Topaz_Obsidian-css)                                                                              |
-| Author                               | [whyt-byte](https://github.com/whyt-byte)                                                                                                                        |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/PKM-er/Blue-Topaz_Obsidian-css?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/PKM-er/Blue-Topaz_Obsidian-css/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/PKM-er/Blue-Topaz_Obsidian-css?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/PKM-er/Blue-Topaz_Obsidian-css?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/PKM-er/Blue-Topaz_Obsidian-css?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Blue Topaz \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Blue+Topaz)     |
-| View in Moritz Jung’s Obsidian Stats | [Blue Topaz \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/blue-topaz/)                                                                     |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-A blue theme for Obsidian.
-
-## Features
-
-Too many to list.
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                           |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Both light and dark mode supported                                                                                                                               |
-| One or multiple colour schemes | Multiple colour schemes for light and dark mode                                                                                                                  |
-| Value Propositions             | A blue theme for Obsidian.                                                                                                                                       |
-| Accessibility                  | NIL                                                                                                                                                              |
-| Style Settings support         | Yes                                                                                                                                                              |
-| Age of Theme                   | Released 24 November 2020                                                                                                                                        |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/PKM-er/Blue-Topaz_Obsidian-css?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:52 PM

@@ -8,25 +8,25 @@ tags:
 <div style="theme_page_template_version_1"> </div>
 
 <h1>
-    <a href="pgalliford/Obsidian-theme-Incredible-Hulk">Hulk</a>
-    <sub>By <a href="https://github.com/N/A">N/A</a></sub>
+    <a href="https://github.com/pgalliford/Obsidian-theme-Incredible-Hulk">Hulk</a>
+    <sub>By <a href="https://github.com/pgalliford">pgalliford</a></sub>
 </h1>
 
-[![Hulk Theme Screenshot](Screen Shot.png)](pgalliford/Obsidian-theme-Incredible-Hulk)
+[![Hulk Theme Screenshot](https://raw.githubusercontent.com/pgalliford/Obsidian-theme-Incredible-Hulk/HEAD/Screen Shot.png)](https://github.com/pgalliford/Obsidian-theme-Incredible-Hulk)
 
 
 <div class="inforow">
     <table>
         <tbody>
             <tr>
-                <td><img src="https://img.shields.io/github/stars/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues-pr/?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/stars/pgalliford/Obsidian-theme-Incredible-Hulk?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/pgalliford/Obsidian-theme-Incredible-Hulk?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/pgalliford/Obsidian-theme-Incredible-Hulk?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/last-commit/?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/pgalliford/Obsidian-theme-Incredible-Hulk?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on August 22, 2025 at 02:10 AM
+Generated on September 22, 2025 at 10:52 PM

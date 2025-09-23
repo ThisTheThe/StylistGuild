@@ -1,49 +1,42 @@
 ---
 title: Micro Mike
 tags:
-  - dark_theme
-  - exotic
-  - retro
-  - high_contrast
-  - style_settings_medium
-  - multiple_palettes
-  - configurability
+  - '
+  - dark
   - ergonomics
+  - gradients
+  - modified_layout
+  - multiple_palettes
   - opinionated
+  - quick_explorer_support
+  - quiet_outline_support
+  - recent_files_support
+  - retro
+  - squared
+  - style_settings_medium
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Micro Mike Theme Screenshot](https://camo.githubusercontent.com/ea7d35caa775edffbc49421cb7ff85ac85f07ca2a1b82d3ccd7047542d747442/68747470733a2f2f692e696d6775722e636f6d2f6a53546c7052492e706e67)
+<h1>
+    <a href="https://github.com/ThisTheThe/MicroMike">Micro Mike</a>
+    <sub>By <a href="https://github.com/ThisTheThe">ThisTheThe</a></sub>
+</h1>
 
-## Info
-
-|Info|Status|
-|---|---|
-|Repository Link|[ThisTheThe/MicroMike](https://github.com/ThisTheThe/MicroMike)|
-|Author|[ThisTheThe](https://github.com/ThisTheThe)|
-|Last Updated|![GitHub last commit](https://img.shields.io/github/last-commit/ThisTheThe/MicroMike?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge)|
-|“Help wanted” issues|![GitHub issues by-label](https://img.shields.io/github/issues/ThisTheThe/MicroMike/help%20wanted?color=573E7A&amp;logo=github&amp;style=for-the-badge)|
-|Stars|![GitHub Repo stars](https://img.shields.io/github/stars/ThisTheThe/MicroMike?color=573E7A&amp;logo=github&amp;style=for-the-badge)|
-|Version|![GitHub Repo version](https://img.shields.io/github/v/release/ThisTheThe/MicroMike?color=573E7A&amp;logo=github&amp;style=for-the-badge&sort=semver)|
-|License|![GitHub License](https://img.shields.io/github/license/ThisTheThe/MicroMike?style=for-the-badge)|
-|View in Obsidian Hub|[Micro Mike \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Micro+Mike)|
-|View in Moritz Jung’s Obsidian Stats|Page does not exist|
-
-## Excerpt from README
-
-Testing theme script.
-
-## Features
+[![Micro Mike Theme Screenshot](https://raw.githubusercontent.com/ThisTheThe/MicroMike/HEAD/screenshotThumb.png)](https://github.com/ThisTheThe/MicroMike)
 
 
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/ThisTheThe/MicroMike?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/ThisTheThe/MicroMike?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/ThisTheThe/MicroMike?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-October 2022-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/ThisTheThe/MicroMike?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-## Criteria
-
-|Criteria|Status|
-|---|---|
-|Dark/Light mode support|Dark|
-|One or multiple colour schemes|Multiple|
-|Value Propositions|etc|
-|Accessibility|etc|
-|Style Settings support|Yes|
-|Age of Theme|Released 23 October 2022|
-|Last Updated|![GitHub last commit](https://img.shields.io/github/last-commit/ThisTheThe/MicroMike?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge)|
+Generated on September 22, 2025 at 10:52 PM

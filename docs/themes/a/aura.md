@@ -1,54 +1,51 @@
 ---
 title: Aura
 tags:
-  - light_theme
-  - dark_theme
-  - multiple_colour_schemes
-  - rainbow_folders
-  - cards_layout
+  - background_image
   - callouts
-  - style_settings
-  - underrated_gems
+  - cards
+  - colorful_frame
+  - dark
+  - dark_and_light
+  - darker
+  - dracula
+  - glass
+  - gruvbox
+  - kanagawa
+  - light
+  - minimalistic
+  - multiple_layouts
+  - multiple_palettes
+  - nord
+  - notion_palettes
+  - rainbow_folders
+  - rose_pine
+  - solarized
+  - style_settings_medium
+  - tokyo night
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Aura Dark Theme Screenshot](https://raw.githubusercontent.com/ashwinjadhav818/obsidian-aura/refs/heads/master/assets/showcase.png)
+<h1>
+    <a href="https://github.com/ashwinjadhav818/obsidian-aura">Aura</a>
+    <sub>By <a href="https://github.com/ashwinjadhav818">ashwinjadhav818</a></sub>
+</h1>
 
-## Info
+[![Aura Theme Screenshot](https://raw.githubusercontent.com/ashwinjadhav818/obsidian-aura/HEAD/assets/showcase-preview.png)](https://github.com/ashwinjadhav818/obsidian-aura)
 
-| Info                                 | Status                                                                                                                                                          |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [ashwinjadhav818/obsidian-aura](https://github.com/ashwinjadhav818/obsidian-aura)                                                                               |
-| Author                               | [ashwinjadhav818](https://github.com/ashwinjadhav818)                                                                                                           |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/ashwinjadhav818/obsidian-aura?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/ashwinjadhav818/obsidian-aura/help%20wanted?color=573E7A&logo=github&style=for-the-badge)        |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/ashwinjadhav818/obsidian-aura?color=573E7A&logo=github&style=for-the-badge)                            |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/ashwinjadhav818/obsidian-aura?color=573E7A&logo=github&style=for-the-badge&=semver)              |
-| License                              | ![GitHub License](https://img.shields.io/github/license/ashwinjadhav818/obsidian-aura?style=for-the-badge)                                                      |
-| View in Obsidian Hub                 | [Aura \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Aura)                |
-| View in Moritz Jung’s Obsidian Stats | [Aura \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/aura/)                                                                                |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/ashwinjadhav818/obsidian-aura?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/ashwinjadhav818/obsidian-aura?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/ashwinjadhav818/obsidian-aura?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/ashwinjadhav818/obsidian-aura?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-N/A. The author just showcases the theme's features.
-
-## Features
-
-- Custom colour schemes
-- Custom workspace background
-- Alternate (cards) layout
-- Colourful frame
-- Callouts
-- Rainbow folder
-- and many more...
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                          |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Both light and dark mode supported.                                                                                                                             |
-| One or multiple colour schemes | Multiple colour schemes for light and dark mode                                                                                                                 |
-| Value Propositions             | N/A other than features listed                                                                                                                                  |
-| Accessibility                  | NIL                                                                                                                                                             |
-| Style Settings support         | Yes                                                                                                                                                             |
-| Age of Theme                   | Released 9 November 2022                                                                                                                                        |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/ashwinjadhav818/obsidian-aura?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:52 PM

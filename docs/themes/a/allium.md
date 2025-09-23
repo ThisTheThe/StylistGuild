@@ -1,43 +1,39 @@
 ---
 title: Allium
 tags:
-  - dark_theme
-  - light_theme
-  - new_and_upcoming
+  - alternate_checkboxes
+  - cool
+  - dark
+  - dark_and_light
+  - darker
+  - light
+  - minimalistic
+  - purple
+  - style_settings_lite
+  - typographic_customization
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Allium Theme Screenshot](https://raw.githubusercontent.com/xainapse/Allium/refs/heads/main/AlliumScreenshot.png)
+<h1>
+    <a href="https://github.com/nulglyph/Allium">Allium</a>
+    <sub>By <a href="https://github.com/nulglyph">nulglyph</a></sub>
+</h1>
 
-## Info
+[![Allium Theme Screenshot](https://raw.githubusercontent.com/nulglyph/Allium/HEAD/AlliumScreenshot.png)](https://github.com/nulglyph/Allium)
 
-| Info                                 | Status                                                                                                                                               |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [xainapse/Allium](https://github.com/xainapse/Allium)                                                                                                |
-| Author                               | [xainapse (Breeze)](https://github.com/xainapse)                                                                                                     |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/xainapse/Allium?color=573E7A&label=last%20update&logo=github&style=for-the-badge)    |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/xainapse/Allium/help%20wanted?color=573E7A&logo=github&style=for-the-badge)           |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/xainapse/Allium?color=573E7A&logo=github&style=for-the-badge)                               |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/xainapse/Allium?color=573E7A&logo=github&style=for-the-badge&=semver)                 |
-| License                              | ![GitHub License](https://img.shields.io/github/license/xainapse/Allium?style=for-the-badge)                                                         |
-| View in Obsidian Hub                 | [Allium \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Allium) |
-| View in Moritz Jung’s Obsidian Stats | [Allium \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/allium/)                                                                 |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/nulglyph/Allium?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/nulglyph/Allium?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/nulglyph/Allium?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/nulglyph/Allium?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-Allium is a theme inspired by allium flowers, mainly Allium atropurpureum, which has beautiful shades of red and purple. Oh Also there is a light mode, though it is very much an early work in progress.
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                            |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Dark mode only with WIP light mode                                                                                                                |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                   |
-| Value Propositions             | Allium is a theme inspired by allium flowers, mainly Allium atropurpureum, which has beautiful shades of red and purple.                          |
-| Accessibility                  | NIL                                                                                                                                               |
-| Style Settings support         | No                                                                                                                                                |
-| Age of Theme                   | Released 3 June 2024                                                                                                                              |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/xainapse/Allium?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:53 PM

@@ -1,41 +1,35 @@
 ---
 title: Cobalt Peacock
 tags:
-  - dark_theme
+  - blue
+  - broken_functionality
+  - cool
+  - dark
+  - minimalistic
+  - rainbow_headers
 ---
+<div style="theme_page_template_version_1"> </div>
 
-![Cobalt Peacock Theme Screenshot](https://raw.githubusercontent.com/dpavaoman/cobalt-peacock-obmd/refs/heads/master/screenshot.png)
+<h1>
+    <a href="https://github.com/dpavaoman/cobalt-peacock-obmd">Cobalt Peacock</a>
+    <sub>By <a href="https://github.com/dpavaoman">dpavaoman</a></sub>
+</h1>
 
-## Info
+[![Cobalt Peacock Theme Screenshot](https://raw.githubusercontent.com/dpavaoman/cobalt-peacock-obmd/HEAD/screenshot.png)](https://github.com/dpavaoman/cobalt-peacock-obmd)
 
-| Info                                 | Status                                                                                                                                                               |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Repository Link                      | [dpavaoman/cobalt-peacock-obmd](https://github.com/dpavaoman/cobalt-peacock-obmd)                                                                                    |
-| Author                               | [dpavaoman](https://github.com/dpavaoman)                                                                                                                            |
-| Last Updated                         | ![GitHub last commit](https://img.shields.io/github/last-commit/dpavaoman/cobalt-peacock-obmd?color=573E7A&label=last%20update&logo=github&style=for-the-badge)      |
-| “Help wanted” issues                 | ![GitHub issues by-label](https://img.shields.io/github/issues/dpavaoman/cobalt-peacock-obmd/help%20wanted?color=573E7A&logo=github&style=for-the-badge)             |
-| Stars                                | ![GitHub Repo stars](https://img.shields.io/github/stars/dpavaoman/cobalt-peacock-obmd?color=573E7A&logo=github&style=for-the-badge)                                 |
-| Version                              | ![GitHub Repo version](https://img.shields.io/github/v/release/dpavaoman/cobalt-peacock-obmd?color=573E7A&logo=github&style=for-the-badge&=semver)                   |
-| License                              | ![GitHub License](https://img.shields.io/github/license/dpavaoman/cobalt-peacock-obmd?style=for-the-badge)                                                           |
-| View in Obsidian Hub                 | [Cobalt Peacock \- Obsidian Hub \- Obsidian Publish](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Themes/Cobalt+Peacock) |
-| View in Moritz Jung’s Obsidian Stats | [Cobalt Peacock \| Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/themes/cobalt-peacock/)                                                                 |
 
-## Excerpt from README
+<div class="inforow">
+    <table>
+        <tbody>
+            <tr>
+                <td><img src="https://img.shields.io/github/stars/dpavaoman/cobalt-peacock-obmd?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/dpavaoman/cobalt-peacock-obmd?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/dpavaoman/cobalt-peacock-obmd?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/dpavaoman/cobalt-peacock-obmd?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-Theme for Obsidian.MD based off of the Cobalt Code Theme for various editors.
-
-## Features
-
-N/A
-
-## Criteria
-
-| Criteria                       | Status                                                                                                                                                          |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Dark/Light mode support        | Dark mode only                                                                                                                                                  |
-| One or multiple colour schemes | One colour scheme for dark mode                                                                                                                                 |
-| Value Propositions             | Theme for Obsidian.MD based off of the Cobalt Code Theme for various editors.                                                                                   |
-| Accessibility                  | NIL                                                                                                                                                             |
-| Style Settings support         | No                                                                                                                                                              |
-| Age of Theme                   | Released 5 May 2024                                                                                                                                             |
-| Last Updated                   | ![GitHub last commit](https://img.shields.io/github/last-commit/dpavaoman/cobalt-peacock-obmd?color=573E7A&label=last%20update&logo=github&style=for-the-badge) |
+Generated on September 22, 2025 at 10:53 PM
