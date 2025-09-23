@@ -78,6 +78,43 @@ class ThemeRenderer:
         self.base_dir = base_dir
         self.ensure_directories_exist()
     
+    def update_alphabetical_index(self):
+        """
+        Build docs/themes/index.md with alphabetical headers instead of tags.
+        """
+        themes = []
+        for root, _, files in os.walk(self.base_dir):
+            for f in files:
+                if f.endswith(".md"):
+                    path = os.path.join(root, f)
+                    rel_path = os.path.relpath(path, self.base_dir)
+                    title = f[:-3].replace("-", " ").title()
+                    themes.append((title, rel_path))
+
+        # Sort alphabetically by title
+        themes.sort(key=lambda x: x[0].lower())
+
+        # Group by first letter
+        grouped = {}
+        for title, rel_path in themes:
+            first = title[0].upper()
+            if not first.isalpha():
+                first = "#"
+            grouped.setdefault(first, []).append((title, rel_path))
+
+        lines = ["# Themes Index", ""]
+        for letter in sorted(grouped.keys()):
+            lines.append(f"## {letter}")
+            for title, rel_path in grouped[letter]:
+                lines.append(f"- [{title}](./{rel_path})")
+            lines.append("")
+
+        os.makedirs(os.path.dirname(THEMES_INDEX_FILE), exist_ok=True)
+        with open(THEMES_INDEX_FILE, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines))
+        print(f"SUCCESS: Alphabetical index written to {THEMES_INDEX_FILE}")
+
+    
     def ensure_directories_exist(self):
         """Ensure all necessary directories exist."""
         os.makedirs(self.base_dir, exist_ok=True)
@@ -521,12 +558,7 @@ class ThemeRenderer:
             
             print("-----------------------")
             
-            # --- IMPORTANT: Update the categories file ONLY if theme file generation was successful ---
-            # Pass the original tags list to check which categories it belongs to
-            self.update_categories_file(title, suggested_filename, tags_list)
-            
-            # --- Update the global themes counter ONLY if all operations (theme file + categories) were successful ---
-            self.get_next_counter_value()
+            self.update_alphabetical_index()
             
             return True
 
