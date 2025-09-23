@@ -3,44 +3,15 @@ title: Credits
 icon: material/heart
 ---
 
-# Maintainers, Contributors
+# Original Codebase
 
-The following reference site would not be possible without the following contributors.
+Original codebase is based on bladeacer's [Obsidian Theme Reference](https://obsithemeref.readthedocs.io/en/latest/). [(Github)](https://github.com/bladeacer/ObsiThemeRef)
 
-- [bladeacer on GitHub](https://github.com/bladeacer/) / [bladeacer on Obsidian Forum](https://forum.obsidian.md/u/bladeacer/summary) / `@data_in_void` on Obsidian Members' Group (OMG) Discord
+# Tag Assistance
 
-# Suggestions, Ideas
+* Kapirklaa
+* Floodlight
 
-- `@Blitz` on the OMG discord for embedding screenshots
-
-- `@DiCaver` on the Obsidian Forum for fixing the leaderboard sorting
-
-- `@Floodlight` on the OMG discord and Obsidian forum for revamping the leaderboard system
-
-# Tools and software
-
-These tools were essential in the process of making this possible
-
-- [`highlight.js`](https://highlightjs.org)
-
-- [`tablesort.js`](https://github.com/tristen/tablesort)
-
-- [MkDocs](https://www.mkdocs.org)
-
-- [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
-
-- [GitHub Pages](https://pages.github.com)
-
-- [Giscus](https://giscus.app)
-
-# Sources of inspiration
-
-[Obsidian Hub](https://publish.obsidian.md/hub/)  
-[Mortiz Jung's Obsidian Stats](https://www.moritzjung.dev/obsidian-stats/)
-[ganesshkumar's Obsidian Stats](https://www.obsidianstats.com/)
-
-- [Scoring System for Obsidian Plugins](https://github.com/ganesshkumar/obsidian-plugins-stats-ui/discussions/52)
-
-## Licenses
+# Licenses
 
 See [licences](./licenses/index.md)
