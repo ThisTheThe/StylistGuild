@@ -1,8 +1,6 @@
 ---
 title: Willemstad
 tags:
-  - advanced_tables_support
-  - calendar_support
   - callouts
   - catppuccin
   - community_checkboxes
@@ -11,15 +9,11 @@ tags:
   - dark_and_light
   - dracula
   - everforest
-  - excalidraw_support
   - flexoki
   - focus_mode
-  - full_calendar_support
   - gallery
   - gruvbox
-  - hover_editor_support
   - kanagawa
-  - kanban_support
   - light
   - minimalistic
   - monokai
@@ -28,7 +22,13 @@ tags:
   - onedark
   - solarized
   - style_settings_medium
-  - templater_support
+  - supports_advanced_tables
+  - supports_calendar
+  - supports_excalidraw
+  - supports_full_calendar
+  - supports_hover_editor
+  - supports_kanban
+  - supports_templater
   - tokyo_night
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -48,11 +48,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/tingmelvin/willemstad-x?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/tingmelvin/willemstad-x?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/tingmelvin/willemstad-x?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-February 2022-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/tingmelvin/willemstad-x?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

@@ -1,13 +1,13 @@
 ---
 title: LaTeX
 tags:
-  - Latex
-  - Squared
-  - Typographic Focus
   - dark
   - dark_and_light
+  - Latex
   - light
   - minimalistic
+  - Squared
+  - Typographic Focus
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -33,4 +33,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

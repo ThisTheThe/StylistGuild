@@ -1,30 +1,30 @@
 ---
 title: Sanctum
 tags:
-  - advanced_tables_support
   - alternate_checkboxes
-  - block_reference_counter_support
-  - breadcrumbs_support
-  - calendar_support
   - callouts
-  - changelogs_support
-  - charts_support
-  - checklist_support
   - clean
   - dark
   - dark_and_light
-  - dataview_support
-  - excalidraw_support
-  - gallery_support
-  - kanban_support
   - light
   - meditative
   - minimalistic
-  - quick_explorer_support
   - requests_contextual_typography
   - requests_smart_typography
   - style_settings_large
-  - templater_support
+  - supports_advanced_tables
+  - supports_block_reference_counter
+  - supports_breadcrumbs
+  - supports_calendar
+  - supports_changelogs
+  - supports_charts
+  - supports_checklist
+  - supports_dataview
+  - supports_excalidraw
+  - supports_gallery
+  - supports_kanban
+  - supports_quick_explorer
+  - supports_templater
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -50,4 +50,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

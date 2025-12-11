@@ -4,10 +4,10 @@
     "screenshot-main": "screenshot.png",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
       "dark",
       "dark_and_light",
-      "light"
+      "light",
+      "pre_1.0"
     ]
   },
   {
@@ -40,10 +40,10 @@
     "screenshot-main": "screencap.jpg",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
       "dark",
       "dracula",
       "minimalistic",
+      "pre_1.0",
       "rainbow_headers"
     ]
   },
@@ -117,11 +117,11 @@
     "screenshot-main": "light-theme_full.png",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
       "dark",
       "dark_and_light",
       "light",
       "minimalistic",
+      "pre_1.0",
       "requests_font_installation"
     ]
   },
@@ -130,12 +130,12 @@
     "screenshot-main": "Cybertron.png",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
-      "typography_customization",
       "dark",
       "futuristic",
       "minimalistic",
-      "neon"
+      "neon",
+      "pre_1.0",
+      "typography_customization"
     ]
   },
   {
@@ -177,10 +177,10 @@
     "screenshot-main": "inspired-by, roam, minimalistic, broken_functionality",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
       "inspired-by",
       "light",
       "minimalistic",
+      "pre_1.0",
       "roam"
     ]
   },
@@ -247,14 +247,13 @@
     "screenshot-main": "dark-simple.png",
     "screenshots-side": [],
     "tags": [
-      "Configurability",
-      "OLED",
       "atom",
       "ayu",
       "callouts",
       "cards",
       "catppuccin",
       "colorful_frame",
+      "Configurability",
       "cssclasses",
       "darcula",
       "dark",
@@ -273,6 +272,7 @@
       "multiple_palettes",
       "nord",
       "nose_pine",
+      "OLED",
       "sky",
       "solarized",
       "style_settings_large",
@@ -339,11 +339,11 @@
     "screenshot-main": "ayu1.png",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
       "cool",
       "dark",
       "macos_tab_buttons",
-      "minimalistic"
+      "minimalistic",
+      "pre_1.0"
     ]
   },
   {
@@ -351,10 +351,10 @@
     "screenshot-main": "gdct.png",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
       "light",
       "macos_tab_buttons",
-      "minimalistic"
+      "minimalistic",
+      "pre_1.0"
     ]
   },
   {
@@ -362,10 +362,10 @@
     "screenshot-main": "gdct.png",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
       "dark",
       "macos_tab_buttons",
-      "minimalistic"
+      "minimalistic",
+      "pre_1.0"
     ]
   },
   {
@@ -386,13 +386,13 @@
     "screenshot-main": "ono-sendai_obsdn_00.png",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
       "dark",
       "dark_and_light",
       "exotic",
       "glass",
       "light",
-      "notm"
+      "notm",
+      "pre_1.0"
     ]
   },
   {
@@ -400,30 +400,30 @@
     "screenshot-main": "preview_Blue Topaz.png",
     "screenshots-side": [],
     "tags": [
-      "ISNOT_rounded",
       "background_images",
-      "calendar_support",
       "callouts",
       "cards",
       "colorful_frame",
       "cssclasses",
       "dark",
       "dark_and_light",
-      "dataview_support",
       "gallery",
       "glass",
+      "ISNOT_rounded",
       "kanban",
-      "kanban_support",
       "light",
       "minimalistic",
       "monochrome",
       "multiple_palettes",
-      "quiet_outline_support",
       "rainbow_folders",
       "rainbow_headers",
       "rounded",
       "style_settings_large",
-      "thino_support",
+      "supports_calendar",
+      "supports_dataview",
+      "supports_kanban",
+      "supports_quiet_outline",
+      "supports_thino",
       "topaz-nord"
     ]
   },
@@ -445,13 +445,13 @@
     "screenshot-main": "Dark Graphite Pie theme 0.9.4.png",
     "screenshots-side": [],
     "tags": [
-      "pre_1.0",
       "cool",
       "dark",
       "dark_and_light",
       "inspired_by",
       "light",
       "minimalistic",
+      "pre_1.0",
       "typora"
     ]
   },
@@ -565,23 +565,23 @@
     "screenshot-main": "ITS.png",
     "screenshots-side": [],
     "tags": [
-      "TTRPG",
       "callouts",
       "cssclasses",
       "dark",
       "dark_and_light",
-      "dataview_support",
       "exotic",
       "extra_snippets",
       "fantasy",
       "infobox",
-      "kanban_support",
       "light",
       "nord",
       "notion",
       "notion_palette",
       "squared",
-      "style_settings_large"
+      "style_settings_large",
+      "supports_dataview",
+      "supports_kanban",
+      "TTRPG"
     ]
   },
   {
@@ -681,7 +681,7 @@
       "minimalistic",
       "opinionated",
       "rainbow_headers",
-      "todoist_support"
+      "supports_todoist"
     ]
   },
   {
@@ -707,16 +707,16 @@
       "futuristic",
       "glass",
       "gradients",
-      "kanban_support",
       "light",
       "minimalistic",
-      "mobile_support",
       "neon",
       "padded_layout_separation",
       "rainbow_folders",
       "rainbow_headers",
       "style_settings_medium",
-      "surfing_support"
+      "supports_kanban",
+      "supports_mobile",
+      "supports_surfing"
     ]
   },
   {
@@ -812,7 +812,7 @@
       "modifies_outline",
       "multiple_palettes",
       "style_settings_medium",
-      "vim_support"
+      "supports_vim"
     ]
   },
   {
@@ -873,7 +873,6 @@
     "screenshot-main": "Faded.png",
     "screenshots-side": [],
     "tags": [
-      "calendar_support",
       "callouts",
       "cssclasses",
       "dark",
@@ -882,7 +881,8 @@
       "modifies_file_explorer",
       "multiple_columns",
       "rainbow_headers",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_calendar"
     ]
   },
   {
@@ -890,30 +890,30 @@
     "screenshot-main": "cover.png",
     "screenshots-side": [],
     "tags": [
-      "advanced_tables_support",
       "alternate_checkboxes",
-      "block_reference_counter_support",
-      "breadcrumbs_support",
-      "calendar_support",
       "callouts",
-      "changelogs_support",
-      "charts_support",
-      "checklist_support",
       "clean",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "excalidraw_support",
-      "gallery_support",
-      "kanban_support",
       "light",
       "meditative",
       "minimalistic",
-      "quick_explorer_support",
       "requests_contextual_typography",
       "requests_smart_typography",
       "style_settings_large",
-      "templater_support"
+      "supports_advanced_tables",
+      "supports_block_reference_counter",
+      "supports_breadcrumbs",
+      "supports_calendar",
+      "supports_changelogs",
+      "supports_charts",
+      "supports_checklist",
+      "supports_dataview",
+      "supports_excalidraw",
+      "supports_gallery",
+      "supports_kanban",
+      "supports_quick_explorer",
+      "supports_templater"
     ]
   },
   {
@@ -921,13 +921,13 @@
     "screenshot-main": "miniscreenshot.png",
     "screenshots-side": [],
     "tags": [
-      "calendar_support",
       "dark",
       "dark_and_light",
       "font_installation_requested",
       "light",
       "minimalistic",
-      "paper"
+      "paper",
+      "supports_calendar"
     ]
   },
   {
@@ -971,37 +971,37 @@
     "screenshots-side": [],
     "tags": [
       "auto_hiding",
-      "calendar_support",
       "callouts",
-      "cmenu_support",
       "cssclasses",
-      "dangling_links_support",
       "dark",
       "dark_and_light",
-      "dataloom_support",
-      "emoji_toolbar_support",
-      "file_tree_alternative_support",
-      "hover_editor_support",
-      "icon_folder_support",
-      "icons_support",
-      "jump_to_date_support",
-      "kanban_support",
       "light",
       "line_layout_separation",
-      "map_view_support",
       "minimalistic",
       "modifies_layout",
       "multiple_color_schemes",
       "multiple_palettes",
-      "obsidian_dictionary_support",
-      "pane_relief_support",
-      "quick_explorer_support",
-      "quiet_outline_support",
       "rainbow_folders",
-      "recent_files_support",
-      "settings_search_support",
       "style_settings_large",
-      "tag_folder_support"
+      "supports_calendar",
+      "supports_cmenu",
+      "supports_dangling_links",
+      "supports_dataloom",
+      "supports_emoji_toolbar",
+      "supports_file_tree_alternative",
+      "supports_hover_editor",
+      "supports_icon_folder",
+      "supports_icons",
+      "supports_jump_to_date",
+      "supports_kanban",
+      "supports_map_view",
+      "supports_obsidian_dictionary",
+      "supports_pane_relief",
+      "supports_quick_explorer",
+      "supports_quiet_outline",
+      "supports_recent_files",
+      "supports_settings_search",
+      "supports_tag_folder"
     ]
   },
   {
@@ -1019,13 +1019,13 @@
     "screenshot-main": "images/ebullientworks-theme.jpg",
     "screenshots-side": [],
     "tags": [
-      "Line_layout_separation",
       "alternate_checkboxes",
       "callouts",
       "cssclasses",
       "dark",
       "dark_and_light",
       "light",
+      "Line_layout_separation",
       "minimalistic",
       "seamless_transclusion",
       "style_settings_lite"
@@ -1056,11 +1056,11 @@
       "light",
       "meditative",
       "minimalistic",
-      "mobile_support",
       "paper",
       "playful",
       "rainbow_folders",
-      "style_settings_large"
+      "style_settings_large",
+      "supports_mobile"
     ]
   },
   {
@@ -1092,22 +1092,22 @@
     "screenshot-main": "assets/main-demo.png",
     "screenshots-side": [],
     "tags": [
-      "advanced_mobile_toolbar_support",
       "alternate_checkboxes",
-      "calendar_support",
-      "checklist_support",
       "dark",
       "dark_and_light",
-      "hider_support",
       "inspired_by",
-      "kanban_support",
       "light",
       "minimalistic",
-      "mobile_support",
       "rainbow_headers",
       "style_settings_medium",
-      "things",
-      "todoist_support"
+      "supports_advanced_mobile_toolbar",
+      "supports_calendar",
+      "supports_checklist",
+      "supports_hider",
+      "supports_kanban",
+      "supports_mobile",
+      "supports_todoist",
+      "things"
     ]
   },
   {
@@ -1149,31 +1149,31 @@
     "screenshot-main": "cover.jpg",
     "screenshots-side": [],
     "tags": [
-      "NOT_highlight_active_line",
-      "banners_support",
-      "better_word_count_support",
-      "calendar_support",
-      "citations_support",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "day_planner_support",
       "highlight_active_line",
-      "journey_support",
-      "kanban_support",
       "light",
       "minimalistic",
       "monospace_editor",
-      "obsidian_image_export_support",
-      "obsidian_todo_support",
+      "NOT_highlight_active_line",
       "paper",
       "requests_click_clack",
       "requests_typewriter_scroll",
-      "tag_wrangler_support",
-      "typewriter_scroll_support",
-      "typographic_focus",
-      "vim_support",
-      "workbench_support"
+      "supports_banners",
+      "supports_better_word_count",
+      "supports_calendar",
+      "supports_citations",
+      "supports_dataview",
+      "supports_day_planner",
+      "supports_journey",
+      "supports_kanban",
+      "supports_obsidian_image_export",
+      "supports_obsidian_todo",
+      "supports_tag_wrangler",
+      "supports_typewriter_scroll",
+      "supports_vim",
+      "supports_workbench",
+      "typographic_focus"
     ]
   },
   {
@@ -1181,16 +1181,16 @@
     "screenshot-main": "cover.png",
     "screenshots-side": [],
     "tags": [
-      "calendar_support",
-      "checklist_support",
       "dark",
       "dark_and_light",
-      "file_explorer_note_count_support",
-      "kanban_support",
       "light",
       "minimalistic",
       "modified_layout",
       "multiple_layouts",
+      "supports_calendar",
+      "supports_checklist",
+      "supports_file_explorer_note_count",
+      "supports_kanban",
       "unavailable"
     ]
   },
@@ -1249,16 +1249,16 @@
     "screenshot-main": "lyt-mode-graphic-1.jpg",
     "screenshots-side": [],
     "tags": [
-      "calendar_support",
       "callouts",
       "dark",
-      "dataview_support",
-      "excalidraw_support",
       "futuristic",
-      "hover_editor_support",
-      "kanban_support",
       "minimalistic",
       "neon",
+      "supports_calendar",
+      "supports_dataview",
+      "supports_excalidraw",
+      "supports_hover_editor",
+      "supports_kanban",
       "typography_customization"
     ]
   },
@@ -1277,17 +1277,17 @@
     "screenshot-main": "assets/screenshot.png",
     "screenshots-side": [],
     "tags": [
-      "another_quick_switcher_support",
-      "better_command_palette_support",
       "catppuccin",
       "dark",
       "dark_and_light",
       "light",
-      "make.md_support",
       "minimalistic",
-      "obsidian_git_support",
-      "omnisearch_support",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_another_quick_switcher",
+      "supports_better_command_palette",
+      "supports_make.md",
+      "supports_obsidian_git",
+      "supports_omnisearch"
     ]
   },
   {
@@ -1305,8 +1305,6 @@
     "screenshot-main": "img/Willemstad-X.png",
     "screenshots-side": [],
     "tags": [
-      "advanced_tables_support",
-      "calendar_support",
       "callouts",
       "catppuccin",
       "community_checkboxes",
@@ -1315,15 +1313,11 @@
       "dark_and_light",
       "dracula",
       "everforest",
-      "excalidraw_support",
       "flexoki",
       "focus_mode",
-      "full_calendar_support",
       "gallery",
       "gruvbox",
-      "hover_editor_support",
       "kanagawa",
-      "kanban_support",
       "light",
       "minimalistic",
       "monokai",
@@ -1332,7 +1326,13 @@
       "onedark",
       "solarized",
       "style_settings_medium",
-      "templater_support",
+      "supports_advanced_tables",
+      "supports_calendar",
+      "supports_excalidraw",
+      "supports_full_calendar",
+      "supports_hover_editor",
+      "supports_kanban",
+      "supports_templater",
       "tokyo_night"
     ]
   },
@@ -1536,12 +1536,12 @@
       "modified_layout",
       "multiple_palettes",
       "opinionated",
-      "quick_explorer_support",
-      "quiet_outline_support",
-      "recent_files_support",
       "retro",
       "squared",
-      "style_settings_medium"
+      "style_settings_medium",
+      "supports_quick_explorer",
+      "supports_quiet_outline",
+      "supports_recent_files"
     ]
   },
   {
@@ -1578,7 +1578,6 @@
     "tags": [
       "animated",
       "callouts",
-      "canvas_support",
       "cards",
       "dark",
       "dark_and_light",
@@ -1586,7 +1585,8 @@
       "light",
       "minimalistic",
       "multiple_palettes",
-      "style_settings_medium"
+      "style_settings_medium",
+      "supports_canvas"
     ]
   },
   {
@@ -1630,17 +1630,17 @@
     "screenshot-main": "thumbnail.png",
     "screenshots-side": [],
     "tags": [
-      "NOT_stacked_panes",
-      "calendar_support",
       "callouts",
       "dark",
       "font_installation_requested",
       "github",
       "inspired_by",
       "minimalistic",
+      "NOT_stacked_panes",
       "sliding_panes",
       "stacked_panes",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_calendar"
     ]
   },
   {
@@ -1693,19 +1693,19 @@
     "tags": [
       "alternative_checkboxes",
       "borderless",
-      "calendar_support",
       "callouts",
       "dark",
       "dark_and_light",
-      "dataview_support",
       "light",
       "low_contrast",
       "minimalistic",
-      "mobile_support",
       "opinionated",
-      "outliner_and_zoom_support",
-      "query_control_support",
-      "strange_new_worlds_support"
+      "supports_calendar",
+      "supports_dataview",
+      "supports_mobile",
+      "supports_outliner_and_zoom",
+      "supports_query_control",
+      "supports_strange_new_worlds"
     ]
   },
   {
@@ -1719,7 +1719,7 @@
       "darker",
       "material_ocean",
       "minimalistic",
-      "mobile_support"
+      "supports_mobile"
     ]
   },
   {
@@ -1727,17 +1727,17 @@
     "screenshot-main": "WYConsole_Store_Screenshot.png",
     "screenshots-side": [],
     "tags": [
-      "advanced_tables_support",
       "always_monospace",
-      "calendar_support",
       "dark",
       "dark_and_light",
-      "file_tree_alternative_support",
       "green",
-      "kanban_support",
       "light",
       "minimalistic",
-      "retro"
+      "retro",
+      "supports_advanced_tables",
+      "supports_calendar",
+      "supports_file_tree_alternative",
+      "supports_kanban"
     ]
   },
   {
@@ -1801,8 +1801,8 @@
       "glass",
       "light",
       "minimalistic",
-      "mobile_support",
-      "style_settings_large"
+      "style_settings_large",
+      "supports_mobile"
     ]
   },
   {
@@ -1811,7 +1811,6 @@
     "screenshots-side": [],
     "tags": [
       "accent_based",
-      "calendar_support",
       "dark",
       "dark_and_light",
       "extra_snippets",
@@ -1819,6 +1818,7 @@
       "inspired_by",
       "light",
       "minimalistic",
+      "supports_calendar",
       "typora_vue_theme"
     ]
   },
@@ -1827,14 +1827,14 @@
     "screenshot-main": "abecedarium_dark.png",
     "screenshots-side": [],
     "tags": [
-      "calendar_support",
       "cool",
       "dark",
       "dark_and_light",
       "darker",
       "light",
       "minimalistic",
-      "modified_file_explorer"
+      "modified_file_explorer",
+      "supports_calendar"
     ]
   },
   {
@@ -1919,10 +1919,10 @@
     "tags": [
       "cool",
       "dark",
-      "full_calendar_support",
       "low_contrast",
       "minimalistic",
-      "rainbow_headers"
+      "rainbow_headers",
+      "supports_full_calendar"
     ]
   },
   {
@@ -1965,14 +1965,11 @@
       "dark_and_light",
       "dracula",
       "everforest",
-      "excalidraw_support",
       "extra_snippet",
       "gruvbox",
       "kanagawa",
-      "kanban_support",
       "light",
       "line_layout_separation",
-      "make_md_support",
       "minimalistic",
       "multiple_palettes",
       "mutliple_layouts",
@@ -1984,6 +1981,9 @@
       "royal_velvet",
       "solarized",
       "style_settings_large",
+      "supports_excalidraw",
+      "supports_kanban",
+      "supports_make_md",
       "thorns",
       "typographic_customization"
     ]
@@ -2011,17 +2011,17 @@
     "screenshot-main": "jotter.png",
     "screenshots-side": [],
     "tags": [
-      "calendar_support",
       "coffee",
       "dark",
       "dark_and_light",
-      "kanban_support",
       "light",
       "lighter",
       "minimalistic",
       "multiple_palettes",
-      "pdf_export_support",
       "style_settings_medium",
+      "supports_calendar",
+      "supports_kanban",
+      "supports_pdf_export",
       "typographic_customization"
     ]
   },
@@ -2037,12 +2037,12 @@
       "cssclasses",
       "dark",
       "dark_and_light",
-      "dataview_support",
       "extra_snippets",
       "highlight_active_line",
       "light",
       "minimalistic",
-      "modifies_properties"
+      "modifies_properties",
+      "supports_dataview"
     ]
   },
   {
@@ -2104,19 +2104,19 @@
     "screenshots-side": [],
     "tags": [
       "accent_based",
-      "breadcrumbs_support",
-      "canvas_support",
-      "commander_support",
-      "cooklang_obsidian_support",
       "dark",
       "dark_and_light",
-      "excalidraw_support",
       "glass",
       "high_contrast",
       "light",
       "minimalistic",
-      "mobile_support",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_breadcrumbs",
+      "supports_canvas",
+      "supports_commander",
+      "supports_cooklang_obsidian",
+      "supports_excalidraw",
+      "supports_mobile"
     ]
   },
   {
@@ -2147,18 +2147,18 @@
     "screenshot-main": "polka.png",
     "screenshots-side": [],
     "tags": [
-      "calendar_support",
       "cool",
       "dark",
       "dark_and_light",
-      "dictionary_support",
-      "emoji_toolbar_support",
-      "execute_code_support",
-      "file_tree_alterantive_support",
-      "kanban_support",
       "light",
       "minimalistic",
-      "multiple_palettes"
+      "multiple_palettes",
+      "supports_calendar",
+      "supports_dictionary",
+      "supports_emoji_toolbar",
+      "supports_execute_code",
+      "supports_file_tree_alterantive",
+      "supports_kanban"
     ]
   },
   {
@@ -2193,20 +2193,20 @@
       "active_line_highlight",
       "animations",
       "background_image",
-      "calendar_support",
       "colorful_frame",
       "cool",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "export_support",
-      "graph_support",
-      "kanban_support",
       "light",
       "minimalistic",
       "modified_layout",
       "rainbow_headers",
       "style_settings_large",
+      "supports_calendar",
+      "supports_dataview",
+      "supports_export",
+      "supports_graph",
+      "supports_kanban",
       "typographic_customization"
     ]
   },
@@ -2216,20 +2216,20 @@
     "screenshots-side": [],
     "tags": [
       "alternate_checkboxes",
-      "banner_support",
       "callouts",
       "dark",
       "dark_and_light",
-      "graph_support",
       "inspired_by",
       "light",
-      "make_md_support",
       "minimalistic",
       "modified_layout",
       "notion",
       "notion_palette",
-      "projects_support",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_banner",
+      "supports_graph",
+      "supports_make_md",
+      "supports_projects"
     ]
   },
   {
@@ -2311,24 +2311,24 @@
     "screenshots-side": [],
     "tags": [
       "banner",
-      "calendar_support",
       "callouts",
       "clean",
-      "commander_support",
       "cssclasses",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "dice_roller_support",
-      "full_calendar_support",
       "gradients",
-      "hkcode_styler_support",
-      "kanban_support",
       "light",
       "minimalistic",
-      "mobile_support",
-      "obsidian_camera_support",
-      "quickadd_support",
+      "supports_calendar",
+      "supports_commander",
+      "supports_dataview",
+      "supports_dice_roller",
+      "supports_full_calendar",
+      "supports_hkcode_styler",
+      "supports_kanban",
+      "supports_mobile",
+      "supports_obsidian_camera",
+      "supports_quickadd",
       "wood"
     ]
   },
@@ -2337,15 +2337,15 @@
     "screenshot-main": "Sanguine_Store_Screenshot.png",
     "screenshots-side": [],
     "tags": [
-      "advanced_tables_support",
-      "calendar_support",
       "dark",
       "darker",
-      "file_tree_alternative_plugin_support",
       "high_contrast",
-      "kanban_support",
       "minimalistic",
       "novelty",
+      "supports_advanced_tables",
+      "supports_calendar",
+      "supports_file_tree_alternative_plugin",
+      "supports_kanban",
       "tritonal"
     ]
   },
@@ -2390,15 +2390,15 @@
       "Broken_functionality",
       "Clean",
       "Community checkboxes",
+      "dark",
+      "dark_and_light",
       "Focus_mode",
       "Glass",
       "Highlight active line",
-      "Line_layout_separation",
-      "Style Settings Medium",
-      "dark",
-      "dark_and_light",
       "light",
-      "minimalistic"
+      "Line_layout_separation",
+      "minimalistic",
+      "Style Settings Medium"
     ],
     "_author": "Kapirklaa",
     "_created_at": "2025-08-29T00:14:58.260905"
@@ -2409,10 +2409,10 @@
     "screenshots-side": [],
     "tags": [
       "Bitonal",
-      "Line_layout_separation",
-      "Style Settings Lite",
       "dark",
-      "minimalistic"
+      "Line_layout_separation",
+      "minimalistic",
+      "Style Settings Lite"
     ],
     "_author": "Kapirklaa",
     "_created_at": "2025-08-29T00:19:17.620781"
@@ -2422,12 +2422,12 @@
     "screenshot-main": "Serika.png",
     "screenshots-side": [],
     "tags": [
-      "Monkeytype",
-      "Squared",
       "dark",
       "dark_and_light",
       "light",
-      "minimalistic"
+      "minimalistic",
+      "Monkeytype",
+      "Squared"
     ],
     "_author": "Kapirklaa",
     "_created_at": "2025-08-29T00:22:13.053092"
@@ -2439,14 +2439,14 @@
     "tags": [
       "Accent_based",
       "Colorful_frame",
-      "Line_layout_separation",
-      "Neon",
-      "Retro",
-      "Squared",
       "dark",
       "dark_and_light",
       "light",
-      "minimalistic"
+      "Line_layout_separation",
+      "minimalistic",
+      "Neon",
+      "Retro",
+      "Squared"
     ],
     "_author": "Kapirklaa",
     "_created_at": "2025-08-29T00:26:30.380700"
@@ -2456,13 +2456,13 @@
     "screenshot-main": "screenshots/preview.png",
     "screenshots-side": [],
     "tags": [
-      "Latex",
-      "Squared",
-      "Typographic Focus",
       "dark",
       "dark_and_light",
+      "Latex",
       "light",
-      "minimalistic"
+      "minimalistic",
+      "Squared",
+      "Typographic Focus"
     ],
     "_author": "Kapirklaa",
     "_created_at": "2025-08-29T00:29:37.972742"
@@ -2480,8 +2480,8 @@
       "low_contrast",
       "minimalistic",
       "multiple_palettes",
-      "supports_calendar",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_calendar"
     ]
   },
   {
@@ -2498,10 +2498,10 @@
       "high_contrast",
       "inspired_by",
       "kanban",
-      "kanban_support",
       "minimalistic",
       "monochrome",
-      "multiple_palettes"
+      "multiple_palettes",
+      "supports_kanban"
     ]
   },
   {
@@ -2534,11 +2534,11 @@
       "minimalistic",
       "monochrome",
       "requests_focus_active_sentence",
-      "requests_ninja_cursor",
       "requests_font_installation",
+      "requests_ninja_cursor",
       "shadows",
-      "style_settings_medium",
       "stripped_down",
+      "style_settings_medium",
       "typographic_focus"
     ]
   },
@@ -2547,31 +2547,31 @@
     "screenshot-main": "main-screenshot.png",
     "screenshots-side": [],
     "tags": [
-      "advanced_tables_support",
-      "another_quick_switcher_support",
-      "better_command_palette_support",
-      "better_footnote_support",
       "brown",
-      "calendar_support",
       "coffee",
-      "completed_task_display_support",
       "cssclasses",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "hider_support",
-      "kanban_support",
       "light",
-      "metadata_menu_support",
-      "metatable_support",
       "minimalistic",
       "modified_layout",
       "multiple_palettes",
       "opinionated",
-      "quick_switcher++_support",
-      "quickadd_support",
       "requests_contextual_typography",
-      "style_settings_medium"
+      "style_settings_medium",
+      "supports_advanced_tables",
+      "supports_another_quick_switcher",
+      "supports_better_command_palette",
+      "supports_better_footnote",
+      "supports_calendar",
+      "supports_completed_task_display",
+      "supports_dataview",
+      "supports_hider",
+      "supports_kanban",
+      "supports_metadata_menu",
+      "supports_metatable",
+      "supports_quick_switcher++",
+      "supports_quickadd"
     ]
   },
   {
@@ -2661,34 +2661,34 @@
       "accent_based",
       "active_line_highlight",
       "alternate_checkboxes",
-      "banners_support",
       "blue",
-      "calendar_support",
       "cards",
-      "commander_support",
       "cool",
       "cssclasses",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "excalidraw_support",
       "file_explorer_icons",
       "focus_mode",
-      "full_calendar_support",
       "gallery",
       "glow",
       "gradients",
-      "kanban_support",
       "light",
       "minimalistic",
-      "mobile_support",
       "multiple_columns",
       "multiple_layouts",
       "multiple_palettes",
       "padded_layout_separation",
       "rainbow_folders",
       "rainbow_headers",
-      "tasks_support",
+      "supports_banners",
+      "supports_calendar",
+      "supports_commander",
+      "supports_dataview",
+      "supports_excalidraw",
+      "supports_full_calendar",
+      "supports_kanban",
+      "supports_mobile",
+      "supports_tasks",
       "transparent"
     ]
   },
@@ -2715,7 +2715,7 @@
       "dark_and_light",
       "light",
       "minimalistic",
-      "mobile_support"
+      "supports_mobile"
     ]
   },
   {
@@ -2723,12 +2723,12 @@
     "screenshot-main": "Terraflow-cover.png",
     "screenshots-side": [],
     "tags": [
+      "anthropic",
       "cozy",
       "dark",
       "dark_and_light",
       "gradients",
       "inspired-by",
-      "anthropic",
       "light",
       "pastel",
       "playful",
@@ -2749,11 +2749,11 @@
       "dense_layout",
       "high_contrast",
       "inspired-by",
-      "windows_98",
       "light",
       "opinionated",
       "retro",
-      "squared"
+      "squared",
+      "windows_98"
     ],
     "_author": "floodlight",
     "_created_at": "2025-09-06T19:17:58.859914"
@@ -2842,8 +2842,8 @@
       "dark_and_light",
       "high_contrast",
       "inspired-by",
-      "marathon",
       "light",
+      "marathon",
       "monotonal",
       "opinionated"
     ],
@@ -2873,11 +2873,11 @@
       "dark_and_light",
       "high_contrast",
       "inspired-by",
-      "vesper",
       "light",
       "minimalistic",
       "monotonal",
-      "requests_font_installation"
+      "requests_font_installation",
+      "vesper"
     ],
     "_author": "floodlight",
     "_created_at": "2025-09-06T19:39:03.845693"
@@ -2887,7 +2887,6 @@
     "screenshot-main": "PoweredByLancer-Icon.png",
     "screenshots-side": [],
     "tags": [
-      "TTRPG",
       "colorful",
       "dark",
       "dark_and_light",
@@ -2898,7 +2897,8 @@
       "light",
       "opinionated",
       "squared",
-      "tritonal"
+      "tritonal",
+      "TTRPG"
     ],
     "_author": "floodlight",
     "_created_at": "2025-09-06T19:40:43.438943"
@@ -3226,10 +3226,10 @@
       "larger_text",
       "light",
       "minimalistic",
-      "mobile_support",
       "modified_layout",
       "monospace_editor",
-      "multiple_palettes"
+      "multiple_palettes",
+      "supports_mobile"
     ]
   },
   {
@@ -3292,8 +3292,8 @@
       "dark_and_light",
       "light",
       "minimalistic",
-      "mobile_support",
-      "reading_focus"
+      "reading_focus",
+      "supports_mobile"
     ]
   },
   {
@@ -3365,9 +3365,9 @@
     "screenshot-main": "obsidian-screenshot-small.png",
     "screenshots-side": [],
     "tags": [
-      "IBM_Carbon",
       "dark",
       "dark_and_light",
+      "IBM_Carbon",
       "inspired_by",
       "larger_text",
       "light",
@@ -3395,10 +3395,10 @@
     "screenshot-main": "img/thumb.png",
     "screenshots-side": [],
     "tags": [
-      "GNOME",
       "dark",
       "dark_and_light",
       "file_explorer_icons",
+      "GNOME",
       "inspired_by",
       "light",
       "minimalistic",
@@ -3414,12 +3414,12 @@
       "cool",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "db_folder_support",
       "inspired_by",
       "light",
       "minimalistic",
-      "monokai_pro"
+      "monokai_pro",
+      "supports_dataview",
+      "supports_db_folder"
     ]
   },
   {
@@ -3462,7 +3462,6 @@
     "screenshot-main": "novadust-img.png",
     "screenshots-side": [],
     "tags": [
-      "calendar_support",
       "cool",
       "cozy",
       "dark",
@@ -3470,7 +3469,8 @@
       "minimalistic",
       "novadust",
       "padded_layout_separation",
-      "rainbow_headers"
+      "rainbow_headers",
+      "supports_calendar"
     ]
   },
   {
@@ -3483,8 +3483,8 @@
       "dark_and_light",
       "light",
       "minimalistic",
-      "mobile_support",
-      "modified_layout"
+      "modified_layout",
+      "supports_mobile"
     ]
   },
   {
@@ -3514,9 +3514,9 @@
       "colorful",
       "dark",
       "minimalistic",
-      "mobile_support",
       "rainbow_headers",
       "requests_font_installation",
+      "supports_mobile",
       "tomorrow",
       "typographic_customization"
     ]
@@ -3640,13 +3640,13 @@
       "custom_html",
       "dark",
       "dark_and_light",
-      "dataview_support",
       "light",
       "line_layout_separation",
       "minimalistic",
-      "multi_column_markdown_support",
-      "obsidian_columns_support",
       "smaller_text",
+      "supports_dataview",
+      "supports_multi_column_markdown",
+      "supports_obsidian_columns",
       "typographic_customization"
     ]
   },
@@ -3672,11 +3672,11 @@
       "custom_font",
       "dark",
       "dark_and_light",
-      "fantasy_statblocks_support",
       "light",
       "minimalistic",
       "nord",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_fantasy_statblocks"
     ]
   },
   {
@@ -3719,7 +3719,7 @@
       "low_contrast",
       "minimalistic",
       "monospace_editor",
-      "vim_support"
+      "supports_vim"
     ]
   },
   {
@@ -3761,8 +3761,8 @@
       "light",
       "low_contrast",
       "minimalistic",
-      "mobile_support",
-      "rainbow_header"
+      "rainbow_header",
+      "supports_mobile"
     ]
   },
   {
@@ -3860,34 +3860,34 @@
     "screenshot-main": "cover.png",
     "screenshots-side": [],
     "tags": [
-      "advanced_tables_support",
       "alternate_checkboxes",
-      "block_reference_counter_support",
-      "breadcrumbs_support",
-      "calendar_support",
-      "changelogs_support",
-      "charts_support",
-      "checklist_support",
-      "copy_code_button_support",
       "custom_html",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "excalidraw_support",
       "file_explorer_icons",
       "gallery_suypport",
       "highlight_active_line",
-      "kanban_support",
       "light",
       "meditative",
       "minimalistic",
-      "quick_explorer_support",
       "requests_contextual_typography",
       "requests_smart_typography",
       "shadows",
-      "sliding_panes_support",
       "style_settings_medium",
-      "templater_support"
+      "supports_advanced_tables",
+      "supports_block_reference_counter",
+      "supports_breadcrumbs",
+      "supports_calendar",
+      "supports_changelogs",
+      "supports_charts",
+      "supports_checklist",
+      "supports_copy_code_button",
+      "supports_dataview",
+      "supports_excalidraw",
+      "supports_kanban",
+      "supports_quick_explorer",
+      "supports_sliding_panes",
+      "supports_templater"
     ]
   },
   {
@@ -4209,16 +4209,16 @@
     "screenshot-main": "assets/Seamless View.png",
     "screenshots-side": [],
     "tags": [
-      "admonition_support",
       "dark",
       "dark_and_light",
-      "dataview_support",
       "light",
-      "list_callouts_support",
       "minimalistic",
       "modified_canvas",
-      "quickadd_support",
       "rainbow_headers",
+      "supports_admonition",
+      "supports_dataview",
+      "supports_list_callouts",
+      "supports_quickadd",
       "wood"
     ]
   },
@@ -4306,7 +4306,6 @@
     "screenshots-side": [],
     "tags": [
       "broken_functionality",
-      "calendar_support",
       "custom_font",
       "dark",
       "dark_and_light",
@@ -4315,6 +4314,7 @@
       "minimalistic",
       "rainbow_headers",
       "style_settings_lite",
+      "supports_calendar",
       "warm"
     ]
   },
@@ -4345,8 +4345,8 @@
       "gradients",
       "light",
       "minimalistic",
-      "pdf_export_support",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_pdf_export"
     ]
   },
   {
@@ -4388,13 +4388,13 @@
     "tags": [
       "accent_based",
       "callouts",
-      "canvas_support",
       "dark",
       "dark_and_light",
       "light",
       "minimalistic",
       "padded_layout_separation",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_canvas"
     ]
   },
   {
@@ -4459,37 +4459,37 @@
       "alternate_checkboxes",
       "background_image",
       "biscuit",
-      "calendar_support",
       "callouts",
-      "cardboard_support",
       "cards",
       "catppuccin",
       "coool",
       "cssclasses",
       "dark",
       "dark_and_light",
-      "dataview_support",
       "everforest",
       "extra_snippets",
-      "file_tree_alternative_support",
       "gruvbox",
-      "kanban_support",
       "light",
-      "make.md_support",
-      "meta_bind_support",
       "minimalistic",
       "nord",
       "padded_layout_separation",
-      "pomodoro_timer_support",
       "rainbow_headers",
       "rose_pine",
       "rounded",
-      "task_genius_support",
-      "todoist_sync_support",
-      "tokei_support",
-      "typographic_customization",
-      "widgets_support",
-      "wypst_support"
+      "supports_calendar",
+      "supports_cardboard",
+      "supports_dataview",
+      "supports_file_tree_alternative",
+      "supports_kanban",
+      "supports_make.md",
+      "supports_meta_bind",
+      "supports_pomodoro_timer",
+      "supports_task_genius",
+      "supports_todoist_sync",
+      "supports_tokei",
+      "supports_widgets",
+      "supports_wypst",
+      "typographic_customization"
     ]
   },
   {
@@ -4669,12 +4669,12 @@
       "clean",
       "dark",
       "dark_and_light",
-      "day_planner_support",
       "glass",
       "light",
-      "make.md_support",
       "minimalistic",
-      "mysnippets_support"
+      "supports_day_planner",
+      "supports_make.md",
+      "supports_mysnippets"
     ]
   },
   {
@@ -4690,7 +4690,6 @@
       "dark_and_light",
       "extra_snippets",
       "file_explorer_note_count_requested",
-      "gallery_support",
       "iconize_requested",
       "light",
       "minimalistic",
@@ -4698,7 +4697,8 @@
       "requests_font_installation",
       "smaller_text",
       "sparse_layout",
-      "style_settings_medium"
+      "style_settings_medium",
+      "supports_gallery"
     ]
   },
   {
@@ -4706,16 +4706,16 @@
     "screenshot-main": "preview.png",
     "screenshots-side": [],
     "tags": [
-      "advanced_tables_support",
-      "calendar_support",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "excalidraw_support",
       "light",
       "minimalistic",
       "rainbow_headers",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_advanced_tables",
+      "supports_calendar",
+      "supports_dataview",
+      "supports_excalidraw"
     ]
   },
   {
@@ -4723,22 +4723,22 @@
     "screenshot-main": "OneNice.png",
     "screenshots-side": [],
     "tags": [
-      "OneDark-Pro",
-      "calendar_support",
       "cool",
       "darekr",
       "dark",
       "dark_and_light",
-      "dataview_support",
-      "highlightr_support",
-      "iconize_support",
       "inspired_by",
       "light",
       "low_contrast",
       "minimalistic",
+      "OneDark-Pro",
       "rainbow_headers",
       "requests_font_installation",
-      "templater_support",
+      "supports_calendar",
+      "supports_dataview",
+      "supports_highlightr",
+      "supports_iconize",
+      "supports_templater",
       "typographic_customization"
     ]
   },
@@ -4802,11 +4802,11 @@
       "dark",
       "dark_and_light",
       "darker",
-      "dataview_support",
       "high_contrast",
       "light",
       "minimalistic",
-      "style_settings_lite"
+      "style_settings_lite",
+      "supports_dataview"
     ]
   },
   {
@@ -4873,16 +4873,401 @@
     "screenshot-main": "screenshot.png",
     "screenshots-side": [],
     "tags": [
-      "calendar_support",
       "color_layout_separation",
       "community_checkboxes",
       "dark",
-      "git_support",
       "hybrid_brightness",
-      "kanban_support",
       "minimalistic",
       "monospace_editor",
-      "quiet_outline_support"
+      "supports_calendar",
+      "supports_git",
+      "supports_kanban",
+      "supports_quiet_outline"
+    ]
+  },
+  {
+    "repo": "incantatem2/Obsidian-neutral-academia",
+    "screenshot-main": "images/neutralacademia-dark-thumbnail.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "borderless",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "larger_text",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "ornate_font",
+      "preferred_font",
+      "smaller_text"
+    ]
+  },
+  {
+    "repo": "harmtemolder/obsidian-ink",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "e-ink_display",
+      "high_contrast",
+      "light",
+      "line_layout_separation",
+      "minimalistic",
+      "monochrome"
+    ]
+  },
+  {
+    "repo": "drkpxl/Frost",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "apple_notes",
+      "clean",
+      "dark",
+      "dark_and_light",
+      "inspired_by",
+      "light",
+      "minimalistic",
+      "requests_code_block",
+      "requests_font_installation",
+      "requests_iconize",
+      "rounded",
+      "tailwind",
+      "typographic_focus"
+    ]
+  },
+  {
+    "repo": "lorens-osman-dev/Glass-Robo",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "background_image",
+      "catppuccin",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "dracula",
+      "file_explorer_icons",
+      "glass",
+      "gradients",
+      "gruvbox",
+      "light",
+      "lorens",
+      "minimalistic",
+      "multiple_layouts",
+      "multiple_palettes",
+      "one_dark",
+      "rainbow_headers",
+      "supports_callout_suggestions",
+      "supports_cluster",
+      "supports_hover_editor",
+      "supports_kanban",
+      "supports_mobile",
+      "supports_spaced_repetition"
+    ]
+  },
+  {
+    "repo": "incantatem2/Obsidian-mulled-wine",
+    "screenshot-main": "images/mulledwine-thumbnail.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "brightness_layout_separation",
+      "colorful_frame",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "padded_layout_separation",
+      "pink",
+      "smaller_text",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "abhimangs/obsidian-vortex",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "accent_based",
+      "animated",
+      "color_layout_separation",
+      "dark",
+      "dark_and_light",
+      "glow",
+      "gradients",
+      "hot",
+      "light",
+      "minimalistic",
+      "monotonal",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "sspaeti/obsidian_kanagawa_paper",
+    "screenshot-main": "dark.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "high_contrast",
+      "kanagawa_paper",
+      "light",
+      "line_layout_separation",
+      "minimalistic",
+      "paper",
+      "rainbow_headers"
+    ]
+  },
+  {
+    "repo": "IxBlazarxI/Obsidian-Theme-OverCast",
+    "screenshot-main": "Thumbnail.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "background_image",
+      "borderless",
+      "dark",
+      "darker",
+      "glass",
+      "glow",
+      "meditative",
+      "minimalistic",
+      "readability",
+      "supports_mobile"
+    ]
+  },
+  {
+    "repo": "raspberri05/simple-color",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "minimalistic",
+      "unavailable"
+    ]
+  },
+  {
+    "repo": "Daiki48/sakurajima.obsidian",
+    "screenshot-main": "screenshots/cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "\\",
+      "dark",
+      "minimalistic",
+      "warm"
+    ]
+  },
+  {
+    "repo": "aaaaalexis/obsidian-cupertino",
+    "screenshot-main": "cupertino.png",
+    "screenshots-side": [],
+    "tags": [
+      "animated",
+      "auto_hiding",
+      "clean",
+      "community_checkboxes",
+      "dark",
+      "dark_and_light",
+      "glass",
+      "highlight_active_line",
+      "light",
+      "liquid_glass",
+      "minimalistic",
+      "multiple_layouts",
+      "native",
+      "style_settings_lite",
+      "supports_mobile"
+    ]
+  },
+  {
+    "repo": "MalcolmMielle/Emerald-Echo",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "darker",
+      "green",
+      "high_contrast",
+      "light",
+      "minimalistic",
+      "monotonal",
+      "OLED",
+      "rainbow_headers",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "benjaminezequiel/playground-theme",
+    "screenshot-main": "theme_preview.png",
+    "screenshots-side": [],
+    "tags": [
+      "callouts",
+      "community_checkboxes",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "high_contrast",
+      "light",
+      "minimalistic",
+      "rainbow_headers"
+    ]
+  },
+  {
+    "repo": "druxorey/minimal-dracula-for-obsidian",
+    "screenshot-main": "resources/cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "cool",
+      "dark",
+      "dark_and_light",
+      "dracula",
+      "light",
+      "minimalistic",
+      "padded_layout_separation",
+      "sparse_layout",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "technerium/obsidian-ukiyo",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "always_monospace",
+      "auto_hiding",
+      "coffee",
+      "dark",
+      "dark_and_light",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "modified_layout",
+      "multiple_layouts",
+      "multiple_palettes",
+      "padded_layout_separation",
+      "stripped_down",
+      "typographic_customization",
+      "warm"
+    ]
+  },
+  {
+    "repo": "laughmaker/Zen",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "auto_hiding",
+      "background_image",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "glass",
+      "high_contrast",
+      "light",
+      "minimalistic",
+      "modified_layout",
+      "rainbow_headers",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "Inc44/OLED.Black",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "black_background",
+      "dark",
+      "darker",
+      "high_contrast",
+      "minimalistic",
+      "OLED"
+    ]
+  },
+  {
+    "repo": "iwa/Sei",
+    "screenshot-main": "assets/thumbnail.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "clean",
+      "community_checkboxes",
+      "dark",
+      "dark_and_light",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "modified_layout",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "babidisrc/obsidian-sunbather",
+    "screenshot-main": "thumbnail.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "darker",
+      "high_contrast",
+      "inspired_by",
+      "light",
+      "minimalistic",
+      "monotonal",
+      "pink",
+      "vim-sunbather"
+    ]
+  },
+  {
+    "repo": "AfonsoMiranda02/Obsidian-MinimalRed",
+    "screenshot-main": "cover.png",
+    "screenshots-side": [],
+    "tags": [
+      "cool",
+      "dark",
+      "darker",
+      "minimalistic",
+      "red",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "rose-pine/obsidian",
+    "screenshot-main": "thumbnail.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "gradients",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "rainbow_headers",
+      "rose_pine",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "vran-dev/obsidian-composer",
+    "screenshot-main": "screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "auto_hiding",
+      "callouts",
+      "cards",
+      "ccm",
+      "dark",
+      "dark_and_light",
+      "ergonomics",
+      "light",
+      "low_contrast",
+      "minimalistic",
+      "multiple_layouts",
+      "multiple_palettes",
+      "padded_layout_separation",
+      "readability",
+      "sparse_layout",
+      "supports_dataview",
+      "typographic_customization"
     ]
   }
 ]

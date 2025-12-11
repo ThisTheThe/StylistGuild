@@ -26,11 +26,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/ishgunacar/gitsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/ishgunacar/gitsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/ishgunacar/gitsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-November 2020-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/ishgunacar/gitsidian?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on September 24, 2025 at 03:07 PM

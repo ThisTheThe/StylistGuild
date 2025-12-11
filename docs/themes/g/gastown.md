@@ -21,11 +21,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/dogwaddle/obsidian-gastown-theme.md?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/dogwaddle/obsidian-gastown-theme.md?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/dogwaddle/obsidian-gastown-theme.md?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-May 2020-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/dogwaddle/obsidian-gastown-theme.md?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

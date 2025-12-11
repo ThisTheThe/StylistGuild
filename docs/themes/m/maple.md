@@ -4,20 +4,20 @@ tags:
   - active_line_highlight
   - animations
   - background_image
-  - calendar_support
   - colorful_frame
   - cool
   - dark
   - dark_and_light
-  - dataview_support
-  - export_support
-  - graph_support
-  - kanban_support
   - light
   - minimalistic
   - modified_layout
   - rainbow_headers
   - style_settings_large
+  - supports_calendar
+  - supports_dataview
+  - supports_export
+  - supports_graph
+  - supports_kanban
   - typographic_customization
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -44,4 +44,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

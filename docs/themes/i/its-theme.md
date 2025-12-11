@@ -1,23 +1,23 @@
 ---
 title: ITS Theme
 tags:
-  - TTRPG
   - callouts
   - cssclasses
   - dark
   - dark_and_light
-  - dataview_support
   - exotic
   - extra_snippets
   - fantasy
   - infobox
-  - kanban_support
   - light
   - nord
   - notion
   - notion_palette
   - squared
   - style_settings_large
+  - supports_dataview
+  - supports_kanban
+  - TTRPG
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -36,11 +36,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/SlRvb/Obsidian--ITS-Theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/SlRvb/Obsidian--ITS-Theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/SlRvb/Obsidian--ITS-Theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-January 2021-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/SlRvb/Obsidian--ITS-Theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

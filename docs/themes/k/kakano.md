@@ -13,10 +13,10 @@ tags:
   - larger_text
   - light
   - minimalistic
-  - mobile_support
   - modified_layout
   - monospace_editor
   - multiple_palettes
+  - supports_mobile
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -42,4 +42,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

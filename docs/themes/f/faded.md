@@ -1,7 +1,6 @@
 ---
 title: Faded
 tags:
-  - calendar_support
   - callouts
   - cssclasses
   - dark
@@ -11,6 +10,7 @@ tags:
   - multiple_columns
   - rainbow_headers
   - style_settings_lite
+  - supports_calendar
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -36,4 +36,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

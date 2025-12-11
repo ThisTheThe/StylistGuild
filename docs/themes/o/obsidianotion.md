@@ -2,20 +2,20 @@
 title: Obsidianotion
 tags:
   - alternate_checkboxes
-  - banner_support
   - callouts
   - dark
   - dark_and_light
-  - graph_support
   - inspired_by
   - light
-  - make_md_support
   - minimalistic
   - modified_layout
   - notion
   - notion_palette
-  - projects_support
   - style_settings_lite
+  - supports_banner
+  - supports_graph
+  - supports_make_md
+  - supports_projects
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -41,4 +41,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

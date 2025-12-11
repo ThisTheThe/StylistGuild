@@ -7,8 +7,8 @@ tags:
   - glass
   - light
   - minimalistic
-  - mobile_support
   - style_settings_large
+  - supports_mobile
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -27,11 +27,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/Akifyss/obsidian-border?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/Akifyss/obsidian-border?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/Akifyss/obsidian-border?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-October 2022-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/Akifyss/obsidian-border?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

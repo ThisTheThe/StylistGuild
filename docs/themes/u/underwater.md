@@ -4,37 +4,37 @@ tags:
   - alternate_checkboxes
   - background_image
   - biscuit
-  - calendar_support
   - callouts
-  - cardboard_support
   - cards
   - catppuccin
   - coool
   - cssclasses
   - dark
   - dark_and_light
-  - dataview_support
   - everforest
   - extra_snippets
-  - file_tree_alternative_support
   - gruvbox
-  - kanban_support
   - light
-  - make.md_support
-  - meta_bind_support
   - minimalistic
   - nord
   - padded_layout_separation
-  - pomodoro_timer_support
   - rainbow_headers
   - rose_pine
   - rounded
-  - task_genius_support
-  - todoist_sync_support
-  - tokei_support
+  - supports_calendar
+  - supports_cardboard
+  - supports_dataview
+  - supports_file_tree_alternative
+  - supports_kanban
+  - supports_make.md
+  - supports_meta_bind
+  - supports_pomodoro_timer
+  - supports_task_genius
+  - supports_todoist_sync
+  - supports_tokei
+  - supports_widgets
+  - supports_wypst
   - typographic_customization
-  - widgets_support
-  - wypst_support
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -60,4 +60,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

@@ -1,17 +1,17 @@
 ---
 title: deeper work
 tags:
-  - NOT_stacked_panes
-  - calendar_support
   - callouts
   - dark
   - font_installation_requested
   - github
   - inspired_by
   - minimalistic
+  - NOT_stacked_panes
   - sliding_panes
   - stacked_panes
   - style_settings_lite
+  - supports_calendar
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -30,11 +30,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/lucas-fern/obsidian-deeper-work-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/lucas-fern/obsidian-deeper-work-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/lucas-fern/obsidian-deeper-work-theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-October 2022-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/lucas-fern/obsidian-deeper-work-theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

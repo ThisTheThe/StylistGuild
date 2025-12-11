@@ -19,7 +19,7 @@ tags:
   - modifies_outline
   - multiple_palettes
   - style_settings_medium
-  - vim_support
+  - supports_vim
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -45,4 +45,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

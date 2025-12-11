@@ -2,7 +2,6 @@
 title: DarkEmber
 tags:
   - broken_functionality
-  - calendar_support
   - custom_font
   - dark
   - dark_and_light
@@ -11,6 +10,7 @@ tags:
   - minimalistic
   - rainbow_headers
   - style_settings_lite
+  - supports_calendar
   - warm
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -37,4 +37,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

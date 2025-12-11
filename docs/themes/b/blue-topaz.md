@@ -3,28 +3,28 @@ title: Blue Topaz
 tags:
   - ISNOT_rounded
   - background_images
-  - calendar_support
+  - supports_calendar
   - callouts
   - cards
   - colorful_frame
   - cssclasses
   - dark
   - dark_and_light
-  - dataview_support
+  - supports_dataview
   - gallery
   - glass
   - kanban
-  - kanban_support
+  - supports_kanban
   - light
   - minimalistic
   - monochrome
   - multiple_palettes
-  - quiet_outline_support
+  - supports_quiet_outline
   - rainbow_folders
   - rainbow_headers
   - rounded
   - style_settings_large
-  - thino_support
+  - supports_thino
   - topaz-nord
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -44,11 +44,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-October 2020-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on September 24, 2025 at 03:06 PM

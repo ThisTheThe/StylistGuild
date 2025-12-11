@@ -1,31 +1,31 @@
 ---
 title: Olivier’s Theme
 tags:
-  - advanced_tables_support
-  - another_quick_switcher_support
-  - better_command_palette_support
-  - better_footnote_support
   - brown
-  - calendar_support
   - coffee
-  - completed_task_display_support
   - cssclasses
   - dark
   - dark_and_light
-  - dataview_support
-  - hider_support
-  - kanban_support
   - light
-  - metadata_menu_support
-  - metatable_support
   - minimalistic
   - modified_layout
   - multiple_palettes
   - opinionated
-  - quick_switcher++_support
-  - quickadd_support
   - requests_contextual_typography
   - style_settings_medium
+  - supports_advanced_tables
+  - supports_another_quick_switcher
+  - supports_better_command_palette
+  - supports_better_footnote
+  - supports_calendar
+  - supports_completed_task_display
+  - supports_dataview
+  - supports_hider
+  - supports_kanban
+  - supports_metadata_menu
+  - supports_metatable
+  - supports_quick_switcher++
+  - supports_quickadd
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -51,4 +51,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

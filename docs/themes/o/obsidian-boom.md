@@ -1,10 +1,10 @@
 ---
 title: Obsidian Boom
 tags:
-  - pre_1.0
   - inspired-by
   - light
   - minimalistic
+  - pre_1.0
   - roam
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -24,11 +24,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/sainadh-d/obsidian-boom?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/sainadh-d/obsidian-boom?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/sainadh-d/obsidian-boom?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-May 2020-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/sainadh-d/obsidian-boom?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

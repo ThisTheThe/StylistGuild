@@ -7,13 +7,13 @@ tags:
   - custom_html
   - dark
   - dark_and_light
-  - dataview_support
   - light
   - line_layout_separation
   - minimalistic
-  - multi_column_markdown_support
-  - obsidian_columns_support
   - smaller_text
+  - supports_dataview
+  - supports_multi_column_markdown
+  - supports_obsidian_columns
   - typographic_customization
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -40,4 +40,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

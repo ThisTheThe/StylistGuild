@@ -1,11 +1,11 @@
 ---
 title: Ursa
 tags:
-  - pre_1.0
   - dark
   - dark_and_light
   - light
   - minimalistic
+  - pre_1.0
   - requests_font_installation
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -25,11 +25,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/obsidian-ezs/obsidian-ursa?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/obsidian-ezs/obsidian-ursa?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/obsidian-ezs/obsidian-ursa?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-May 2020-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/obsidian-ezs/obsidian-ursa?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

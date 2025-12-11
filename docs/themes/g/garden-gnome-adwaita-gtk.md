@@ -1,10 +1,10 @@
 ---
 title: Garden Gnome (Adwaita, GTK)
 tags:
-  - GNOME
   - dark
   - dark_and_light
   - file_explorer_icons
+  - GNOME
   - inspired_by
   - light
   - minimalistic
@@ -34,4 +34,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

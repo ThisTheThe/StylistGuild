@@ -7,8 +7,8 @@ tags:
   - gradients
   - light
   - minimalistic
-  - pdf_export_support
   - style_settings_lite
+  - supports_pdf_export
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -34,4 +34,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

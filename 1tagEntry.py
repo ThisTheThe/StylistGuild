@@ -190,10 +190,8 @@ class BatchProcessor:
                 elif choice == '4':
                     self._menu_view_statistics()
                 elif choice == '5':
-                    self._menu_render_themes()
-                elif choice == '6':
                     self._menu_configuration()
-                elif choice == '7':
+                elif choice == '6':
                     print("👋 Goodbye!")
                     break
                 else:
@@ -222,9 +220,8 @@ class BatchProcessor:
             ("2", "Process Missing Addon Entries (Range/Multi-Peer)", "👥"),
             ("3", "Check Synchronization Status", "🔍"),
             ("4", "View Statistics & File Status", "📊"),
-            ("5", "Render Theme Pages", "🎨"),
-            ("6", "Configuration", "⚙️"),
-            ("7", "Exit", "🚪")
+            ("5", "Configuration", "⚙️"),
+            ("6", "Exit", "🚪")
         ]
         
         for num, title, emoji in menu_items:
@@ -399,76 +396,6 @@ class BatchProcessor:
                 print("  Most common tags:")
                 for tag, count in sorted_tags[:8]:
                     print(f"    {tag}: {count}")
-
-    def _menu_render_themes(self):
-        """Render theme pages using ThemeRenderer"""
-        print("\n" + "🎨 RENDER THEME PAGES".center(60, "="))
-        
-        official_data, addon_data = self.load_both_datasets()
-        
-        if not official_data:
-            print("❌ No official theme data found. Cannot render pages.")
-            return
-        
-        # Create addon lookup
-        addon_lookup = {theme.get("repo"): theme for theme in addon_data}
-        
-        # Find themes with complete data
-        complete_themes = []
-        incomplete_themes = []
-        
-        for official_theme in official_data:
-            repo = official_theme.get("repo")
-            if not repo:
-                continue
-                
-            addon_theme = addon_lookup.get(repo)
-            if addon_theme:
-                # Merge data for renderer
-                merged_theme = {
-                    "title": official_theme.get("name"),
-                    "repository_link": repo,
-                    "tags_list": addon_theme.get("tags", []),
-                    "main_screenshot_url": addon_theme.get("screenshot-main", official_theme.get("screenshot", "")),
-                    "additional_image_urls": addon_theme.get("screenshots-side", [])
-                }
-                complete_themes.append(merged_theme)
-            else:
-                incomplete_themes.append(official_theme.get("name", repo))
-        
-        print(f"📊 Theme Analysis:")
-        print(f"  Complete themes (with addon data): {len(complete_themes)}")
-        print(f"  Incomplete themes (missing addon data): {len(incomplete_themes)}")
-        
-        if incomplete_themes:
-            print(f"\n⚠️ Skipping {len(incomplete_themes)} themes without addon data:")
-            for name in incomplete_themes[:5]:
-                print(f"    • {name}")
-            if len(incomplete_themes) > 5:
-                print(f"    • ... and {len(incomplete_themes) - 5} more")
-        
-        if not complete_themes:
-            print("❌ No themes with complete data to render.")
-            return
-        
-        # Confirm rendering
-        confirm = input(f"\n🚀 Render {len(complete_themes)} theme pages? (y/n): ").strip().lower()
-        if confirm != 'y':
-            print("❌ Rendering cancelled.")
-            return
-        
-        try:
-            print(f"🎨 Starting render process...")
-            renderer = ThemeRenderer()
-            results = renderer.batch_render_themes(complete_themes)
-            
-            print("\n✅ Rendering completed!")
-            if isinstance(results, dict):
-                for key, value in results.items():
-                    print(f"  {key}: {value}")
-            
-        except Exception as e:
-            print(f"❌ Rendering failed: {e}")
 
     def _menu_configuration(self):
         """Configuration options"""

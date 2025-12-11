@@ -8,8 +8,8 @@ tags:
   - dark_and_light
   - high_contrast
   - inspired-by
-  - marathon
   - light
+  - marathon
   - monotonal
   - opinionated
 ---
@@ -37,4 +37,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

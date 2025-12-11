@@ -3,7 +3,7 @@ title: Atomus
 tags:
   - cool
   - dark
-  - full_calendar_support
+  - supports_full_calendar
   - low_contrast
   - minimalistic
   - rainbow_headers
@@ -32,4 +32,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on September 24, 2025 at 03:07 PM

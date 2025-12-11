@@ -2,19 +2,19 @@
 title: Material Flat
 tags:
   - accent_based
-  - breadcrumbs_support
-  - canvas_support
-  - commander_support
-  - cooklang_obsidian_support
   - dark
   - dark_and_light
-  - excalidraw_support
   - glass
   - high_contrast
   - light
   - minimalistic
-  - mobile_support
   - style_settings_lite
+  - supports_breadcrumbs
+  - supports_canvas
+  - supports_commander
+  - supports_cooklang_obsidian
+  - supports_excalidraw
+  - supports_mobile
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -40,4 +40,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

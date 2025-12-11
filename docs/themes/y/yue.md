@@ -6,7 +6,7 @@ tags:
   - dark_and_light
   - light
   - minimalistic
-  - mobile_support
+  - supports_mobile
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -32,4 +32,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on September 24, 2025 at 03:07 PM

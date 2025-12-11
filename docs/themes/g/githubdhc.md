@@ -10,10 +10,10 @@ tags:
   - high_contrast
   - inspired_by
   - kanban
-  - kanban_support
   - minimalistic
   - monochrome
   - multiple_palettes
+  - supports_kanban
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -39,4 +39,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

@@ -1,14 +1,13 @@
 ---
 title: Minimal
 tags:
-  - Configurability
-  - OLED
   - atom
   - ayu
   - callouts
   - cards
   - catppuccin
   - colorful_frame
+  - Configurability
   - cssclasses
   - darcula
   - dark
@@ -27,6 +26,7 @@ tags:
   - multiple_palettes
   - nord
   - nose_pine
+  - OLED
   - sky
   - solarized
   - style_settings_large
@@ -49,11 +49,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/kepano/obsidian-minimal?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/kepano/obsidian-minimal?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/kepano/obsidian-minimal?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-July 2020-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/kepano/obsidian-minimal?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

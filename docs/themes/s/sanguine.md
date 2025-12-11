@@ -1,15 +1,15 @@
 ---
 title: Sanguine
 tags:
-  - advanced_tables_support
-  - calendar_support
   - dark
   - darker
-  - file_tree_alternative_plugin_support
   - high_contrast
-  - kanban_support
   - minimalistic
   - novelty
+  - supports_advanced_tables
+  - supports_calendar
+  - supports_file_tree_alternative_plugin
+  - supports_kanban
   - tritonal
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -36,4 +36,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

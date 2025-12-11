@@ -5,11 +5,11 @@ tags:
   - custom_font
   - dark
   - dark_and_light
-  - fantasy_statblocks_support
   - light
   - minimalistic
   - nord
   - style_settings_lite
+  - supports_fantasy_statblocks
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -35,4 +35,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

@@ -1,16 +1,16 @@
 ---
 title: Seamless View
 tags:
-  - admonition_support
   - dark
   - dark_and_light
-  - dataview_support
   - light
-  - list_callouts_support
   - minimalistic
   - modified_canvas
-  - quickadd_support
   - rainbow_headers
+  - supports_admonition
+  - supports_dataview
+  - supports_list_callouts
+  - supports_quickadd
   - wood
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -37,4 +37,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

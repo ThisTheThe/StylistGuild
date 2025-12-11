@@ -14,11 +14,11 @@ tags:
   - minimalistic
   - monochrome
   - requests_focus_active_sentence
-  - requests_ninja_cursor
   - requests_font_installation
+  - requests_ninja_cursor
   - shadows
-  - style_settings_medium
   - stripped_down
+  - style_settings_medium
   - typographic_focus
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -45,4 +45,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

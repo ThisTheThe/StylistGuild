@@ -5,11 +5,11 @@ tags:
   - dark_and_light
   - high_contrast
   - inspired-by
-  - vesper
   - light
   - minimalistic
   - monotonal
   - requests_font_installation
+  - vesper
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -35,4 +35,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

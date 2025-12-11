@@ -2,37 +2,37 @@
 title: Prism
 tags:
   - auto_hiding
-  - calendar_support
   - callouts
-  - cmenu_support
   - cssclasses
-  - dangling_links_support
   - dark
   - dark_and_light
-  - dataloom_support
-  - emoji_toolbar_support
-  - file_tree_alternative_support
-  - hover_editor_support
-  - icon_folder_support
-  - icons_support
-  - jump_to_date_support
-  - kanban_support
   - light
   - line_layout_separation
-  - map_view_support
   - minimalistic
   - modifies_layout
   - multiple_color_schemes
   - multiple_palettes
-  - obsidian_dictionary_support
-  - pane_relief_support
-  - quick_explorer_support
-  - quiet_outline_support
   - rainbow_folders
-  - recent_files_support
-  - settings_search_support
   - style_settings_large
-  - tag_folder_support
+  - supports_calendar
+  - supports_cmenu
+  - supports_dangling_links
+  - supports_dataloom
+  - supports_emoji_toolbar
+  - supports_file_tree_alternative
+  - supports_hover_editor
+  - supports_icon_folder
+  - supports_icons
+  - supports_jump_to_date
+  - supports_kanban
+  - supports_map_view
+  - supports_obsidian_dictionary
+  - supports_pane_relief
+  - supports_quick_explorer
+  - supports_quiet_outline
+  - supports_recent_files
+  - supports_settings_search
+  - supports_tag_folder
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -58,4 +58,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

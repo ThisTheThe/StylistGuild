@@ -7,8 +7,8 @@ tags:
   - light
   - low_contrast
   - minimalistic
-  - mobile_support
   - rainbow_header
+  - supports_mobile
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -34,4 +34,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

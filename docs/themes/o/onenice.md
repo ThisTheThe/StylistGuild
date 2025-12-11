@@ -1,22 +1,22 @@
 ---
 title: OneNice
 tags:
-  - OneDark-Pro
-  - calendar_support
   - cool
   - darekr
   - dark
   - dark_and_light
-  - dataview_support
-  - highlightr_support
-  - iconize_support
   - inspired_by
   - light
   - low_contrast
   - minimalistic
+  - OneDark-Pro
   - rainbow_headers
   - requests_font_installation
-  - templater_support
+  - supports_calendar
+  - supports_dataview
+  - supports_highlightr
+  - supports_iconize
+  - supports_templater
   - typographic_customization
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -43,4 +43,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

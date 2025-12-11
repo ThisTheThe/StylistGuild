@@ -5,15 +5,15 @@ tags:
   - Broken_functionality
   - Clean
   - Community checkboxes
+  - dark
+  - dark_and_light
   - Focus_mode
   - Glass
   - Highlight active line
-  - Line_layout_separation
-  - Style Settings Medium
-  - dark
-  - dark_and_light
   - light
+  - Line_layout_separation
   - minimalistic
+  - Style Settings Medium
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -39,4 +39,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

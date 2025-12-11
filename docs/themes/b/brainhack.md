@@ -3,13 +3,13 @@ title: Brainhack
 tags:
   - accent_based
   - callouts
-  - canvas_support
   - dark
   - dark_and_light
   - light
   - minimalistic
   - padded_layout_separation
   - style_settings_lite
+  - supports_canvas
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -35,4 +35,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

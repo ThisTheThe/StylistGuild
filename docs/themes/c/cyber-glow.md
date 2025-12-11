@@ -8,16 +8,16 @@ tags:
   - futuristic
   - glass
   - gradients
-  - kanban_support
   - light
   - minimalistic
-  - mobile_support
   - neon
   - padded_layout_separation
   - rainbow_folders
   - rainbow_headers
   - style_settings_medium
-  - surfing_support
+  - supports_kanban
+  - supports_mobile
+  - supports_surfing
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -36,11 +36,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/ThePharaohArt/Obsidian-CyberGlow?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/ThePharaohArt/Obsidian-CyberGlow?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/ThePharaohArt/Obsidian-CyberGlow?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-January 2021-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/ThePharaohArt/Obsidian-CyberGlow?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

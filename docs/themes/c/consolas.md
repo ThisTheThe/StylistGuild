@@ -1,16 +1,16 @@
 ---
 title: Consolas
 tags:
-  - calendar_support
   - color_layout_separation
   - community_checkboxes
   - dark
-  - git_support
   - hybrid_brightness
-  - kanban_support
   - minimalistic
   - monospace_editor
-  - quiet_outline_support
+  - supports_calendar
+  - supports_git
+  - supports_kanban
+  - supports_quiet_outline
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -36,4 +36,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

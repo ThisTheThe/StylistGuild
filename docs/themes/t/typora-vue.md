@@ -2,7 +2,6 @@
 title: Typora-Vue
 tags:
   - accent_based
-  - calendar_support
   - dark
   - dark_and_light
   - extra_snippets
@@ -10,6 +9,7 @@ tags:
   - inspired_by
   - light
   - minimalistic
+  - supports_calendar
   - typora_vue_theme
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -29,11 +29,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/ZekunC/Obsidian-Typora-Vue-Theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/ZekunC/Obsidian-Typora-Vue-Theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/ZekunC/Obsidian-Typora-Vue-Theme?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-July 2021-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/ZekunC/Obsidian-Typora-Vue-Theme?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

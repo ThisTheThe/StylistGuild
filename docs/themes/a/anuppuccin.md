@@ -15,14 +15,11 @@ tags:
   - dark_and_light
   - dracula
   - everforest
-  - excalidraw_support
   - extra_snippet
   - gruvbox
   - kanagawa
-  - kanban_support
   - light
   - line_layout_separation
-  - make_md_support
   - minimalistic
   - multiple_palettes
   - mutliple_layouts
@@ -34,6 +31,9 @@ tags:
   - royal_velvet
   - solarized
   - style_settings_large
+  - supports_excalidraw
+  - supports_kanban
+  - supports_make_md
   - thorns
   - typographic_customization
 ---
@@ -54,11 +54,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/AnubisNekhet/AnuPpuccin?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/AnubisNekhet/AnuPpuccin?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/AnubisNekhet/AnuPpuccin?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-November 2022-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/AnubisNekhet/AnuPpuccin?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

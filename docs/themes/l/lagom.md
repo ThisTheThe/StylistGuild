@@ -9,7 +9,6 @@ tags:
   - dark_and_light
   - extra_snippets
   - file_explorer_note_count_requested
-  - gallery_support
   - iconize_requested
   - light
   - minimalistic
@@ -18,6 +17,7 @@ tags:
   - smaller_text
   - sparse_layout
   - style_settings_medium
+  - supports_gallery
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -43,4 +43,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

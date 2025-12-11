@@ -1,18 +1,18 @@
 ---
 title: Polka
 tags:
-  - calendar_support
   - cool
   - dark
   - dark_and_light
-  - dictionary_support
-  - emoji_toolbar_support
-  - execute_code_support
-  - file_tree_alterantive_support
-  - kanban_support
   - light
   - minimalistic
   - multiple_palettes
+  - supports_calendar
+  - supports_dictionary
+  - supports_emoji_toolbar
+  - supports_execute_code
+  - supports_file_tree_alterantive
+  - supports_kanban
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -38,4 +38,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

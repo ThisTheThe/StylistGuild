@@ -1,16 +1,16 @@
 ---
 title: Simply Colorful
 tags:
-  - advanced_tables_support
-  - calendar_support
   - dark
   - dark_and_light
-  - dataview_support
-  - excalidraw_support
   - light
   - minimalistic
   - rainbow_headers
   - style_settings_lite
+  - supports_advanced_tables
+  - supports_calendar
+  - supports_dataview
+  - supports_excalidraw
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -36,4 +36,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

@@ -1,17 +1,17 @@
 ---
 title: Catppuccin
 tags:
-  - another_quick_switcher_support
-  - better_command_palette_support
   - catppuccin
   - dark
   - dark_and_light
   - light
-  - make.md_support
   - minimalistic
-  - obsidian_git_support
-  - omnisearch_support
   - style_settings_lite
+  - supports_another_quick_switcher
+  - supports_better_command_palette
+  - supports_make.md
+  - supports_obsidian_git
+  - supports_omnisearch
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -30,11 +30,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/catppuccin/obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/catppuccin/obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/catppuccin/obsidian?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-January 2022-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/catppuccin/obsidian?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

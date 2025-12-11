@@ -2,24 +2,24 @@
 title: Dune
 tags:
   - banner
-  - calendar_support
   - callouts
   - clean
-  - commander_support
   - cssclasses
   - dark
   - dark_and_light
-  - dataview_support
-  - dice_roller_support
-  - full_calendar_support
   - gradients
-  - hkcode_styler_support
-  - kanban_support
   - light
   - minimalistic
-  - mobile_support
-  - obsidian_camera_support
-  - quickadd_support
+  - supports_calendar
+  - supports_commander
+  - supports_dataview
+  - supports_dice_roller
+  - supports_full_calendar
+  - supports_hkcode_styler
+  - supports_kanban
+  - supports_mobile
+  - supports_obsidian_camera
+  - supports_quickadd
   - wood
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -46,4 +46,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

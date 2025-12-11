@@ -1,10 +1,10 @@
 ---
 title: GDCT
 tags:
-  - pre_1.0
   - light
   - macos_tab_buttons
   - minimalistic
+  - pre_1.0
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -23,11 +23,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/bcdavasconcelos/Obsidian-GDCT?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/bcdavasconcelos/Obsidian-GDCT?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/bcdavasconcelos/Obsidian-GDCT?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-August 2020-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/bcdavasconcelos/Obsidian-GDCT?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM

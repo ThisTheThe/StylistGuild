@@ -4,34 +4,34 @@ tags:
   - accent_based
   - active_line_highlight
   - alternate_checkboxes
-  - banners_support
   - blue
-  - calendar_support
   - cards
-  - commander_support
   - cool
   - cssclasses
   - dark
   - dark_and_light
-  - dataview_support
-  - excalidraw_support
   - file_explorer_icons
   - focus_mode
-  - full_calendar_support
   - gallery
   - glow
   - gradients
-  - kanban_support
   - light
   - minimalistic
-  - mobile_support
   - multiple_columns
   - multiple_layouts
   - multiple_palettes
   - padded_layout_separation
   - rainbow_folders
   - rainbow_headers
-  - tasks_support
+  - supports_banners
+  - supports_calendar
+  - supports_commander
+  - supports_dataview
+  - supports_excalidraw
+  - supports_full_calendar
+  - supports_kanban
+  - supports_mobile
+  - supports_tasks
   - transparent
 ---
 <div style="theme_page_template_version_1"> </div>
@@ -58,4 +58,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:12 PM

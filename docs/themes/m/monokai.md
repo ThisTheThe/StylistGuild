@@ -5,12 +5,12 @@ tags:
   - cool
   - dark
   - dark_and_light
-  - dataview_support
-  - db_folder_support
   - inspired_by
   - light
   - minimalistic
   - monokai_pro
+  - supports_dataview
+  - supports_db_folder
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -36,4 +36,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

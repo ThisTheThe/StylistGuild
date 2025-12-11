@@ -1,34 +1,34 @@
 ---
 title: Sanctum reborn
 tags:
-  - advanced_tables_support
   - alternate_checkboxes
-  - block_reference_counter_support
-  - breadcrumbs_support
-  - calendar_support
-  - changelogs_support
-  - charts_support
-  - checklist_support
-  - copy_code_button_support
   - custom_html
   - dark
   - dark_and_light
-  - dataview_support
-  - excalidraw_support
   - file_explorer_icons
   - gallery_suypport
   - highlight_active_line
-  - kanban_support
   - light
   - meditative
   - minimalistic
-  - quick_explorer_support
   - requests_contextual_typography
   - requests_smart_typography
   - shadows
-  - sliding_panes_support
   - style_settings_medium
-  - templater_support
+  - supports_advanced_tables
+  - supports_block_reference_counter
+  - supports_breadcrumbs
+  - supports_calendar
+  - supports_changelogs
+  - supports_charts
+  - supports_checklist
+  - supports_copy_code_button
+  - supports_dataview
+  - supports_excalidraw
+  - supports_kanban
+  - supports_quick_explorer
+  - supports_sliding_panes
+  - supports_templater
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -54,4 +54,4 @@ tags:
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:09 PM
+Generated on December 10, 2025 at 06:13 PM

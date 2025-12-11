@@ -1,31 +1,31 @@
 ---
 title: Typewriter
 tags:
-  - NOT_highlight_active_line
-  - banners_support
-  - better_word_count_support
-  - calendar_support
-  - citations_support
   - dark
   - dark_and_light
-  - dataview_support
-  - day_planner_support
   - highlight_active_line
-  - journey_support
-  - kanban_support
   - light
   - minimalistic
   - monospace_editor
-  - obsidian_image_export_support
-  - obsidian_todo_support
+  - NOT_highlight_active_line
   - paper
   - requests_click_clack
   - requests_typewriter_scroll
-  - tag_wrangler_support
-  - typewriter_scroll_support
+  - supports_banners
+  - supports_better_word_count
+  - supports_calendar
+  - supports_citations
+  - supports_dataview
+  - supports_day_planner
+  - supports_journey
+  - supports_kanban
+  - supports_obsidian_image_export
+  - supports_obsidian_todo
+  - supports_tag_wrangler
+  - supports_typewriter_scroll
+  - supports_vim
+  - supports_workbench
   - typographic_focus
-  - vim_support
-  - workbench_support
 ---
 <div style="theme_page_template_version_1"> </div>
 
@@ -44,11 +44,11 @@ tags:
                 <td><img src="https://img.shields.io/github/stars/crashmoney/obsidian-typewriter?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues/crashmoney/obsidian-typewriter?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/issues-pr/crashmoney/obsidian-typewriter?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-November 2021-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/github/last-commit/crashmoney/obsidian-typewriter?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 22, 2025 at 11:08 PM
+Generated on December 10, 2025 at 06:12 PM
