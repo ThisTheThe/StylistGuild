@@ -5269,5 +5269,208 @@
       "supports_dataview",
       "typographic_customization"
     ]
+  },
+  {
+    "repo": "dmytrodubinin/Obuntu-theme-for-Obsidian",
+    "screenshot-main": "screenshot.jpg",
+    "screenshots-side": [],
+    "tags": [
+      "borderless",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "dense_layout",
+      "focus_mode",
+      "inspired_by",
+      "light",
+      "minimalistic",
+      "monotonal",
+      "preferred_font",
+      "ubuntu",
+      "vim_support",
+      "warm"
+    ]
+  },
+  {
+    "repo": "PKM-er/Blue-Topaz_Obsidian-css",
+    "screenshot-main": "preview_Blue Topaz.png",
+    "screenshots-side": [],
+    "tags": [
+      "background_image",
+      "brightness_layout_separation",
+      "callouts",
+      "community_checkboxes",
+      "cssclasses",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "gallery",
+      "glass",
+      "high_contrast",
+      "highlight_active_line",
+      "kanban",
+      "light",
+      "minimalistic",
+      "modified_layout",
+      "multicolor_headers",
+      "multiple_palettes",
+      "nord",
+      "pdf_export_support",
+      "rainbow_folders",
+      "rounded",
+      "style_settings_large",
+      "supports_buttons",
+      "supports_calendar",
+      "supports_dataview",
+      "supports_kanban",
+      "supports_quiet_outline",
+      "supports_thino",
+      "transparent",
+      "typographic_customization"
+    ]
+  },
+  {
+    "repo": "ismailgunacar/gitsidian",
+    "screenshot-main": "showcase.png",
+    "screenshots-side": [],
+    "tags": [
+      "compatibility_issues",
+      "contrast_issues",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "light",
+      "minimalistic",
+      "preview_only"
+    ]
+  },
+  {
+    "repo": "0xGlitchbyte/obsidian_everforest",
+    "screenshot-main": "dark_v2.png",
+    "screenshots-side": [],
+    "tags": [
+      "dark",
+      "dark_and_light",
+      "everforest",
+      "green",
+      "light",
+      "lighter",
+      "line_layout_separation",
+      "low_contrast",
+      "minimalistic",
+      "rainbow_headers",
+      "warm"
+    ]
+  },
+  {
+    "repo": "KyleKlus/solitude-obsidian-theme",
+    "screenshot-main": "promo_screenshot.png",
+    "screenshots-side": [],
+    "tags": [
+      "alternate_checkboxes",
+      "always_monospace",
+      "background_image",
+      "colorful_frame",
+      "dark",
+      "darker",
+      "high_contrast",
+      "minimalistic",
+      "modified_layout",
+      "monotonal",
+      "pink",
+      "rounded",
+      "style_settings_lite"
+    ]
+  },
+  {
+    "repo": "Carbonateb/obsidian-encore-theme",
+    "screenshot-main": "images/promo-image.png",
+    "screenshots-side": [],
+    "tags": [
+      "atom_one",
+      "blue",
+      "clean",
+      "cool",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "glass",
+      "gradients",
+      "light",
+      "minimalistic",
+      "modified_layout",
+      "padded_layout_separation",
+      "rounded",
+      "supports_calendar",
+      "supports_canvas",
+      "supports_dataview",
+      "supports_excalidraw",
+      "supports_kanban",
+      "supports_make.md",
+      "supports_projects",
+      "transparent",
+      "typographic_customization",
+      "typographic_focus"
+    ]
+  },
+  {
+    "repo": "ph17/Dust",
+    "screenshot-main": "Screenshot_2.png",
+    "screenshots-side": [],
+    "tags": [
+      "atom_one",
+      "blue",
+      "cool",
+      "dark",
+      "lighter",
+      "low_contrast",
+      "minimalistic",
+      "multicolor_headers"
+    ]
+  },
+  {
+    "repo": "ds-package/Dawn",
+    "screenshot-main": "assets/00-screenshot-small.png",
+    "screenshots-side": [],
+    "tags": [
+      "clean",
+      "dark",
+      "dark_and_light",
+      "darker",
+      "light",
+      "meditative",
+      "minimalistic"
+    ]
+  },
+  {
+    "repo": "gbraad-obsidian/obsidian-tomorrow-night-bright-theme",
+    "screenshot-main": "images/example.png",
+    "screenshots-side": [],
+    "tags": [
+      "black_background",
+      "dark",
+      "darker",
+      "high_contrast",
+      "line_layout_separation",
+      "minimalistic",
+      "tritonal"
+    ]
+  },
+  {
+    "repo": "GixoXYZ/YueObsidian",
+    "screenshot-main": "assets/main-demo.png",
+    "screenshots-side": [],
+    "tags": [
+      "community_checkboxes",
+      "custom_font",
+      "dark",
+      "dark_and_light",
+      "file_explorer_icons",
+      "light",
+      "minimalistic",
+      "mobile_support",
+      "requests_font_installation",
+      "style_settings_medium"
+    ]
   }
 ]

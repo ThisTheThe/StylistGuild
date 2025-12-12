@@ -4,4 +4,5 @@
 node_modules/
 /backups
 __pycache__/
+vault_quickPreview/
 __temp_clone__
