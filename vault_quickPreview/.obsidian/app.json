@@ -1,0 +1,33 @@
+{
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "attachmentFolderPath": "Extras/Img",
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "livePreview": false,
+  "readableLineLength": false,
+  "userIgnoreFilters": [
+    "anti-why",
+    "Cards/Interruptives/",
+    "Cards/zx Cooking/"
+  ],
+  "strictLineBreaks": false,
+  "smartIndentList": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "useMarkdownLinks": false,
+  "spellcheck": false,
+  "showLineNumber": false,
+  "showInlineTitle": false,
+  "legacyEditor": false,
+  "showIndentGuide": true,
+  "useTab": true,
+  "showUnsupportedFiles": false,
+  "vimMode": false,
+  "foldIndent": true
+}

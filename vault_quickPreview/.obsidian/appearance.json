@@ -1,0 +1,19 @@
+{
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "beautify",
+    "vccarticle",
+    "danger.css"
+  ],
+  "baseFontSize": 20,
+  "baseFontSizeAction": true,
+  "interfaceFontFamily": "",
+  "translucency": false,
+  "accentColor": "#ff00d0",
+  "nativeMenus": false,
+  "textFontFamily": "",
+  "theme": "obsidian",
+  "showViewHeader": true,
+  "monospaceFontFamily": "Source Code Pro",
+  "showRibbon": true
+}

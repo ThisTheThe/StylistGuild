@@ -1,0 +1,400 @@
+{
+  "workspaces": {
+    "triview": {
+      "main": {
+        "id": "50e96a33c6c631f3",
+        "type": "split",
+        "children": [
+          {
+            "id": "84e9661e30a701ab",
+            "type": "tabs",
+            "dimension": 32.49235474006117,
+            "children": [
+              {
+                "id": "b52ce9a421c3b56a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "! Common Checklist.md",
+                    "mode": "source",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "! Common Checklist"
+                }
+              },
+              {
+                "id": "86165d7b14c245b2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Triview/Markdown.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Markdown"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "e767edae797db465",
+            "type": "tabs",
+            "dimension": 34.174311926605505,
+            "children": [
+              {
+                "id": "1dd5df91657e4dbc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Triview/Hierarchical.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Hierarchical"
+                }
+              },
+              {
+                "id": "979f503f6282efc8",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "61bdb939144e8068",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "fecd88289e5233ce",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              }
+            ]
+          },
+          {
+            "id": "680c9cf7ed6acf71",
+            "type": "tabs",
+            "dimension": 33.33333333333333,
+            "children": [
+              {
+                "id": "33479df0ab1d157d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Triview/Misc.md",
+                    "mode": "preview",
+                    "source": true,
+                    "backlinks": true,
+                    "backlinkOpts": {
+                      "collapseAll": false,
+                      "extraContext": false,
+                      "sortOrder": "alphabetical",
+                      "showSearch": false,
+                      "searchQuery": "",
+                      "backlinkCollapsed": false,
+                      "unlinkedCollapsed": true
+                    }
+                  },
+                  "icon": "lucide-file",
+                  "title": "Misc"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "c7d886b0a750fb95",
+        "type": "split",
+        "children": [
+          {
+            "id": "0c5d1a0ee86fd74d",
+            "type": "tabs",
+            "dimension": 38.11074918566775,
+            "children": [
+              {
+                "id": "776a63fe97471ab3",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "fd565a1223488816",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          },
+          {
+            "id": "ed40734520eb29d0",
+            "type": "tabs",
+            "dimension": 27.795874049945713,
+            "children": [
+              {
+                "id": "c72b7d699583bc02",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "the",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              }
+            ]
+          },
+          {
+            "id": "a39dae9fe0940e23",
+            "type": "tabs",
+            "dimension": 34.093376764386534,
+            "children": [
+              {
+                "id": "abe4b7c0073c7d51",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Triview/Markdown.md",
+                    "followCursor": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Markdown"
+                }
+              },
+              {
+                "id": "883c73fabf317c9d",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {},
+                  "icon": "lines-of-text",
+                  "title": "Quiet Outline"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 211.5
+      },
+      "right": {
+        "id": "f28a95c2bcbb9e15",
+        "type": "split",
+        "children": [
+          {
+            "id": "61bb804dd752df22",
+            "type": "tabs",
+            "dimension": 25.816326530612244,
+            "children": [
+              {
+                "id": "c20dd2c974f55559",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              }
+            ]
+          },
+          {
+            "id": "5299a5a3e5efa81d",
+            "type": "tabs",
+            "dimension": 20.408163265306122,
+            "children": [
+              {
+                "id": "60a3ebe56a5c2772",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Triview/Markdown.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Markdown"
+                }
+              },
+              {
+                "id": "0b785153849812ef",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "c4addb0dfcfebc17",
+            "type": "tabs",
+            "dimension": 20.408163265306122,
+            "children": [
+              {
+                "id": "c18ae95d460e86d0",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Triview/Markdown.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Markdown"
+                }
+              }
+            ]
+          },
+          {
+            "id": "56716a40a2514feb",
+            "type": "tabs",
+            "dimension": 33.36734693877551,
+            "children": [
+              {
+                "id": "b06d55bf06a6bbca",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "calendar"
+                }
+              },
+              {
+                "id": "4f5e1cc051002267",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 278.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspaces:Manage workspace layouts": false,
+          "bases:Create new base": false,
+          "templates:Insert template": false,
+          "daily-notes:Open today's daily note": false,
+          "command-palette:Open command palette": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "obsidian-regex-pipeline:Regex Rulesets": false,
+          "copilot:Open Copilot Chat": false,
+          "workbench-obsidian2:Workbench": false,
+          "screengarden-obsidian:screen.garden": false,
+          "smart-composer:Open smart composer": false,
+          "obsidian-excalidraw-plugin:New drawing": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "extract-highlights-plugin:Extract Highlights": false,
+          "obsidian-file-info-plugin:File Info Panel": false,
+          "homepage:Open homepage": false,
+          "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "quick-tagger:Add tag to current note": false,
+          "quick-tagger:Remove tag from current note": false,
+          "templater-obsidian:Templater": false
+        }
+      },
+      "active": "86165d7b14c245b2",
+      "mtime": "2025-12-11T19:46:32-07:00"
+    }
+  },
+  "active": "triview"
+}
