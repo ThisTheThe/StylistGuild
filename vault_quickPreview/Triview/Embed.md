@@ -1,0 +1,1 @@
+Text from embedded file. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

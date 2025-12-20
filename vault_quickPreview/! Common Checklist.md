@@ -1,0 +1,112 @@
+Checklist
+If a term is unclear please refer to the comments on the [tag table](https://docs.google.com/document/d/1-BkiyUDGfBlneqAm3gQKw8fHRHibRCjwzCeOn5EirUs/edit?tab=t.rfs1vvwdjval). 
+
+Scanning github page
+ - [ ] Mobile support? 
+ - [ ] Philosophy / purpose mentioned?
+	- [ ] Accessibility
+	- [ ] Opinionated
+	- [ ] Ergonomics
+	- [ ] Clean
+	- [ ] Cozy
+	- [ ] Playful
+	- [ ] Typography Focus
+	- [ ] Readability 
+	- [ ] Meditative
+	- [ ] Optimization
+	- [ ] **Specialized**
+		- [ ] TTRPG
+		- [ ] Novelty
+		- [ ] e-Ink_display
+
+Looking at theme in Obsidian
+ - [ ] Genre?
+	 - [ ] Native
+	 - [ ] NOT Minimalistic? (specify it isn't with "notm")
+		 - [ ] Material
+		 - [ ] stripped_down
+		 - [ ] liquid_glass
+	 - [ ] Retro
+	 - [ ] Exotic <- always include me in addition
+		 - [ ] Glass
+		 - [ ] Futuristic
+		 - [ ] Neon
+		 - [ ] Neumorphism
+		 - [ ] Fantasy
+		 - [ ] Brutalist
+ - [ ] Utilizes:
+	 - [ ] Gradients?
+	 - [ ] Rounded / squared?
+	 - [ ] Custom animated?
+	 - [ ] Glow?
+	 - [ ] Shadows?
+	 - [ ] Transparent? -> Glass?
+	 - [ ] Background image?
+ - [ ] Palette
+	 - [ ] Dominant color? 
+		 - [ ] Browns: Paper, wood, coffee
+	 - [ ] Cool, warm, hot?
+	 - [ ] Colorful? 
+	 - [ ] Pastel?
+	 - [ ] Single_colored, monotonal, bitonal...?
+	 - [ ] Black background? 
+	 - [ ] High / low contrast?
+	 - [ ] Darker / lighter?
+	 - [ ] Hybrid brightness?
+ - [ ] Layout separation?
+	 - [ ] Line_layout_separation
+	 - [ ] Padded_layout_separation
+	 - [ ] brightness_layout_separation
+	 - [ ] Borderless
+ - [ ] Font?
+	 - [ ] Typographic customization?
+	 - [ ] Custom font?
+		 - [ ] Preferred font?
+	 - [ ] Ornate font?
+	 - [ ] Larger / smaller text?
+	 - [ ] Monospace?
+		 - [ ] editor? interface? always?
+ - [ ] Colorful elements: 
+	 - [ ] Rainbow folders?
+	 - [ ] Multicolor readers?
+		 - [ ] Rainbow headers?
+	 - [ ] Accent based?
+
+Depth checks:
+ - [ ] Style Settings?
+	 - [ ] 40 (M)/200 (L)?
+	 - [ ] Multiple palettes?
+	 - [ ] PDF export support?
+	 - [ ] Vim support? 
+	 - [ ] Mobile support? 
+ - [ ] Features:
+	 - [ ] Highlight active line?
+	 - [ ] Focus mode? 
+	 - [ ] Auto hiding?
+	 - [ ] Image zoom?
+	 - [ ] File explorer icons?
+ - [ ] Includes: 
+	 - [ ] Alternate Checkboxes
+		 - [ ] Community checkboxes
+	 - [ ] Cssclasses
+		 - [ ] Kanban
+		 - [ ] Gallery
+		 - [ ] Multiple columns
+	 - [ ] Callouts
+	 - [ ] Cards
+	 - [ ] Banner
+	 - [ ] Custom html
+	 - [ ] Custom icons
+ - [ ] Layout
+	 - [ ] Multiple palettes
+	 - [ ] Modified layout
+	 - [ ] multiple layouts
+	 - [ ] dense / sparse layout?
+
+Not included (they should get noticed)
+- [ ] Brokenness
+- [ ] Requests? Supports? Inspired by? 
+- [ ] Utilizes a named palette (or can)
+- [ ] **Macos_tab_buttons**
+- [ ] requests_font_installation
+- [ ] editor / preview_only
