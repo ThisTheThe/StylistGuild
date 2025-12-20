@@ -27,7 +27,7 @@ Looking at theme in Obsidian
 		 - [ ] stripped_down
 		 - [ ] liquid_glass
 	 - [ ] Retro
-	 - [ ] Exotic <- always include me in addition
+	 - [ ] Exotic <- always include me in addition to below
 		 - [ ] Glass
 		 - [ ] Futuristic
 		 - [ ] Neon
@@ -36,8 +36,8 @@ Looking at theme in Obsidian
 		 - [ ] Brutalist
  - [ ] Utilizes:
 	 - [ ] Gradients?
-	 - [ ] Rounded / squared?
-	 - [ ] Custom animated?
+	 - [ ] Rounded (more than usual) / squared?
+	 - [ ] Animated (custom)?
 	 - [ ] Glow?
 	 - [ ] Shadows?
 	 - [ ] Transparent? -> Glass?
@@ -48,10 +48,10 @@ Looking at theme in Obsidian
 	 - [ ] Cool, warm, hot?
 	 - [ ] Colorful? 
 	 - [ ] Pastel?
-	 - [ ] Single_colored, monotonal, bitonal...?
+	 - [ ] Single_colored, monotonal, bitonal, tritonal...?
 	 - [ ] Black background? 
 	 - [ ] High / low contrast?
-	 - [ ] Darker / lighter?
+	 - [ ] Darker / lighter (than usual Obsidian dark mode)?
 	 - [ ] Hybrid brightness?
  - [ ] Layout separation?
 	 - [ ] Line_layout_separation
@@ -65,7 +65,7 @@ Looking at theme in Obsidian
 	 - [ ] Ornate font?
 	 - [ ] Larger / smaller text?
 	 - [ ] Monospace?
-		 - [ ] editor? interface? always?
+		 - [ ] monospace_editor? monospace_interface? always_monospace?
  - [ ] Colorful elements: 
 	 - [ ] Rainbow folders?
 	 - [ ] Multicolor readers?
@@ -74,7 +74,9 @@ Looking at theme in Obsidian
 
 Depth checks:
  - [ ] Style Settings?
-	 - [ ] 40 (M)/200 (L)?
+	 - [ ] Less than 40: Style_settings_lite
+		 - [ ] More than 40: Style_settings_medium
+		 - [ ] More than 200: Style_settings_large
 	 - [ ] Multiple palettes?
 	 - [ ] PDF export support?
 	 - [ ] Vim support? 
@@ -98,7 +100,6 @@ Depth checks:
 	 - [ ] Custom html
 	 - [ ] Custom icons
  - [ ] Layout
-	 - [ ] Multiple palettes
 	 - [ ] Modified layout
 	 - [ ] multiple layouts
 	 - [ ] dense / sparse layout?

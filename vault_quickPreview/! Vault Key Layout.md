@@ -2,6 +2,8 @@
 obsidianUIMode: editor
 ---
 
+Ctrl+Space: Command Palette
+
 QQ= Boost Link suggestor
 Shift + Shift = Search
 
@@ -58,7 +60,3 @@ A+F: Link Currently Selected Note
 ---
 
 Alt + Z: Bottom of file
-
----
-
-Ctrl+Space: Command Palette
