@@ -1,0 +1,18 @@
+; Tag macro expander
+; Auto-replaces short codes with full text
+
+::ssli::style_settings_lite
+::ssm::style_settings_medium
+::ssl::style_settings_large
+::ac::alternate_checkboxes
+::cc::community_checkboxes
+::mp::multiple_palettes
+::lls::line_layout_separation
+::pls::padded_layout_separation
+::bls::brightness_layout_separation
+::bl::borderless
+::tc::typographic_customization
+::tf::typographic_focus
+::s_cal::supports_calendar
+::s_kan::supports_kanban
+::rfi::requests_font_installation

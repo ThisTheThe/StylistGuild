@@ -76,13 +76,17 @@ class StandaloneThemeRenderer:
                     for screenshot in additional_screenshots
                 ]
                 
-                # Merge data for renderer - FIXED FORMAT
+                # Get repo creation date (NEW)
+                repo_created = addon_theme.get("repo_created")
+                
+                # Merge data for renderer
                 merged_theme = {
                     "title": official_theme.get("name"),
-                    "repository_link": f"https://github.com/{repo}",  # Full GitHub URL
+                    "repository_link": f"https://github.com/{repo}",
                     "tags_list": addon_theme.get("tags", []),
                     "main_screenshot_url": main_screenshot_url,
-                    "additional_image_urls": additional_image_urls
+                    "additional_image_urls": additional_image_urls,
+                    "repo_created": repo_created  # NEW: Pass through the creation date
                 }
                 complete_themes.append(merged_theme)
             else:

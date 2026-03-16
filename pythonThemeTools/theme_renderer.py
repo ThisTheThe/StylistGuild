@@ -487,11 +487,20 @@ class ThemeRenderer:
         # Process GitHub repository info
         github_user_repo = self.extract_github_user_repo(repository_link) if repository_link else ""
         
-        try:
-            date_info = self.get_repo_creation_date(github_user_repo)
-            age_of_theme = f"{date_info['readable']}"
-        except Exception as e:
-            print(f"WARNING: Could not fetch repository creation date: {e}")
+        repo_created = theme_data.get('repo_created')
+
+        if repo_created and not repo_created.startswith(('NOT_FOUND', 'API_ERROR', 'NETWORK_ERROR', 'RATE_LIMITED', 'MISSING_REPO')):
+            try:
+                # Parse ISO format date
+                dt = datetime.fromisoformat(repo_created.replace('Z', '+00:00'))
+                age_of_theme = dt.strftime('%B %Y')
+            except Exception as e:
+                print(f"WARNING: Could not parse repo_created date '{repo_created}': {e}")
+                age_of_theme = "Unknown"
+        else:
+            # Handle missing or error values
+            if repo_created:
+                print(f"WARNING: Invalid repo_created value: {repo_created}")
             age_of_theme = "Unknown"
         
         # Extract author_github_username from github_user_repo

@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "! Common Checklist",
-      "path": "! Common Checklist.md"
-    },
-    {
       "basename": "Markdown",
       "path": "Triview/Markdown.md"
     },
     {
-      "basename": "! Vault Key Layout",
-      "path": "! Vault Key Layout.md"
+      "basename": "! Common Checklist",
+      "path": "! Common Checklist.md"
     },
     {
-      "basename": "Sample Canvas",
-      "path": "Sample Canvas.canvas"
+      "basename": "Misc",
+      "path": "Triview/Misc.md"
     },
     {
       "basename": "Hierarchical",
@@ -25,8 +21,12 @@
       "path": "Append tags.md"
     },
     {
-      "basename": "Misc",
-      "path": "Triview/Misc.md"
+      "basename": "! Vault Key Layout",
+      "path": "! Vault Key Layout.md"
+    },
+    {
+      "basename": "Sample Canvas",
+      "path": "Sample Canvas.canvas"
     },
     {
       "basename": "Style Settings Tracking",

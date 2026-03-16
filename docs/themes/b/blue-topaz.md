@@ -1,54 +1,60 @@
 ---
 title: Blue Topaz
 tags:
-  - ISNOT_rounded
-  - background_images
-  - supports_calendar
+  - background_image
+  - brightness_layout_separation
   - callouts
-  - cards
-  - colorful_frame
+  - community_checkboxes
   - cssclasses
   - dark
   - dark_and_light
-  - supports_dataview
+  - darker
   - gallery
   - glass
+  - high_contrast
+  - highlight_active_line
   - kanban
-  - supports_kanban
   - light
   - minimalistic
-  - monochrome
+  - modified_layout
+  - multicolor_headers
   - multiple_palettes
-  - supports_quiet_outline
+  - nord
+  - pdf_export_support
   - rainbow_folders
-  - rainbow_headers
   - rounded
   - style_settings_large
+  - supports_buttons
+  - supports_calendar
+  - supports_dataview
+  - supports_kanban
+  - supports_quiet_outline
   - supports_thino
-  - topaz-nord
+  - transparent
+  - typographic_customization
 ---
 <div style="theme_page_template_version_1"> </div>
 
 <h1>
-    <a href="https://github.com/whyt-byte/Blue-Topaz_Obsidian-css">Blue Topaz</a>
-    <sub>By <a href="https://github.com/whyt-byte">whyt-byte</a></sub>
+    <a href="https://github.com/PKM-er/Blue-Topaz_Obsidian-css">Blue Topaz</a>
+    <sub>By <a href="https://github.com/PKM-er">PKM-er</a></sub>
 </h1>
 
-[![Blue Topaz Theme Screenshot](https://raw.githubusercontent.com/whyt-byte/Blue-Topaz_Obsidian-css/HEAD/preview_Blue Topaz.png)](https://github.com/whyt-byte/Blue-Topaz_Obsidian-css)
+[![Blue Topaz Theme Screenshot](https://raw.githubusercontent.com/PKM-er/Blue-Topaz_Obsidian-css/HEAD/preview_Blue Topaz.png)](https://github.com/PKM-er/Blue-Topaz_Obsidian-css)
 
 
 <div class="inforow">
     <table>
         <tbody>
             <tr>
-                <td><img src="https://img.shields.io/github/stars/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues-pr/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/stars/PKM-er/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/PKM-er/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/PKM-er/Blue-Topaz_Obsidian-css?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
                 <td><img src="https://img.shields.io/badge/Created%20on-October 2020-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/last-commit/whyt-byte/Blue-Topaz_Obsidian-css?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/PKM-er/Blue-Topaz_Obsidian-css?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 24, 2025 at 03:06 PM
+Generated on January 03, 2026 at 09:27 PM

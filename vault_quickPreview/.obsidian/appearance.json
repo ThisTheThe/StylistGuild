@@ -5,7 +5,7 @@
     "vccarticle",
     "danger.css"
   ],
-  "baseFontSize": 20,
+  "baseFontSize": 18,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "",
   "translucency": false,

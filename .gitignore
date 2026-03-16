@@ -4,5 +4,6 @@ themes/
 node_modules/
 /backups
 __pycache__/
+__pycache__/
 __temp_clone__
 docs/.obsidian/

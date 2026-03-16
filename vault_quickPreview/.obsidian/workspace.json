@@ -6,7 +6,7 @@
       {
         "id": "84e9661e30a701ab",
         "type": "tabs",
-        "dimension": 32.49235474006117,
+        "dimension": 43.98467432950192,
         "children": [
           {
             "id": "b52ce9a421c3b56a",
@@ -39,7 +39,7 @@
               "type": "markdown",
               "state": {
                 "file": "Triview/Markdown.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -56,12 +56,13 @@
               "title": "Markdown"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e767edae797db465",
         "type": "tabs",
-        "dimension": 34.174311926605505,
+        "dimension": 22.68199233716475,
         "children": [
           {
             "id": "1dd5df91657e4dbc",
@@ -122,7 +123,7 @@
       {
         "id": "680c9cf7ed6acf71",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 33.333333333333336,
         "children": [
           {
             "id": "33479df0ab1d157d",
@@ -222,13 +223,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "! Common Checklist.md",
+                "file": "Triview/Markdown.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ! Common Checklist"
+              "title": "Outline of Markdown"
             }
           },
           {
@@ -321,12 +322,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "! Common Checklist.md",
+                "file": "Triview/Markdown.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ! Common Checklist"
+              "title": "Outgoing links from Markdown"
             }
           }
         ]
@@ -372,27 +373,20 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "obsidian-regex-pipeline:Regex Rulesets": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "extract-highlights-plugin:Extract Highlights": false,
-      "homepage:Open homepage": false,
-      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "quick-tagger:Add tag to current note": false,
-      "quick-tagger:Remove tag from current note": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b52ce9a421c3b56a",
+  "active": "86165d7b14c245b2",
   "lastOpenFiles": [
     "! Common Checklist.md",
     "Triview/Markdown.md",
+    "Triview/Misc.md",
+    "Triview/Hierarchical.md",
+    "Append tags.md",
     "! Vault Key Layout.md",
     "Sample Canvas.canvas",
     "Stylistguild Tag tool notes.md",
     "Untitled 15.md",
-    "Triview/Hierarchical.md",
-    "Append tags.md",
-    "Triview/Misc.md",
     "Style Settings Tracking.md",
     "Style Settings Testing.md",
     "Sample Kanban.md",

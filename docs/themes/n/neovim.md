@@ -12,25 +12,25 @@ tags:
 <div style="theme_page_template_version_1"> </div>
 
 <h1>
-    <a href="https://github.com/slavamak/obsidian-neovim">Neovim</a>
-    <sub>By <a href="https://github.com/slavamak">slavamak</a></sub>
+    <a href="https://github.com/slavafyi/obsidian-neovim">Neovim</a>
+    <sub>By <a href="https://github.com/slavafyi">slavafyi</a></sub>
 </h1>
 
-[![Neovim Theme Screenshot](https://raw.githubusercontent.com/slavamak/obsidian-neovim/HEAD/screenshot.png)](https://github.com/slavamak/obsidian-neovim)
+[![Neovim Theme Screenshot](https://raw.githubusercontent.com/slavafyi/obsidian-neovim/HEAD/screenshot.png)](https://github.com/slavafyi/obsidian-neovim)
 
 
 <div class="inforow">
     <table>
         <tbody>
             <tr>
-                <td><img src="https://img.shields.io/github/stars/slavamak/obsidian-neovim?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues/slavamak/obsidian-neovim?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/issues-pr/slavamak/obsidian-neovim?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/badge/Created%20on-Unknown-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
-                <td><img src="https://img.shields.io/github/last-commit/slavamak/obsidian-neovim?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/stars/slavafyi/obsidian-neovim?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues/slavafyi/obsidian-neovim?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/issues-pr/slavafyi/obsidian-neovim?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/badge/Created%20on-February 2024-blue?color=573E7A&amp;logo=github&amp;style=for-the-badge"></td>
+                <td><img src="https://img.shields.io/github/last-commit/slavafyi/obsidian-neovim?color=573E7A&amp;label=last%20update&amp;logo=github&amp;style=for-the-badge"></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-Generated on September 24, 2025 at 03:07 PM
+Generated on January 03, 2026 at 09:27 PM
